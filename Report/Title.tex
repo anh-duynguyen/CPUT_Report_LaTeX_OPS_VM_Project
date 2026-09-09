@@ -1,0 +1,58 @@
+\begin{titlepage}
+    \begin{center}
+
+        % --- Header block: logo + institution ---
+        \IfFileExists{Images/logo_CPUT.png}{%
+            \includegraphics[height=25mm]{Images/logo_CPUT.png}
+        }{%
+            \vspace*{25mm}
+        }
+
+        \vspace{4mm}
+        {\large \scshape Department of Electrical, Electronic and Computer Engineering\par}
+
+        \vfill
+
+        % --- Title block ---
+        \rule{0.8\textwidth}{0.4pt}\\[6mm]
+        {\huge \bfseries \getTitle \par}
+        \vspace{3mm}
+        \rule{0.8\textwidth}{0.4pt}
+
+        \vspace{12mm}
+
+        {\Large by}\\[4mm]
+        {\Large \bfseries \getAuthor}
+
+        \vfill
+
+        % --- Degree statement ---
+        {\large \getDoctype}\\[0.4cm]
+        {\large \bfseries \getDegree}\\[0.4cm]
+        {\large in the \getFaculty}\\[0.4cm]
+        {\large at the \getUniversity}
+
+        \vfill
+
+        % --- Examiner / course info ---
+        \begin{tabular}{r l}
+            Examiner:    & \getSupervisor \\
+            Course Code: & \getCourseCode \\
+            % \ifx\getCoSupervisor\empty \else Co-supervisor: & \getCoSupervisor \\ \fi
+        \end{tabular}
+
+        \vspace{10mm}
+
+        {\large \getCampus}\\
+        {\large \getSubmissionDate}
+
+        \vfill
+
+        % --- Copyright statement ---
+        \begin{minipage}{0.8\textwidth}
+            \centering
+            \footnotesize \getCopyright
+        \end{minipage}
+
+    \end{center}
+\end{titlepage}

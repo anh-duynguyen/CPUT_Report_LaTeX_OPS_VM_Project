@@ -1,0 +1,132 @@
+% ==============================
+% ENCODING
+% ==============================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% ==============================
+% PAGE LAYOUT
+% ==============================
+\usepackage{geometry}
+\geometry{
+    a4paper,
+    top=2.5cm,
+    bottom=2.5cm,
+    left=3cm,
+    right=3cm
+}
+
+\usepackage{setspace}
+\onehalfspacing
+
+% ==============================
+% FONTS
+% ==============================
+% \usepackage[scaled]{helvet}
+% \renewcommand{\familydefault}{\sfdefault}
+\usepackage{lmodern}
+% ==============================
+% MATH & SYMBOLS
+% ==============================
+\usepackage{amsmath, amsthm, amsfonts}
+\usepackage{siunitx}
+
+% ==============================
+% TABLES & FIGURES
+% ==============================
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{array}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{adjustbox}
+\usepackage{threeparttable}
+\usepackage{tablefootnote}
+\usepackage{booktabs} % <-- FIXES midrule/bottomrule errors
+
+% ==============================
+% CHAPTER FORMATTING
+% ==============================
+\usepackage{titlesec}
+
+\titleformat{\chapter}
+{\normalfont\huge\bfseries}
+{\thechapter.}
+{20pt}
+{\huge\bfseries}
+
+% ==============================
+% NUMBERING
+% ==============================
+\usepackage{chngcntr}
+\counterwithin{figure}{chapter}
+\counterwithin{table}{chapter}
+
+% ==============================
+% BIBLIOGRAPHY
+% ==============================
+\usepackage{csquotes}
+
+\usepackage[
+backend=biber,
+style=ieee
+]{biblatex}
+
+\addbibresource{References.bib}
+
+% ==============================
+% GLOSSARY & ACRONYMS
+% ==============================
+\usepackage[acronym,toc]{glossaries-extra}
+
+% ==============================
+% DIAGRAMS
+% ==============================
+\usepackage{tikz}
+
+% ==============================
+% COLORS
+% ==============================
+\usepackage{xcolor}
+
+\definecolor{CPUTBlue}{HTML}{005696}
+\definecolor{CPUTRed}{HTML}{ED1C24}
+
+% ==============================
+% PROFESSIONAL HEADERS
+% ==============================
+\usepackage{fancyhdr}
+
+\setlength{\headheight}{15pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\fancyhead[L]{OPS260S Operating Systems}
+\fancyhead[R]{\leftmark}
+
+\fancyfoot[C]{\thepage}
+
+% ==============================
+% PDF / LINKS
+% ==============================
+\usepackage{hyperref}
+
+\hypersetup{
+colorlinks=true,
+linkcolor=black,
+citecolor=black,
+urlcolor=blue,
+pdftitle={Operating System Architecture Report}
+}
+
+% ==============================
+% QUALITY IMPROVEMENTS
+% ==============================
+\usepackage{microtype}
+
+% ==============================
+% MISC
+% ==============================
+\usepackage{pdfpages}
+\usepackage{lipsum}
