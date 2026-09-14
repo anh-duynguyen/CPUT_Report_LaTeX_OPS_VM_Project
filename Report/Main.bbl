@@ -16,5 +16,36 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{masterWS19}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=a9b55384a7e579945246bd7a2d787d5b}{%
+           family={Krause},
+           familyi={K\bibinitperiod},
+           given={Jordan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Packt Publishing Ltd}%
+      }
+      \strng{namehash}{a9b55384a7e579945246bd7a2d787d5b}
+      \strng{fullhash}{a9b55384a7e579945246bd7a2d787d5b}
+      \strng{fullhashraw}{a9b55384a7e579945246bd7a2d787d5b}
+      \strng{bibnamehash}{a9b55384a7e579945246bd7a2d787d5b}
+      \strng{authorbibnamehash}{a9b55384a7e579945246bd7a2d787d5b}
+      \strng{authornamehash}{a9b55384a7e579945246bd7a2d787d5b}
+      \strng{authorfullhash}{a9b55384a7e579945246bd7a2d787d5b}
+      \strng{authorfullhashraw}{a9b55384a7e579945246bd7a2d787d5b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mastering Windows Server 2019 Second Edition}
+      \field{year}{2019}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

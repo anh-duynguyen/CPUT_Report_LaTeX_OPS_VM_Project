@@ -4,6 +4,7 @@
 % Load all packages and styling
 % -------------------------------
 \input{Settings}
+\microtypesetup{nopatch=footnote}
 \usepackage{fancyhdr}
 \setlength{\headheight}{28pt}
 \setlength{\headheight}{28pt}
@@ -81,6 +82,8 @@ The report may not be published either in part
 \setcounter{page}{1}
 
 \include{Chapters/Chapter1_Introduction}
+%adding chapter for DHCP, assigning chapter number 3 
+\include{Chapters/DHCP}
 \include{Chapters/Chapter8_Conclusions}
 
 % -------------------------------

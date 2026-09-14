@@ -408,6 +408,9 @@ INPUT Abstract.aux
 INPUT ./Chapters/Chapter1_Introduction.aux
 INPUT ./Chapters/Chapter1_Introduction.aux
 INPUT Chapters/Chapter1_Introduction.aux
+INPUT ./Chapters/DHCP.aux
+INPUT ./Chapters/DHCP.aux
+INPUT Chapters/DHCP.aux
 INPUT ./Chapters/Chapter8_Conclusions.aux
 INPUT ./Chapters/Chapter8_Conclusions.aux
 INPUT Chapters/Chapter8_Conclusions.aux
@@ -591,12 +594,44 @@ OUTPUT Chapters/Chapter1_Introduction.aux
 INPUT ./Chapters/Chapter1_Introduction.tex
 INPUT ./Chapters/Chapter1_Introduction.tex
 INPUT Chapters/Chapter1_Introduction.tex
+INPUT ./Chapters/DHCP.tex
+INPUT ./Chapters/DHCP.tex
+OUTPUT Chapters/DHCP.aux
+INPUT ./Chapters/DHCP.tex
+INPUT ./Chapters/DHCP.tex
+INPUT Chapters/DHCP.tex
+INPUT ./Images/DHCP/Accessing DHCP through Tools Option.png
+INPUT ./Images/DHCP/Accessing DHCP through Tools Option.png
+INPUT ./Images/DHCP/Accessing DHCP through Tools Option.png
+INPUT ./Images/DHCP/Accessing DHCP through Tools Option.png
+INPUT ./Images/DHCP/Accessing DHCP through Tools Option.png
+INPUT ./Images/DHCP/DHCP window.png
+INPUT ./Images/DHCP/DHCP window.png
+INPUT ./Images/DHCP/DHCP window.png
+INPUT ./Images/DHCP/DHCP window.png
+INPUT ./Images/DHCP/DHCP window.png
+INPUT ./Images/DHCP/Choosing an Internet Protocol.png
+INPUT ./Images/DHCP/Choosing an Internet Protocol.png
+INPUT ./Images/DHCP/Choosing an Internet Protocol.png
+INPUT ./Images/DHCP/Choosing an Internet Protocol.png
+INPUT ./Images/DHCP/Choosing an Internet Protocol.png
+INPUT ./Images/DHCP/Creating new Scope in IPv4.png
+INPUT ./Images/DHCP/Creating new Scope in IPv4.png
+INPUT ./Images/DHCP/Creating new Scope in IPv4.png
+INPUT ./Images/DHCP/Creating new Scope in IPv4.png
+INPUT ./Images/DHCP/Creating new Scope in IPv4.png
+INPUT ./Images/DHCP/New Scope Wizard.png
+INPUT ./Images/DHCP/New Scope Wizard.png
+INPUT ./Images/DHCP/New Scope Wizard.png
+INPUT ./Images/DHCP/New Scope Wizard.png
+INPUT ./Images/DHCP/New Scope Wizard.png
 INPUT ./Chapters/Chapter8_Conclusions.tex
 INPUT ./Chapters/Chapter8_Conclusions.tex
 OUTPUT Chapters/Chapter8_Conclusions.aux
 INPUT ./Chapters/Chapter8_Conclusions.tex
 INPUT ./Chapters/Chapter8_Conclusions.tex
 INPUT Chapters/Chapter8_Conclusions.tex
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmri12.tfm
 INPUT ./Appendix.tex
 INPUT ./Appendix.tex
 OUTPUT Appendix.aux
@@ -616,6 +651,9 @@ INPUT Abstract.aux
 INPUT ./Chapters/Chapter1_Introduction.aux
 INPUT ./Chapters/Chapter1_Introduction.aux
 INPUT Chapters/Chapter1_Introduction.aux
+INPUT ./Chapters/DHCP.aux
+INPUT ./Chapters/DHCP.aux
+INPUT Chapters/DHCP.aux
 INPUT ./Chapters/Chapter8_Conclusions.aux
 INPUT ./Chapters/Chapter8_Conclusions.aux
 INPUT Chapters/Chapter8_Conclusions.aux
@@ -631,3 +669,4 @@ INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb
+INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb

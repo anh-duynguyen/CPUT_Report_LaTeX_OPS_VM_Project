@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.27)  14 SEP 2026 19:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.27)  14 SEP 2026 22:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1123,34 +1123,34 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \l__lipsum_a_int=\count544
 \l__lipsum_b_int=\count545
  (c:/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 48.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 49.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 48.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 49.
 
 (c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (./Main.aux (./Title.aux) (./Declaration.aux) (./Abstract.aux) (./Chapters/Chapter1_Introduction.aux) (./Chapters/Chapter8_Conclusions.aux) (./Appendix.aux))
+) (./Main.aux (./Title.aux) (./Declaration.aux) (./Abstract.aux) (./Chapters/Chapter1_Introduction.aux) (./Chapters/DHCP.aux) (./Chapters/Chapter8_Conclusions.aux) (./Appendix.aux))
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1189,7 +1189,7 @@ LaTeX Font Info:    ... okay on input line 48.
 (c:/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 48.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 49.
  (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count546
@@ -1232,9 +1232,9 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Main.bbl' found.
  (./Main.bbl)
-Package biblatex Info: Reference section=0 on input line 48.
-Package biblatex Info: Reference segment=0 on input line 48.
-Package hyperref Info: Link coloring ON on input line 48.
+Package biblatex Info: Reference section=0 on input line 49.
+Package biblatex Info: Reference segment=0 on input line 49.
+Package hyperref Info: Link coloring ON on input line 49.
  (./Main.out) (./Main.out)
 \@outlinefile=\write5
 \openout5 = `Main.out'.
@@ -1242,16 +1242,12 @@ Package hyperref Info: Link coloring ON on input line 48.
 Package microtype Info: Patching varwidth to enable character protrusion.
 \MT@vwid@leftmargin=\dimen362
 \MT@vwid@rightmargin=\dimen363
-LaTeX Info: Redefining \microtypecontext on input line 48.
-Package microtype Info: Applying patch `item' on input line 48.
-Package microtype Info: Applying patch `toc' on input line 48.
-Package microtype Info: Applying patch `eqnum' on input line 48.
-
-
-Package microtype Warning: Unable to apply patch `footnote' on input line 48.
-
-Package microtype Info: Applying patch `verbatim' on input line 48.
-LaTeX Info: Redefining \microtypesetup on input line 48.
+LaTeX Info: Redefining \microtypecontext on input line 49.
+Package microtype Info: Applying patch `item' on input line 49.
+Package microtype Info: Applying patch `toc' on input line 49.
+Package microtype Info: Applying patch `eqnum' on input line 49.
+Package microtype Info: Applying patch `verbatim' on input line 49.
+LaTeX Info: Redefining \microtypesetup on input line 49.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1262,7 +1258,7 @@ Package microtype Info: Patching command `\showhyphens'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
-(c:/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+ (c:/texlive/2025/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 ) (c:/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2025-06-23 v0.14 Display of landscape pages in PDF
@@ -1276,7 +1272,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 \openout2 = `Title.aux'.
 
  (./Title.tex
-<Images/logo_CPUT.png, id=62, 376.40625pt x 111.41624pt>
+<Images/logo_CPUT.png, id=78, 376.40625pt x 111.41624pt>
 File: Images/logo_CPUT.png Graphic file (type png)
 <use Images/logo_CPUT.png>
 Package pdftex.def Info: Images/logo_CPUT.png  used on input line 9.
@@ -1324,32 +1320,32 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 \openout2 = `Declaration.aux'.
 
  (./Declaration.tex
-<Images/signature_anh_duy_nguyen.png, id=75, 823.075pt x 200.75pt>
+<Images/signature_anh_duy_nguyen.png, id=91, 823.075pt x 200.75pt>
 File: Images/signature_anh_duy_nguyen.png Graphic file (type png)
 <use Images/signature_anh_duy_nguyen.png>
 Package pdftex.def Info: Images/signature_anh_duy_nguyen.png  used on input line 8.
 (pdftex.def)             Requested size: 136.56761pt x 45.52519pt.
-<Images/signature_carl_lamprecht.png, id=76, 1606.0pt x 1046.91125pt>
+<Images/signature_carl_lamprecht.png, id=92, 1606.0pt x 1046.91125pt>
 File: Images/signature_carl_lamprecht.png Graphic file (type png)
 <use Images/signature_carl_lamprecht.png>
 Package pdftex.def Info: Images/signature_carl_lamprecht.png  used on input line 9.
 (pdftex.def)             Requested size: 136.56946pt x 45.5115pt.
-<Images/signature_peter_ngesi.png, id=77, 433.62pt x 266.9975pt>
+<Images/signature_peter_ngesi.png, id=93, 433.62pt x 266.9975pt>
 File: Images/signature_peter_ngesi.png Graphic file (type png)
 <use Images/signature_peter_ngesi.png>
 Package pdftex.def Info: Images/signature_peter_ngesi.png  used on input line 13.
 (pdftex.def)             Requested size: 136.57117pt x 45.5234pt.
-<Images/signature_gian_koekemoer.png, id=78, 43.66313pt x 29.35968pt>
+<Images/signature_gian_koekemoer.png, id=94, 43.66313pt x 29.35968pt>
 File: Images/signature_gian_koekemoer.png Graphic file (type png)
 <use Images/signature_gian_koekemoer.png>
 Package pdftex.def Info: Images/signature_gian_koekemoer.png  used on input line 14.
 (pdftex.def)             Requested size: 136.59413pt x 45.52448pt.
-<Images/signature_tihmo_koch.png, id=79, 152.82094pt x 114.4275pt>
+<Images/signature_tihmo_koch.png, id=95, 152.82094pt x 114.4275pt>
 File: Images/signature_tihmo_koch.png Graphic file (type png)
 <use Images/signature_tihmo_koch.png>
 Package pdftex.def Info: Images/signature_tihmo_koch.png  used on input line 18.
 (pdftex.def)             Requested size: 136.57915pt x 45.52399pt.
-<Images/signature_sibusiso_kheswa.png, id=80, 880.28876pt x 383.4325pt>
+<Images/signature_sibusiso_kheswa.png, id=96, 880.28876pt x 383.4325pt>
 File: Images/signature_sibusiso_kheswa.png Graphic file (type png)
 <use Images/signature_sibusiso_kheswa.png>
 Package pdftex.def Info: Images/signature_sibusiso_kheswa.png  used on input line 19.
@@ -1436,53 +1432,89 @@ Chapter 1.
 
 
 ] [2] [3] [4]) [5] [6] [7]
-\openout2 = `Chapters/Chapter8_Conclusions.aux'.
+\openout2 = `Chapters/DHCP.aux'.
 
- (./Chapters/Chapter8_Conclusions.tex
+ (./Chapters/DHCP.tex
 Chapter 2.
 [8
 
 
 
 
-] [9] [10] [11]) [12] [13] [14]
+]
+<Images/DHCP/Accessing DHCP through Tools Option.png, id=211, 1368.61313pt x 813.0375pt>
+File: Images/DHCP/Accessing DHCP through Tools Option.png Graphic file (type png)
+<use Images/DHCP/Accessing DHCP through Tools Option.png>
+Package pdftex.def Info: Images/DHCP/Accessing DHCP through Tools Option.png  used on input line 46.
+(pdftex.def)             Requested size: 298.75264pt x 177.46693pt.
+<Images/DHCP/DHCP window.png, id=212, 656.4525pt x 448.67625pt>
+File: Images/DHCP/DHCP window.png Graphic file (type png)
+<use Images/DHCP/DHCP window.png>
+Package pdftex.def Info: Images/DHCP/DHCP window.png  used on input line 52.
+(pdftex.def)             Requested size: 298.75264pt x 204.19594pt.
+ [9 <./Images/DHCP/Accessing DHCP through Tools Option.png> <./Images/DHCP/DHCP window.png>]
+<Images/DHCP/Choosing an Internet Protocol.png, id=221, 651.18282pt x 453.19313pt>
+File: Images/DHCP/Choosing an Internet Protocol.png Graphic file (type png)
+<use Images/DHCP/Choosing an Internet Protocol.png>
+Package pdftex.def Info: Images/DHCP/Choosing an Internet Protocol.png  used on input line 65.
+(pdftex.def)             Requested size: 298.75264pt x 207.92506pt.
+<Images/DHCP/Creating new Scope in IPv4.png, id=222, 657.95813pt x 563.85657pt>
+File: Images/DHCP/Creating new Scope in IPv4.png Graphic file (type png)
+<use Images/DHCP/Creating new Scope in IPv4.png>
+Package pdftex.def Info: Images/DHCP/Creating new Scope in IPv4.png  used on input line 70.
+(pdftex.def)             Requested size: 298.75264pt x 256.0303pt.
+<Images/DHCP/New Scope Wizard.png, id=223, 578.91281pt x 476.53032pt>
+File: Images/DHCP/New Scope Wizard.png Graphic file (type png)
+<use Images/DHCP/New Scope Wizard.png>
+Package pdftex.def Info: Images/DHCP/New Scope Wizard.png  used on input line 75.
+(pdftex.def)             Requested size: 298.75264pt x 245.91394pt.
+) [10 <./Images/DHCP/Choosing an Internet Protocol.png> <./Images/DHCP/Creating new Scope in IPv4.png>] [11 <./Images/DHCP/New Scope Wizard.png>]
+\openout2 = `Chapters/Chapter8_Conclusions.aux'.
 
-LaTeX Warning: Empty bibliography on input line 91.
+ (./Chapters/Chapter8_Conclusions.tex
+Chapter 3.
+[12
 
+
+
+
+] [13] [14] [15]) [16] [17] [18] [19
+
+
+
+
+]
 \openout2 = `Appendix.aux'.
 
-(./Appendix.tex
+ (./Appendix.tex
 Appendix A.
-) [15
+) [20
 
 
-
-
-
-] (./Main.aux (./Title.aux) (./Declaration.aux) (./Abstract.aux) (./Chapters/Chapter1_Introduction.aux) (./Chapters/Chapter8_Conclusions.aux) (./Appendix.aux))
+] (./Main.aux (./Title.aux) (./Declaration.aux) (./Abstract.aux) (./Chapters/Chapter1_Introduction.aux) (./Chapters/DHCP.aux) (./Chapters/Chapter8_Conclusions.aux) (./Appendix.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: DC5C291204C26ED07CA9838D4DE8422C;1563.
+(rerunfilecheck)             Checksum: BD3DD543F2CC1AD1D5BD53FB209AFD6B;2096.
 Package logreq Info: Writing requests to 'Main.run.xml'.
 \openout1 = `Main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48968 strings out of 467532
- 1010806 string characters out of 5423647
- 2044608 words of memory out of 5000000
- 77031 multiletter control sequences out of 15000+600000
- 679260 words of font info for 125 fonts, out of 8000000 for 9000
+ 49298 strings out of 467532
+ 1018321 string characters out of 5423647
+ 2047333 words of memory out of 5000000
+ 77317 multiletter control sequences out of 15000+600000
+ 684273 words of font info for 133 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,14n,107p,2590b,1116s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb>
-Output written on Main.pdf (23 pages, 605468 bytes).
+ 89i,14n,107p,2590b,1450s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
+Output written on Main.pdf (28 pages, 1448741 bytes).
 PDF statistics:
- 236 PDF objects out of 1000 (max. 8388607)
- 184 compressed objects within 2 object streams
- 40 named destinations out of 1000 (max. 500000)
- 30880 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 324 PDF objects out of 1000 (max. 8388607)
+ 254 compressed objects within 3 object streams
+ 62 named destinations out of 1000 (max. 500000)
+ 32985 words of extra memory for PDF output out of 35830 (max. 10000000)
 
