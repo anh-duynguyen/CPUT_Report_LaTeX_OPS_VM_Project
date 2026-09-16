@@ -45,6 +45,35 @@
       \field{title}{Mastering Windows Server 2019 Second Edition}
       \field{year}{2019}
     \endentry
+    \entry{rapidseedbox}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=c8b03a27e2ef6b7ec190178c10da56cd}{%
+           family={Georgiv},
+           familyi={G\bibinitperiod},
+           given={Deyan},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{c8b03a27e2ef6b7ec190178c10da56cd}
+      \strng{fullhash}{c8b03a27e2ef6b7ec190178c10da56cd}
+      \strng{fullhashraw}{c8b03a27e2ef6b7ec190178c10da56cd}
+      \strng{bibnamehash}{c8b03a27e2ef6b7ec190178c10da56cd}
+      \strng{authorbibnamehash}{c8b03a27e2ef6b7ec190178c10da56cd}
+      \strng{authornamehash}{c8b03a27e2ef6b7ec190178c10da56cd}
+      \strng{authorfullhash}{c8b03a27e2ef6b7ec190178c10da56cd}
+      \strng{authorfullhashraw}{c8b03a27e2ef6b7ec190178c10da56cd}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DHCP Lease Time: How Long Should It Be?}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.rapidseedbox.com/blog/dhcp-lease-time#2
+      \endverb
+      \verb{url}
+      \verb https://www.rapidseedbox.com/blog/dhcp-lease-time#2
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.27)  14 SEP 2026 22:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.27)  16 SEP 2026 11:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1442,43 +1442,63 @@ Chapter 2.
 
 
 ]
-<Images/DHCP/Accessing DHCP through Tools Option.png, id=211, 1368.61313pt x 813.0375pt>
+<Images/DHCP/Accessing DHCP through Tools Option.png, id=215, 1368.61313pt x 813.0375pt>
 File: Images/DHCP/Accessing DHCP through Tools Option.png Graphic file (type png)
 <use Images/DHCP/Accessing DHCP through Tools Option.png>
 Package pdftex.def Info: Images/DHCP/Accessing DHCP through Tools Option.png  used on input line 46.
 (pdftex.def)             Requested size: 298.75264pt x 177.46693pt.
-<Images/DHCP/DHCP window.png, id=212, 656.4525pt x 448.67625pt>
+<Images/DHCP/DHCP window.png, id=216, 656.4525pt x 448.67625pt>
 File: Images/DHCP/DHCP window.png Graphic file (type png)
 <use Images/DHCP/DHCP window.png>
 Package pdftex.def Info: Images/DHCP/DHCP window.png  used on input line 52.
 (pdftex.def)             Requested size: 298.75264pt x 204.19594pt.
  [9 <./Images/DHCP/Accessing DHCP through Tools Option.png> <./Images/DHCP/DHCP window.png>]
-<Images/DHCP/Choosing an Internet Protocol.png, id=221, 651.18282pt x 453.19313pt>
+<Images/DHCP/Choosing an Internet Protocol.png, id=225, 651.18282pt x 453.19313pt>
 File: Images/DHCP/Choosing an Internet Protocol.png Graphic file (type png)
 <use Images/DHCP/Choosing an Internet Protocol.png>
 Package pdftex.def Info: Images/DHCP/Choosing an Internet Protocol.png  used on input line 65.
 (pdftex.def)             Requested size: 298.75264pt x 207.92506pt.
-<Images/DHCP/Creating new Scope in IPv4.png, id=222, 657.95813pt x 563.85657pt>
+<Images/DHCP/Creating new Scope in IPv4.png, id=226, 657.95813pt x 563.85657pt>
 File: Images/DHCP/Creating new Scope in IPv4.png Graphic file (type png)
 <use Images/DHCP/Creating new Scope in IPv4.png>
 Package pdftex.def Info: Images/DHCP/Creating new Scope in IPv4.png  used on input line 70.
 (pdftex.def)             Requested size: 298.75264pt x 256.0303pt.
-<Images/DHCP/New Scope Wizard.png, id=223, 578.91281pt x 476.53032pt>
+<Images/DHCP/New Scope Wizard.png, id=227, 578.91281pt x 476.53032pt>
 File: Images/DHCP/New Scope Wizard.png Graphic file (type png)
 <use Images/DHCP/New Scope Wizard.png>
 Package pdftex.def Info: Images/DHCP/New Scope Wizard.png  used on input line 75.
 (pdftex.def)             Requested size: 298.75264pt x 245.91394pt.
-) [10 <./Images/DHCP/Choosing an Internet Protocol.png> <./Images/DHCP/Creating new Scope in IPv4.png>] [11 <./Images/DHCP/New Scope Wizard.png>]
+ [10 <./Images/DHCP/Choosing an Internet Protocol.png> <./Images/DHCP/Creating new Scope in IPv4.png>]
+<Images/DHCP/Defining scope address range.png, id=236, 576.65437pt x 478.78876pt>
+File: Images/DHCP/Defining scope address range.png Graphic file (type png)
+<use Images/DHCP/Defining scope address range.png>
+Package pdftex.def Info: Images/DHCP/Defining scope address range.png  used on input line 89.
+(pdftex.def)             Requested size: 298.75264pt x 248.05836pt.
+<Images/DHCP/Lease Duration.png, id=237, 578.91281pt x 476.53032pt>
+File: Images/DHCP/Lease Duration.png Graphic file (type png)
+<use Images/DHCP/Lease Duration.png>
+Package pdftex.def Info: Images/DHCP/Lease Duration.png  used on input line 94.
+(pdftex.def)             Requested size: 298.75264pt x 245.91394pt.
+) [11 <./Images/DHCP/New Scope Wizard.png>] [12 <./Images/DHCP/Defining scope address range.png> <./Images/DHCP/Lease Duration.png>]
 \openout2 = `Chapters/Chapter8_Conclusions.aux'.
 
  (./Chapters/Chapter8_Conclusions.tex
 Chapter 3.
-[12
+[13
 
 
 
 
-] [13] [14] [15]) [16] [17] [18] [19
+] [14] [15] [16]) [17] [18] [19]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 93.
+ (c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [20
 
 
 
@@ -1488,7 +1508,7 @@ Chapter 3.
 
  (./Appendix.tex
 Appendix A.
-) [20
+) [21
 
 
 ] (./Main.aux (./Title.aux) (./Declaration.aux) (./Abstract.aux) (./Chapters/Chapter1_Introduction.aux) (./Chapters/DHCP.aux) (./Chapters/Chapter8_Conclusions.aux) (./Appendix.aux))
@@ -1503,18 +1523,18 @@ Package logreq Info: Writing requests to 'Main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49298 strings out of 467532
- 1018321 string characters out of 5423647
- 2047333 words of memory out of 5000000
- 77317 multiletter control sequences out of 15000+600000
- 684273 words of font info for 133 fonts, out of 8000000 for 9000
+ 49376 strings out of 467532
+ 1020018 string characters out of 5423647
+ 2047396 words of memory out of 5000000
+ 77381 multiletter control sequences out of 15000+600000
+ 684811 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,14n,107p,2590b,1450s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb>
-Output written on Main.pdf (28 pages, 1448741 bytes).
+ 89i,14n,107p,2590b,1587s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on Main.pdf (29 pages, 1692790 bytes).
 PDF statistics:
- 324 PDF objects out of 1000 (max. 8388607)
- 254 compressed objects within 3 object streams
- 62 named destinations out of 1000 (max. 500000)
- 32985 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 347 PDF objects out of 1000 (max. 8388607)
+ 270 compressed objects within 3 object streams
+ 68 named destinations out of 1000 (max. 500000)
+ 33507 words of extra memory for PDF output out of 35830 (max. 10000000)
 

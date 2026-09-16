@@ -625,6 +625,16 @@ INPUT ./Images/DHCP/New Scope Wizard.png
 INPUT ./Images/DHCP/New Scope Wizard.png
 INPUT ./Images/DHCP/New Scope Wizard.png
 INPUT ./Images/DHCP/New Scope Wizard.png
+INPUT ./Images/DHCP/Defining scope address range.png
+INPUT ./Images/DHCP/Defining scope address range.png
+INPUT ./Images/DHCP/Defining scope address range.png
+INPUT ./Images/DHCP/Defining scope address range.png
+INPUT ./Images/DHCP/Defining scope address range.png
+INPUT ./Images/DHCP/Lease Duration.png
+INPUT ./Images/DHCP/Lease Duration.png
+INPUT ./Images/DHCP/Lease Duration.png
+INPUT ./Images/DHCP/Lease Duration.png
+INPUT ./Images/DHCP/Lease Duration.png
 INPUT ./Chapters/Chapter8_Conclusions.tex
 INPUT ./Chapters/Chapter8_Conclusions.tex
 OUTPUT Chapters/Chapter8_Conclusions.aux
@@ -632,6 +642,10 @@ INPUT ./Chapters/Chapter8_Conclusions.tex
 INPUT ./Chapters/Chapter8_Conclusions.tex
 INPUT Chapters/Chapter8_Conclusions.tex
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmri12.tfm
+INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
+INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
+INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmtt12.tfm
 INPUT ./Appendix.tex
 INPUT ./Appendix.tex
 OUTPUT Appendix.aux
@@ -670,3 +684,4 @@ INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb
+INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt12.pfb

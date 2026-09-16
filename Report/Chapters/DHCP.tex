@@ -75,3 +75,26 @@ a new scope was present. Choosing this option opened the New Scope Wizard.
     \includegraphics[width=0.7\linewidth]{Images/DHCP/New Scope Wizard.png}
     \caption{New Scope Wizard}
 \end{figure}
+
+\paragraph{}
+Upon continuing in the Scope, the range of IP addresses needed to be decided.
+The addresses that the scope will hand out were from 
+192.168.1.100 to 192.168.1.200. Alongside handed out IPs, the scope also has
+the option to configure the amount of time that a client keeps an assigned IP before renewal, ensuring 
+efficient management of IP addresses (\cite{rapidseedbox}). This period of
+time is called the lease duration. It was left at the default number of 8 days.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/Defining scope address range.png}
+    \caption{Address range that the scope will hand out}
+\end{figure}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/Lease Duration.png}
+    \caption{Lease of 8 days for clients}
+\end{figure}
+
+\paragraph{}
+The first scope made was designated SC-1 made as an effort to test out and get a feel 
+for what DHCP configuration was like. 
