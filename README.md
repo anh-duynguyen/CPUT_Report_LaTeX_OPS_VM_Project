@@ -19,4 +19,4 @@
 - Tihmo Koch  
 - Sibusiso Isaac Kheswa  
 
-**Examiner:** Mr. Adrian Wyngaard  
+**Examiner:** Mr. Vusumuzi Moyo 
