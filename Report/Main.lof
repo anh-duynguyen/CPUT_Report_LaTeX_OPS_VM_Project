@@ -6,6 +6,16 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Creating new scope using IPv4}}{10}{figure.caption.16}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces New Scope Wizard}}{11}{figure.caption.17}%
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Address range that the scope will hand out}}{12}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Lease of 8 days for clients}}{12}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Lease of 8 days for clients}}{13}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Vacant Exclusion and Delay}}{13}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Vacant Routers}}{14}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Vacant DNS Server on Scope}}{14}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Vacant WINS Server}}{15}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces SC-1 Scope present in the DHCP server}}{15}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Address pool from 192.168.1.10 to 192.168.1.100}}{16}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Only one Ethernet Available with an address assigned by DHCP}}{16}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Selecting Ethernet Connection}}{16}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Ethernet Status}}{17}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Propeties of The Server after being given internet access and a domain}}{17}{figure.caption.33}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

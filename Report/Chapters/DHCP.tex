@@ -97,4 +97,78 @@ time is called the lease duration. It was left at the default number of 8 days.
 
 \paragraph{}
 The first scope made was designated SC-1 made as an effort to test out and get a feel 
-for what DHCP configuration was like. 
+for what DHCP configuration was like. As a result, many parts and features during the creation of 
+SC-1 were let open due to a lack of understanding. Exclusion and Delay, Specifying Routers and
+WINS server were some of the things left open. These were left open due to there being not enough knowledge at the time to
+configure them. 
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/Exclusion and Delay.png}
+    \caption{Vacant Exclusion and Delay}
+\end{figure}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/Specifying Routers.png}
+    \caption{Vacant Routers}
+\end{figure}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/DNS Servers.png}
+    \caption{Vacant DNS Server on Scope}
+\end{figure}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/WINS Servers.png}
+    \caption{Vacant WINS Server}
+\end{figure}
+
+\paragraph{}
+At the end of the scope's configuration, the IP address that it obtained was 192.168.1.0 and the address pool was 
+192.168.1.10 to 192.168.1.100. This meant that any device with access to the server would be assigned an IP between
+these two, giving 90 available options. This was a successful process of rudimentary configuration. Through working though the creation of the
+scope, valuable insight was gained on what creating the scope entailed. The only downside to this scope would be that it had no reservations in place.
+A DHCP reservation is the act of taking one specific IP and assigning it to one particular device only (\cite{masterWS19}). This would be the equivalent of 
+assigning a device the IP of 192.168.1.11.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/Scope Present.png}
+    \caption{SC-1 Scope present in the DHCP server}
+\end{figure}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/Address Pool in SC_1 scope.png}
+    \caption{Address pool from 192.168.1.10 to 192.168.1.100}
+\end{figure}
+
+\subsection{Reconfiguration In A New Domain}
+\paragraph{}
+After the creation of the first scope and further configuration of the Ethernet settings in the properties,
+the server was altered further in order for it to obtain an internet connection. This was done through Ethernet 
+settings on the properties of the computer. The Ethernet had a IPV4 address assigned to it by the DHCP, whilst IPv6 was enabled.
+This meant that the server's connection to the internet and to other devices/users via TailScale, had addresses using the IPv4 protocol.
+Whilst this was accounted for using DHCP, the problem that the server still had at the time was that the Ethernet had no internet access 
+using either protocol. This was rectified. The server was given a domain and an addition ethernet connection with an internet connection via the
+IPv4 protocol.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/Checking Ethernet.png}
+    \caption{Only one Ethernet Available with an address assigned by DHCP}
+\end{figure}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/Seleting Ethernet Connections.png}
+    \caption{Selecting Ethernet Connection}
+\end{figure}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/Ethernet Status.png}
+    \caption{Ethernet Status}
+\end{figure}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/Recent Server Properties.png}
+    \caption{Propeties of The Server after being given internet access and a domain}
+\end{figure}
