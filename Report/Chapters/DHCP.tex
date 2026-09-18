@@ -123,7 +123,7 @@ assigning a device the IP of 192.168.1.11.
     \caption{Address pool from 192.168.1.10 to 192.168.1.100}
 \end{figure}
 
-\subsection{Reconfiguration In A New Domain}
+\subsection{Navigating In A New Domain}
 After the creation of the first scope and further configuration of the Ethernet settings in the properties,
 the server was altered further in order for it to obtain an internet connection. This was done through Ethernet 
 settings on the properties of the computer. The Ethernet had a IPV4 address assigned to it by the DHCP, whilst IPv6 was enabled.
@@ -146,3 +146,34 @@ IPv4 protocol.
    \includegraphics[width=0.7\linewidth]{Images/DHCP/Recent Server Properties.png}
     \caption{Propeties of The Server after being given internet access and a domain}
 \end{figure}
+
+\paragraph{}
+Because of the new domain and the change in the server, accesing DHCP using the tools 
+option in the server manager proved to yield different results. The scope could not be 
+analyzed and a scope could not be added via that route. Since the server possessed internet access,
+a solution was found using Windows Powershell on the server to look at the scope once more.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/Accessing DHCP through Powershell.png}
+    \caption{Accessing DHCP through Powershell}
+\end{figure}
+
+\subsection{DHCP Reservations}
+\paragraph{}
+The pool of available IP addresses for devices are subject to expiry and to change. A client 
+device doesn't always receive the same IP after its old IP expires past the lease (\cite{masterWS19}). This is fine for a desktop computer, 
+since they do not care about what IP they get. The change of IP addresses does not matter for them, but it does 
+matter for permenant fixtures in the network like printers or a Windows Server. For these permenant fixtures, 
+they will need DHCP reservations in the scope (\cite{masterWS19}). 
+
+\paragraph{}
+A DHCP reservation is a single IP address within the DHCP scope, that is 
+to be used by a particular device (\cite{masterWS19}). This device will have the same IP address every time
+it connects through the server. These reservation allow the server to handle assigning of IP addresses 
+so that it doesn't have to be configured manually, whilst still maintaining a permenant IP address (\cite{masterWS19}). 
+Most sources speak about using the DHCP window to make and access reservations, however, after the assigning of a domain,
+something occured that caused that made it impossible to access the DHCP scope.
+This is where Powershell came in.
+
+\paragraph{}
