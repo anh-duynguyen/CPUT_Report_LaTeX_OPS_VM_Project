@@ -41,42 +41,43 @@ is called a DHCP scope (\cite{masterWS19}).
 To begin defining the scope, we decided to launch a management tool using the Tools menu 
 inside the Server Manager. This will open up a window for DHCP with the name of the device 
 that the server is located on.
-\begin{figure}[ht]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{Images/DHCP/Accessing DHCP through Tools Option.png}
     \caption{Accessing DHCP through Tools in Server Manager}
 \end{figure}
 
-\begin{figure}[ht]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{Images/DHCP/DHCP window.png}
     \caption{DHCP window}
 \end{figure}
 
-\paragraph{}
+
 After opening the DHCP window, the computer was selected and dropped down two protocols: IPv4 and IPv6.
 The former was selected and first left-clicked on, where it gave information regarding the addition of a scope, along with the server 
 options, policies and filters. This protocol did not have a scope as yet. 
 To properly begin the process, IPv4 was right-clicked on, giving a drop-down menu when the option to add 
 a new scope was present. Choosing this option opened the New Scope Wizard.
 
-\begin{figure}[ht]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{Images/DHCP/Choosing an Internet Protocol.png}
     \caption{IPv4 and IPv6 available}
 \end{figure}
-\begin{figure}[ht]
+
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{Images/DHCP/Creating new Scope in IPv4.png}
     \caption{Creating new scope using IPv4}
 \end{figure}
-\begin{figure}[ht]
+
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{Images/DHCP/New Scope Wizard.png}
     \caption{New Scope Wizard}
 \end{figure}
 
-\paragraph{}
 Upon continuing in the Scope, the range of IP addresses needed to be decided.
 The addresses that the scope will hand out were from 
 192.168.1.100 to 192.168.1.200. Alongside handed out IPs, the scope also has
@@ -84,17 +85,17 @@ the option to configure the amount of time that a client keeps an assigned IP be
 efficient management of IP addresses (\cite{rapidseedbox}). This period of
 time is called the lease duration. It was left at the default number of 8 days.
 
-\begin{figure}[ht]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{Images/DHCP/Defining scope address range.png}
     \caption{Address range that the scope will hand out}
 \end{figure}
-\begin{figure}[ht]
+
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{Images/DHCP/Lease Duration.png}
     \caption{Lease of 8 days for clients}
 \end{figure}
-
 \paragraph{}
 The first scope made was designated SC-1 made as an effort to test out and get a feel 
 for what DHCP configuration was like. As a result, many parts and features during the creation of 
@@ -102,28 +103,7 @@ SC-1 were let open due to a lack of understanding. Exclusion and Delay, Specifyi
 WINS server were some of the things left open. These were left open due to there being not enough knowledge at the time to
 configure them. 
 
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.7\linewidth]{Images/DHCP/Exclusion and Delay.png}
-    \caption{Vacant Exclusion and Delay}
-\end{figure}
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.7\linewidth]{Images/DHCP/Specifying Routers.png}
-    \caption{Vacant Routers}
-\end{figure}
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.7\linewidth]{Images/DHCP/DNS Servers.png}
-    \caption{Vacant DNS Server on Scope}
-\end{figure}
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.7\linewidth]{Images/DHCP/WINS Servers.png}
-    \caption{Vacant WINS Server}
-\end{figure}
-
-\paragraph{}
+\paragraph*{}
 At the end of the scope's configuration, the IP address that it obtained was 192.168.1.0 and the address pool was 
 192.168.1.10 to 192.168.1.100. This meant that any device with access to the server would be assigned an IP between
 these two, giving 90 available options. This was a successful process of rudimentary configuration. Through working though the creation of the
@@ -131,19 +111,19 @@ scope, valuable insight was gained on what creating the scope entailed. The only
 A DHCP reservation is the act of taking one specific IP and assigning it to one particular device only (\cite{masterWS19}). This would be the equivalent of 
 assigning a device the IP of 192.168.1.11.
 
-\begin{figure}[ht]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{Images/DHCP/Scope Present.png}
     \caption{SC-1 Scope present in the DHCP server}
 \end{figure}
-\begin{figure}[ht]
+
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.7\linewidth]{Images/DHCP/Address Pool in SC_1 scope.png}
     \caption{Address pool from 192.168.1.10 to 192.168.1.100}
 \end{figure}
 
 \subsection{Reconfiguration In A New Domain}
-\paragraph{}
 After the creation of the first scope and further configuration of the Ethernet settings in the properties,
 the server was altered further in order for it to obtain an internet connection. This was done through Ethernet 
 settings on the properties of the computer. The Ethernet had a IPV4 address assigned to it by the DHCP, whilst IPv6 was enabled.
@@ -151,24 +131,18 @@ This meant that the server's connection to the internet and to other devices/use
 Whilst this was accounted for using DHCP, the problem that the server still had at the time was that the Ethernet had no internet access 
 using either protocol. This was rectified. The server was given a domain and an addition ethernet connection with an internet connection via the
 IPv4 protocol.
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.7\linewidth]{Images/DHCP/Checking Ethernet.png}
-    \caption{Only one Ethernet Available with an address assigned by DHCP}
+\begin{figure}[H]
+   \centering
+  \includegraphics[width=0.7\linewidth]{Images/DHCP/Seleting Ethernet Connections.png}
+  \caption{Selecting Ethernet Connection}
 \end{figure}
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.7\linewidth]{Images/DHCP/Seleting Ethernet Connections.png}
-    \caption{Selecting Ethernet Connection}
-\end{figure}
-\begin{figure}[ht]
-    \centering
+\begin{figure}[H]
+   \centering
     \includegraphics[width=0.7\linewidth]{Images/DHCP/Ethernet Status.png}
-    \caption{Ethernet Status}
+   \caption{Ethernet Status}
 \end{figure}
-\begin{figure}[ht]
+\begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\linewidth]{Images/DHCP/Recent Server Properties.png}
+   \includegraphics[width=0.7\linewidth]{Images/DHCP/Recent Server Properties.png}
     \caption{Propeties of The Server after being given internet access and a domain}
 \end{figure}

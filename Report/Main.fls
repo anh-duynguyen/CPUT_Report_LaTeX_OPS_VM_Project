@@ -388,6 +388,8 @@ INPUT c:/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
 INPUT c:/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+INPUT c:/texlive/2025/texmf-dist/tex/latex/float/float.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/float/float.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmr.fd
 INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmr.fd
@@ -635,26 +637,6 @@ INPUT ./Images/DHCP/Lease Duration.png
 INPUT ./Images/DHCP/Lease Duration.png
 INPUT ./Images/DHCP/Lease Duration.png
 INPUT ./Images/DHCP/Lease Duration.png
-INPUT ./Images/DHCP/Exclusion and Delay.png
-INPUT ./Images/DHCP/Exclusion and Delay.png
-INPUT ./Images/DHCP/Exclusion and Delay.png
-INPUT ./Images/DHCP/Exclusion and Delay.png
-INPUT ./Images/DHCP/Exclusion and Delay.png
-INPUT ./Images/DHCP/Specifying Routers.png
-INPUT ./Images/DHCP/Specifying Routers.png
-INPUT ./Images/DHCP/Specifying Routers.png
-INPUT ./Images/DHCP/Specifying Routers.png
-INPUT ./Images/DHCP/Specifying Routers.png
-INPUT ./Images/DHCP/DNS Servers.png
-INPUT ./Images/DHCP/DNS Servers.png
-INPUT ./Images/DHCP/DNS Servers.png
-INPUT ./Images/DHCP/DNS Servers.png
-INPUT ./Images/DHCP/DNS Servers.png
-INPUT ./Images/DHCP/WINS Servers.png
-INPUT ./Images/DHCP/WINS Servers.png
-INPUT ./Images/DHCP/WINS Servers.png
-INPUT ./Images/DHCP/WINS Servers.png
-INPUT ./Images/DHCP/WINS Servers.png
 INPUT ./Images/DHCP/Scope Present.png
 INPUT ./Images/DHCP/Scope Present.png
 INPUT ./Images/DHCP/Scope Present.png
@@ -665,11 +647,6 @@ INPUT ./Images/DHCP/Address Pool in SC_1 scope.png
 INPUT ./Images/DHCP/Address Pool in SC_1 scope.png
 INPUT ./Images/DHCP/Address Pool in SC_1 scope.png
 INPUT ./Images/DHCP/Address Pool in SC_1 scope.png
-INPUT ./Images/DHCP/Checking Ethernet.png
-INPUT ./Images/DHCP/Checking Ethernet.png
-INPUT ./Images/DHCP/Checking Ethernet.png
-INPUT ./Images/DHCP/Checking Ethernet.png
-INPUT ./Images/DHCP/Checking Ethernet.png
 INPUT ./Images/DHCP/Seleting Ethernet Connections.png
 INPUT ./Images/DHCP/Seleting Ethernet Connections.png
 INPUT ./Images/DHCP/Seleting Ethernet Connections.png
