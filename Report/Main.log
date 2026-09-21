@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.3.2)  21 SEP 2026 20:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.3.2)  21 SEP 2026 20:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1355,40 +1355,40 @@ Package pdftex.def Info: Images/signature_sibusiso_kheswa.png  used on input lin
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.32 \chapter
+l.34 \chapter
              *{AI Declaration} [1
 
 
 
 
  <./Images/signature_anh_duy_nguyen.png> <./Images/signature_carl_lamprecht.png> <./Images/signature_peter_ngesi.png> <./Images/signature_gian_koekemoer.png> <./Images/signature_tihmo_koch.png> <./Images/signature_sibusiso_kheswa.png>]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 37.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 39.
  (c:/texlive/2025/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 File: Images/signature_anh_duy_nguyen.png Graphic file (type png)
 <use Images/signature_anh_duy_nguyen.png>
-Package pdftex.def Info: Images/signature_anh_duy_nguyen.png  used on input line 48.
+Package pdftex.def Info: Images/signature_anh_duy_nguyen.png  used on input line 50.
 (pdftex.def)             Requested size: 65.43289pt x 22.75952pt.
 File: Images/signature_carl_lamprecht.png Graphic file (type png)
 <use Images/signature_carl_lamprecht.png>
-Package pdftex.def Info: Images/signature_carl_lamprecht.png  used on input line 49.
+Package pdftex.def Info: Images/signature_carl_lamprecht.png  used on input line 51.
 (pdftex.def)             Requested size: 65.42982pt x 22.74776pt.
 File: Images/signature_peter_ngesi.png Graphic file (type png)
 <use Images/signature_peter_ngesi.png>
-Package pdftex.def Info: Images/signature_peter_ngesi.png  used on input line 53.
+Package pdftex.def Info: Images/signature_peter_ngesi.png  used on input line 55.
 (pdftex.def)             Requested size: 65.43718pt x 22.7617pt.
 File: Images/signature_gian_koekemoer.png Graphic file (type png)
 <use Images/signature_gian_koekemoer.png>
-Package pdftex.def Info: Images/signature_gian_koekemoer.png  used on input line 54.
+Package pdftex.def Info: Images/signature_gian_koekemoer.png  used on input line 56.
 (pdftex.def)             Requested size: 65.4512pt x 22.76201pt.
 File: Images/signature_tihmo_koch.png Graphic file (type png)
 <use Images/signature_tihmo_koch.png>
-Package pdftex.def Info: Images/signature_tihmo_koch.png  used on input line 58.
+Package pdftex.def Info: Images/signature_tihmo_koch.png  used on input line 60.
 (pdftex.def)             Requested size: 65.44121pt x 22.76112pt.
 File: Images/signature_sibusiso_kheswa.png Graphic file (type png)
 <use Images/signature_sibusiso_kheswa.png>
-Package pdftex.def Info: Images/signature_sibusiso_kheswa.png  used on input line 59.
+Package pdftex.def Info: Images/signature_sibusiso_kheswa.png  used on input line 61.
 (pdftex.def)             Requested size: 65.44122pt x 22.75922pt.
 ) [2
 
@@ -1476,7 +1476,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  89i,14n,107p,2579b,1184s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb>
-Output written on Main.pdf (17 pages, 587610 bytes).
+Output written on Main.pdf (17 pages, 587609 bytes).
 PDF statistics:
  208 PDF objects out of 1000 (max. 8388607)
  162 compressed objects within 2 object streams
