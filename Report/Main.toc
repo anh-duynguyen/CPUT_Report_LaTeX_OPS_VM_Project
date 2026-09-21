@@ -10,16 +10,16 @@
 \contentsline {paragraph}{}{8}{paragraph*.8}%
 \contentsline {paragraph}{}{8}{paragraph*.9}%
 \contentsline {section}{\numberline {2.2}Configuration Steps}{9}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}The DHCP Scope}{9}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}DHCP Post-Install configuration}{9}{subsection.2.2.1}%
 \contentsline {paragraph}{}{9}{paragraph*.10}%
 \contentsline {paragraph}{}{9}{paragraph*.11}%
-\contentsline {paragraph}{}{12}{paragraph*.19}%
-\contentsline {subsection}{\numberline {2.2.2}Navigating In A New Domain}{13}{subsection.2.2.2}%
-\contentsline {paragraph}{}{15}{paragraph*.25}%
-\contentsline {subsection}{\numberline {2.2.3}DHCP Reservations}{15}{subsection.2.2.3}%
-\contentsline {paragraph}{}{15}{paragraph*.27}%
-\contentsline {paragraph}{}{15}{paragraph*.28}%
-\contentsline {paragraph}{}{16}{paragraph*.29}%
+\contentsline {paragraph}{}{9}{paragraph*.12}%
+\contentsline {subsection}{\numberline {2.2.2}The DHCP Scope}{11}{subsection.2.2.2}%
+\contentsline {paragraph}{}{11}{paragraph*.16}%
+\contentsline {paragraph}{}{11}{paragraph*.17}%
+\contentsline {paragraph}{}{13}{paragraph*.20}%
+\contentsline {paragraph}{}{15}{paragraph*.24}%
+\contentsline {paragraph}{}{16}{paragraph*.28}%
 \contentsline {chapter}{\numberline {3}Conclusion}{17}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Summary}{17}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Key Findings}{18}{section.3.2}%

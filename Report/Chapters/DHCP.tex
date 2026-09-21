@@ -30,6 +30,51 @@ and in businesses where Windows Server serves as a datacenter, DHCP services are
 on one or more servers across the network (\cite{masterWS19}).
 
 \section{Configuration Steps}
+\subsection{DHCP Post-Install configuration}
+Like other roles, the DHCP server needs to be provided a role during the 
+installation phase. After the DHCP role has been added to the server, 
+it isn't yet properly configured. 
+
+\paragraph{}
+The DHCP server can give clients two kinds of access groups: DHCP Administrators and DHCP Users (\cite{DHCPgroups}).
+DHCP Users have read-only access to the server, which allows them to view, but not to modify server data, including DHCP server 
+configuration, registry keys, DHCP log files, and the database (\cite{DHCPgroups}). They cannot create scopes, modify options values, create 
+reservations or exclusion ranges, and more.
+DHCP Administrators are able to view and modify data at the DHCP server (\cite{DHCPgroups}). They can 
+create and delete scopes, add reservations, change option values, create superscopes or perform
+ any other activity needed to adminster the DHCP server (\cite{DHCPgroups}). Despite this overseering control, they do not 
+have unlimited administrative rights,because they on have rights on the local computer only (\cite{DHCPgroups}). 
+
+\paragraph{}
+These two groups are local to the server as well, meaning they cannot authorize DHCP Servers. 
+This can only be done by Domain Admins(\cite{DHCPgroups}). Authorizing the server is needed because DHCP communication typically occurs before any user
+or computer authentiation. DHCP protocols are based on IP protocols as well, therefore, an unknown DHCP server could 
+provide invalid information to clients. Authorization prevents this (\cite{DHCPauthor}).
+
+\paragraph{}
+The authorization of the DHCP server in the wizard required for users to be 
+given credentials that they would need to access the server on a user level. So far the only 
+credential set was \texttt{OPS\textbackslash{}Administrator}.For any users who attempt to 
+connect to the server in future, they must use this username. 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/DHCP_01.png}
+    \caption{Description of DHCP Post-Install Configuration Wizard}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/DHCP_02.png}
+    \caption{Authorization of DHCP Post-Install Configuration Wizard}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/DHCP_03.png}
+    \caption{Post Install Configuration Completed}
+\end{figure}
+
 \subsection{The DHCP Scope}
 \paragraph{}
 For a DHCP server to hand out IP addresses, it needs to know IP addresses,
@@ -41,139 +86,75 @@ is called a DHCP scope (\cite{masterWS19}).
 To begin defining the scope, we decided to launch a management tool using the Tools menu 
 inside the Server Manager. This will open up a window for DHCP with the name of the device 
 that the server is located on.
+
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\linewidth]{Images/DHCP/Accessing DHCP through Tools Option.png}
-    \caption{Accessing DHCP through Tools in Server Manager}
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/DHCP_04.png}\
+    \caption{DHCP Selected on Tools Dropdown Menu}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\linewidth]{Images/DHCP/DHCP window.png}
-    \caption{DHCP window}
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/DHCP_05.png}
+    \caption{DHCP Windows}
 \end{figure}
+%two figures
 
-
+\paragraph{}
 After opening the DHCP window, the computer was selected and dropped down two protocols: IPv4 and IPv6.
 The former was selected and first left-clicked on, where it gave information regarding the addition of a scope, along with the server 
-options, policies and filters. This protocol did not have a scope as yet. 
+options, policies and filters. This protocol did not have a scope as yet, so it needed to be configured.
 To properly begin the process, IPv4 was right-clicked on, giving a drop-down menu when the option to add 
-a new scope was present. Choosing this option opened the New Scope Wizard.
+a new scope was present. Choosing this option opened the New Scope Wizard. After clicking next on the wizard, the basics 
+of the scope needed to be decided. The name given was GROUP 1-SCOPE.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\linewidth]{Images/DHCP/Choosing an Internet Protocol.png}
-    \caption{IPv4 and IPv6 available}
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/DHCP_06.png}
+    \caption{Adding a Scope}
 \end{figure}
-
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\linewidth]{Images/DHCP/Creating new Scope in IPv4.png}
-    \caption{Creating new scope using IPv4}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\linewidth]{Images/DHCP/New Scope Wizard.png}
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/DHCP_07.png}
     \caption{New Scope Wizard}
 \end{figure}
 
-Upon continuing in the Scope, the range of IP addresses needed to be decided.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/DHCP_08.png}
+    \caption{Group One Scope Made}
+\end{figure}
+
+\paragraph{}
+There exists 4.3 billion posible IPv4 addresses and 3.7 billion available addresses, and therefore,
+there exists a countless amount of possible addresses that the scope can allow (\cite{ffIP}).
+A scope does not need to accomodate billions of addresses, it just needs a few hundred or a few dozen.
+When configuring it, the range of IP addresses needed to be decided.
 The addresses that the scope will hand out were from 
-192.168.1.100 to 192.168.1.200. Alongside handed out IPs, the scope also has
+192.168.0.100 to 192.168.0.254. This will be the address pool. There were no exclusions 
+or delays made in the scope. Alongside handed out IPs, the scope also has
 the option to configure the amount of time that a client keeps an assigned IP before renewal, ensuring 
 efficient management of IP addresses (\cite{rapidseedbox}). This period of
 time is called the lease duration. It was left at the default number of 8 days.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\linewidth]{Images/DHCP/Defining scope address range.png}
-    \caption{Address range that the scope will hand out}
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/DHCP_10.png}
+    \caption{No Exclusions made}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\linewidth]{Images/DHCP/Lease Duration.png}
-    \caption{Lease of 8 days for clients}
-\end{figure}
-\paragraph{}
-The first scope made was designated SC-1 made as an effort to test out and get a feel 
-for what DHCP configuration was like. As a result, many parts and features during the creation of 
-SC-1 were let open due to a lack of understanding. Exclusion and Delay, Specifying Routers and
-WINS server were some of the things left open. These were left open due to there being not enough knowledge at the time to
-configure them. 
-
-\paragraph*{}
-At the end of the scope's configuration, the IP address that it obtained was 192.168.1.0 and the address pool was 
-192.168.1.10 to 192.168.1.100. This meant that any device with access to the server would be assigned an IP between
-these two, giving 90 available options. This was a successful process of rudimentary configuration. Through working though the creation of the
-scope, valuable insight was gained on what creating the scope entailed. The only downside to this scope would be that it had no reservations in place.
-A DHCP reservation is the act of taking one specific IP and assigning it to one particular device only (\cite{masterWS19}). This would be the equivalent of 
-assigning a device the IP of 192.168.1.11.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\linewidth]{Images/DHCP/Scope Present.png}
-    \caption{SC-1 Scope present in the DHCP server}
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/DHCP_09.png}
+    \caption{Setting IP Address Range}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\linewidth]{Images/DHCP/Address Pool in SC_1 scope.png}
-    \caption{Address pool from 192.168.1.10 to 192.168.1.100}
-\end{figure}
-
-\subsection{Navigating In A New Domain}
-After the creation of the first scope and further configuration of the Ethernet settings in the properties,
-the server was altered further in order for it to obtain an internet connection. This was done through Ethernet 
-settings on the properties of the computer. The Ethernet had a IPV4 address assigned to it by the DHCP, whilst IPv6 was enabled.
-This meant that the server's connection to the internet and to other devices/users via TailScale, had addresses using the IPv4 protocol.
-Whilst this was accounted for using DHCP, the problem that the server still had at the time was that the Ethernet had no internet access 
-using either protocol. This was rectified. The server was given a domain and an addition ethernet connection with an internet connection via the
-IPv4 protocol.
-\begin{figure}[H]
-   \centering
-  \includegraphics[width=0.7\linewidth]{Images/DHCP/Seleting Ethernet Connections.png}
-  \caption{Selecting Ethernet Connection}
-\end{figure}
-\begin{figure}[H]
-   \centering
-    \includegraphics[width=0.7\linewidth]{Images/DHCP/Ethernet Status.png}
-   \caption{Ethernet Status}
-\end{figure}
-\begin{figure}[H]
-    \centering
-   \includegraphics[width=0.7\linewidth]{Images/DHCP/Recent Server Properties.png}
-    \caption{Propeties of The Server after being given internet access and a domain}
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/DHCP_11.png}
+    \caption{Lease duration of 8 days set}
 \end{figure}
 
 \paragraph{}
-Because of the new domain and the change in the server, accesing DHCP using the tools 
-option in the server manager proved to yield different results. The scope could not be 
-analyzed and a scope could not be added via that route. Since the server possessed internet access,
-a solution was found using Windows Powershell on the server to look at the scope once more.
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.7\linewidth]{Images/DHCP/Accessing DHCP through Powershell.png}
-    \caption{Accessing DHCP through Powershell}
-\end{figure}
-
-\subsection{DHCP Reservations}
-\paragraph{}
-The pool of available IP addresses for devices are subject to expiry and to change. A client 
-device doesn't always receive the same IP after its old IP expires past the lease (\cite{masterWS19}). This is fine for a desktop computer, 
-since they do not care about what IP they get. The change of IP addresses does not matter for them, but it does 
-matter for permenant fixtures in the network like printers or a Windows Server. For these permenant fixtures, 
-they will need DHCP reservations in the scope (\cite{masterWS19}). 
-
-\paragraph{}
-A DHCP reservation is a single IP address within the DHCP scope, that is 
-to be used by a particular device (\cite{masterWS19}). This device will have the same IP address every time
-it connects through the server. These reservation allow the server to handle assigning of IP addresses 
-so that it doesn't have to be configured manually, whilst still maintaining a permenant IP address (\cite{masterWS19}). 
-Most sources speak about using the DHCP window to make and access reservations, however, after the assigning of a domain,
-something occured that caused that made it impossible to access the DHCP scope.
-This is where Powershell came in.
-
-\paragraph{}
+%two figures

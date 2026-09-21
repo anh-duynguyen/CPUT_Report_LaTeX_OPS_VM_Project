@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.27)  18 SEP 2026 19:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.27)  21 SEP 2026 21:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1280,7 +1280,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 \openout2 = `Title.aux'.
 
  (./Title.tex
-<Images/logo_CPUT.png, id=86, 376.40625pt x 111.41624pt>
+<Images/logo_CPUT.png, id=82, 376.40625pt x 111.41624pt>
 File: Images/logo_CPUT.png Graphic file (type png)
 <use Images/logo_CPUT.png>
 Package pdftex.def Info: Images/logo_CPUT.png  used on input line 9.
@@ -1328,32 +1328,32 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 \openout2 = `Declaration.aux'.
 
  (./Declaration.tex
-<Images/signature_anh_duy_nguyen.png, id=99, 823.075pt x 200.75pt>
+<Images/signature_anh_duy_nguyen.png, id=95, 823.075pt x 200.75pt>
 File: Images/signature_anh_duy_nguyen.png Graphic file (type png)
 <use Images/signature_anh_duy_nguyen.png>
 Package pdftex.def Info: Images/signature_anh_duy_nguyen.png  used on input line 8.
 (pdftex.def)             Requested size: 136.56761pt x 45.52519pt.
-<Images/signature_carl_lamprecht.png, id=100, 1606.0pt x 1046.91125pt>
+<Images/signature_carl_lamprecht.png, id=96, 1606.0pt x 1046.91125pt>
 File: Images/signature_carl_lamprecht.png Graphic file (type png)
 <use Images/signature_carl_lamprecht.png>
 Package pdftex.def Info: Images/signature_carl_lamprecht.png  used on input line 9.
 (pdftex.def)             Requested size: 136.56946pt x 45.5115pt.
-<Images/signature_peter_ngesi.png, id=101, 433.62pt x 266.9975pt>
+<Images/signature_peter_ngesi.png, id=97, 433.62pt x 266.9975pt>
 File: Images/signature_peter_ngesi.png Graphic file (type png)
 <use Images/signature_peter_ngesi.png>
 Package pdftex.def Info: Images/signature_peter_ngesi.png  used on input line 13.
 (pdftex.def)             Requested size: 136.57117pt x 45.5234pt.
-<Images/signature_gian_koekemoer.png, id=102, 43.66313pt x 29.35968pt>
+<Images/signature_gian_koekemoer.png, id=98, 43.66313pt x 29.35968pt>
 File: Images/signature_gian_koekemoer.png Graphic file (type png)
 <use Images/signature_gian_koekemoer.png>
 Package pdftex.def Info: Images/signature_gian_koekemoer.png  used on input line 14.
 (pdftex.def)             Requested size: 136.59413pt x 45.52448pt.
-<Images/signature_tihmo_koch.png, id=103, 152.82094pt x 114.4275pt>
+<Images/signature_tihmo_koch.png, id=99, 152.82094pt x 114.4275pt>
 File: Images/signature_tihmo_koch.png Graphic file (type png)
 <use Images/signature_tihmo_koch.png>
 Package pdftex.def Info: Images/signature_tihmo_koch.png  used on input line 18.
 (pdftex.def)             Requested size: 136.57915pt x 45.52399pt.
-<Images/signature_sibusiso_kheswa.png, id=104, 880.28876pt x 383.4325pt>
+<Images/signature_sibusiso_kheswa.png, id=100, 880.28876pt x 383.4325pt>
 File: Images/signature_sibusiso_kheswa.png Graphic file (type png)
 <use Images/signature_sibusiso_kheswa.png>
 Package pdftex.def Info: Images/signature_sibusiso_kheswa.png  used on input line 19.
@@ -1450,78 +1450,77 @@ Chapter 2.
 
 
 ]
-<Images/DHCP/Accessing DHCP through Tools Option.png, id=237, 1368.61313pt x 813.0375pt>
-File: Images/DHCP/Accessing DHCP through Tools Option.png Graphic file (type png)
-<use Images/DHCP/Accessing DHCP through Tools Option.png>
-Package pdftex.def Info: Images/DHCP/Accessing DHCP through Tools Option.png  used on input line 46.
-(pdftex.def)             Requested size: 298.75264pt x 177.46693pt.
-<Images/DHCP/DHCP window.png, id=238, 656.4525pt x 448.67625pt>
-File: Images/DHCP/DHCP window.png Graphic file (type png)
-<use Images/DHCP/DHCP window.png>
-Package pdftex.def Info: Images/DHCP/DHCP window.png  used on input line 52.
-(pdftex.def)             Requested size: 298.75264pt x 204.19594pt.
- [9 <./Images/DHCP/Accessing DHCP through Tools Option.png> <./Images/DHCP/DHCP window.png>]
-<Images/DHCP/Choosing an Internet Protocol.png, id=247, 651.18282pt x 453.19313pt>
-File: Images/DHCP/Choosing an Internet Protocol.png Graphic file (type png)
-<use Images/DHCP/Choosing an Internet Protocol.png>
-Package pdftex.def Info: Images/DHCP/Choosing an Internet Protocol.png  used on input line 65.
-(pdftex.def)             Requested size: 298.75264pt x 207.92506pt.
-<Images/DHCP/Creating new Scope in IPv4.png, id=248, 657.95813pt x 563.85657pt>
-File: Images/DHCP/Creating new Scope in IPv4.png Graphic file (type png)
-<use Images/DHCP/Creating new Scope in IPv4.png>
-Package pdftex.def Info: Images/DHCP/Creating new Scope in IPv4.png  used on input line 71.
-(pdftex.def)             Requested size: 298.75264pt x 256.0303pt.
-<Images/DHCP/New Scope Wizard.png, id=249, 578.91281pt x 476.53032pt>
-File: Images/DHCP/New Scope Wizard.png Graphic file (type png)
-<use Images/DHCP/New Scope Wizard.png>
-Package pdftex.def Info: Images/DHCP/New Scope Wizard.png  used on input line 77.
-(pdftex.def)             Requested size: 298.75264pt x 245.91394pt.
- [10 <./Images/DHCP/Choosing an Internet Protocol.png> <./Images/DHCP/Creating new Scope in IPv4.png>]
-<Images/DHCP/Defining scope address range.png, id=257, 576.65437pt x 478.78876pt>
-File: Images/DHCP/Defining scope address range.png Graphic file (type png)
-<use Images/DHCP/Defining scope address range.png>
-Package pdftex.def Info: Images/DHCP/Defining scope address range.png  used on input line 90.
-(pdftex.def)             Requested size: 298.75264pt x 248.05836pt.
-<Images/DHCP/Lease Duration.png, id=258, 578.91281pt x 476.53032pt>
-File: Images/DHCP/Lease Duration.png Graphic file (type png)
-<use Images/DHCP/Lease Duration.png>
-Package pdftex.def Info: Images/DHCP/Lease Duration.png  used on input line 96.
-(pdftex.def)             Requested size: 298.75264pt x 245.91394pt.
- [11 <./Images/DHCP/New Scope Wizard.png> <./Images/DHCP/Defining scope address range.png>]
-<Images/DHCP/Scope Present.png, id=268, 656.4525pt x 444.91219pt>
-File: Images/DHCP/Scope Present.png Graphic file (type png)
-<use Images/DHCP/Scope Present.png>
-Package pdftex.def Info: Images/DHCP/Scope Present.png  used on input line 116.
-(pdftex.def)             Requested size: 298.75264pt x 202.48288pt.
- [12 <./Images/DHCP/Lease Duration.png>]
-<Images/DHCP/Address Pool in SC_1 scope.png, id=275, 790.45313pt x 611.28375pt>
-File: Images/DHCP/Address Pool in SC_1 scope.png Graphic file (type png)
-<use Images/DHCP/Address Pool in SC_1 scope.png>
-Package pdftex.def Info: Images/DHCP/Address Pool in SC_1 scope.png  used on input line 122.
-(pdftex.def)             Requested size: 298.75264pt x 231.03104pt.
-<Images/DHCP/Seleting Ethernet Connections.png, id=276, 1357.32094pt x 800.23969pt>
-File: Images/DHCP/Seleting Ethernet Connections.png Graphic file (type png)
-<use Images/DHCP/Seleting Ethernet Connections.png>
-Package pdftex.def Info: Images/DHCP/Seleting Ethernet Connections.png  used on input line 136.
-(pdftex.def)             Requested size: 298.75264pt x 176.12654pt.
- [13 <./Images/DHCP/Scope Present.png> <./Images/DHCP/Address Pool in SC_1 scope.png>]
-<Images/DHCP/Ethernet Status.png, id=283, 409.53pt x 505.13719pt>
-File: Images/DHCP/Ethernet Status.png Graphic file (type png)
-<use Images/DHCP/Ethernet Status.png>
-Package pdftex.def Info: Images/DHCP/Ethernet Status.png  used on input line 141.
-(pdftex.def)             Requested size: 298.75264pt x 368.52356pt.
-<Images/DHCP/Recent Server Properties.png, id=284, 778.91pt x 316.18124pt>
-File: Images/DHCP/Recent Server Properties.png Graphic file (type png)
-<use Images/DHCP/Recent Server Properties.png>
-Package pdftex.def Info: Images/DHCP/Recent Server Properties.png  used on input line 146.
-(pdftex.def)             Requested size: 298.75264pt x 121.26941pt.
- [14 <./Images/DHCP/Seleting Ethernet Connections.png> <./Images/DHCP/Ethernet Status.png>]
-<Images/DHCP/Accessing DHCP through Powershell.png, id=291, 499.8675pt x 139.01938pt>
-File: Images/DHCP/Accessing DHCP through Powershell.png Graphic file (type png)
-<use Images/DHCP/Accessing DHCP through Powershell.png>
-Package pdftex.def Info: Images/DHCP/Accessing DHCP through Powershell.png  used on input line 158.
-(pdftex.def)             Requested size: 298.75264pt x 83.08983pt.
-) [15 <./Images/DHCP/Recent Server Properties.png> <./Images/DHCP/Accessing DHCP through Powershell.png>] [16]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 57.
+ (c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+<Images/DHCP/DHCP_01.png, id=234, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_01.png Graphic file (type png)
+<use Images/DHCP/DHCP_01.png>
+Package pdftex.def Info: Images/DHCP/DHCP_01.png  used on input line 62.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [9]
+<Images/DHCP/DHCP_02.png, id=245, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_02.png Graphic file (type png)
+<use Images/DHCP/DHCP_02.png>
+Package pdftex.def Info: Images/DHCP/DHCP_02.png  used on input line 68.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+<Images/DHCP/DHCP_03.png, id=246, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_03.png Graphic file (type png)
+<use Images/DHCP/DHCP_03.png>
+Package pdftex.def Info: Images/DHCP/DHCP_03.png  used on input line 74.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [10 <./Images/DHCP/DHCP_01.png> <./Images/DHCP/DHCP_02.png>]
+<Images/DHCP/DHCP_04.png, id=254, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_04.png Graphic file (type png)
+<use Images/DHCP/DHCP_04.png>
+Package pdftex.def Info: Images/DHCP/DHCP_04.png  used on input line 92.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [11 <./Images/DHCP/DHCP_03.png>]
+<Images/DHCP/DHCP_05.png, id=263, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_05.png Graphic file (type png)
+<use Images/DHCP/DHCP_05.png>
+Package pdftex.def Info: Images/DHCP/DHCP_05.png  used on input line 98.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [12 <./Images/DHCP/DHCP_04.png> <./Images/DHCP/DHCP_05.png>]
+<Images/DHCP/DHCP_06.png, id=270, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_06.png Graphic file (type png)
+<use Images/DHCP/DHCP_06.png>
+Package pdftex.def Info: Images/DHCP/DHCP_06.png  used on input line 113.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+<Images/DHCP/DHCP_07.png, id=271, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_07.png Graphic file (type png)
+<use Images/DHCP/DHCP_07.png>
+Package pdftex.def Info: Images/DHCP/DHCP_07.png  used on input line 118.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [13 <./Images/DHCP/DHCP_06.png>]
+<Images/DHCP/DHCP_08.png, id=278, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_08.png Graphic file (type png)
+<use Images/DHCP/DHCP_08.png>
+Package pdftex.def Info: Images/DHCP/DHCP_08.png  used on input line 124.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [14 <./Images/DHCP/DHCP_07.png> <./Images/DHCP/DHCP_08.png>]
+<Images/DHCP/DHCP_10.png, id=287, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_10.png Graphic file (type png)
+<use Images/DHCP/DHCP_10.png>
+Package pdftex.def Info: Images/DHCP/DHCP_10.png  used on input line 142.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+<Images/DHCP/DHCP_09.png, id=288, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_09.png Graphic file (type png)
+<use Images/DHCP/DHCP_09.png>
+Package pdftex.def Info: Images/DHCP/DHCP_09.png  used on input line 148.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [15 <./Images/DHCP/DHCP_10.png>]
+<Images/DHCP/DHCP_11.png, id=297, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_11.png Graphic file (type png)
+<use Images/DHCP/DHCP_11.png>
+Package pdftex.def Info: Images/DHCP/DHCP_11.png  used on input line 154.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+) [16 <./Images/DHCP/DHCP_09.png> <./Images/DHCP/DHCP_11.png>]
 \openout2 = `Chapters/Chapter8_Conclusions.aux'.
 
  (./Chapters/Chapter8_Conclusions.tex
@@ -1531,16 +1530,7 @@ Chapter 3.
 
 
 
-] [18] [19] [20]) [21] [22] [23]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 94.
- (c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- [24
+] [18] [19] [20]) [21] [22] [23] [24
 
 
 
@@ -1559,24 +1549,24 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 8E7CA735651B35E879E8143C7FD7B9BF;2450.
+(rerunfilecheck)             Checksum: D9C23EF3B356398F4CF95C9C435683ED;2319.
 Package logreq Info: Writing requests to 'Main.run.xml'.
 \openout1 = `Main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49510 strings out of 467532
- 1023295 string characters out of 5423647
- 2049138 words of memory out of 5000000
- 77479 multiletter control sequences out of 15000+600000
- 685630 words of font info for 145 fonts, out of 8000000 for 9000
+ 49493 strings out of 467532
+ 1021674 string characters out of 5423647
+ 2049297 words of memory out of 5000000
+ 77473 multiletter control sequences out of 15000+600000
+ 685160 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,14n,107p,2590b,1587s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,14n,107p,2590b,1586s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Main.pdf (33 pages, 2504155 bytes).
+Output written on Main.pdf (33 pages, 1221211 bytes).
 PDF statistics:
- 409 PDF objects out of 1000 (max. 8388607)
- 315 compressed objects within 4 object streams
- 82 named destinations out of 1000 (max. 500000)
- 33553 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 410 PDF objects out of 1000 (max. 8388607)
+ 320 compressed objects within 4 object streams
+ 83 named destinations out of 1000 (max. 500000)
+ 33535 words of extra memory for PDF output out of 35830 (max. 10000000)
 

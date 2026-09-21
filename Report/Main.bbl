@@ -45,6 +45,90 @@
       \field{title}{Mastering Windows Server 2019 Second Edition}
       \field{year}{2019}
     \endentry
+    \entry{DHCPgroups}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DHCP Groups}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/zh-cn/previous-versions/windows/it-pro/windows-server-2003/cc737716(v=ws.10)
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/zh-cn/previous-versions/windows/it-pro/windows-server-2003/cc737716(v=ws.10)
+      \endverb
+    \endentry
+    \entry{DHCPauthor}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=480065bd475125e7dade417292e39aea}{%
+           family={Anggara},
+           familyi={A\bibinitperiod},
+           given={Adrian},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{480065bd475125e7dade417292e39aea}
+      \strng{fullhash}{480065bd475125e7dade417292e39aea}
+      \strng{fullhashraw}{480065bd475125e7dade417292e39aea}
+      \strng{bibnamehash}{480065bd475125e7dade417292e39aea}
+      \strng{authorbibnamehash}{480065bd475125e7dade417292e39aea}
+      \strng{authornamehash}{480065bd475125e7dade417292e39aea}
+      \strng{authorfullhash}{480065bd475125e7dade417292e39aea}
+      \strng{authorfullhashraw}{480065bd475125e7dade417292e39aea}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Install DHCP Server on Windows Server 2016}
+      \verb{urlraw}
+      \verb https://msnoob.com/install-dhcp-server-on-windows-server-2016.html
+      \endverb
+      \verb{url}
+      \verb https://msnoob.com/install-dhcp-server-on-windows-server-2016.html
+      \endverb
+    \endentry
+    \entry{ffIP}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=327b75f3d434347fca5dd24605524d37}{%
+           family={Bello},
+           familyi={B\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{327b75f3d434347fca5dd24605524d37}
+      \strng{fullhash}{327b75f3d434347fca5dd24605524d37}
+      \strng{fullhashraw}{327b75f3d434347fca5dd24605524d37}
+      \strng{bibnamehash}{327b75f3d434347fca5dd24605524d37}
+      \strng{authorbibnamehash}{327b75f3d434347fca5dd24605524d37}
+      \strng{authornamehash}{327b75f3d434347fca5dd24605524d37}
+      \strng{authorfullhash}{327b75f3d434347fca5dd24605524d37}
+      \strng{authorfullhashraw}{327b75f3d434347fca5dd24605524d37}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{How many IPv4 addresses are there?}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://ipme.co/articles/how-many-ipv4-addresses
+      \endverb
+      \verb{url}
+      \verb https://ipme.co/articles/how-many-ipv4-addresses
+      \endverb
+    \endentry
     \entry{rapidseedbox}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=c8b03a27e2ef6b7ec190178c10da56cd}{%
