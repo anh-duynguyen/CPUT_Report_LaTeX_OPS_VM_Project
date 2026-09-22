@@ -156,5 +156,77 @@ time is called the lease duration. It was left at the default number of 8 days.
 \end{figure}
 
 \paragraph{}
+When clients use the server, access to the internet is an important 
+feature that must be present in the server. 
+In order for the clients to able to access the internet, 
+they need to be able to talk to other devices and networks outside of the DHCP subnet.
+A default gateway allows for this. Without it, a client can only reach devices and networks inside 
+its own subnet. The default gateway was given the IP address of 192.168.0.1.
 
-%two figures
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/DHCP_12.png}
+    \caption{Default Gateway Configured (1)}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/DHCP_13.png}
+    \caption{Default Gateway Configured (2)}
+\end{figure}
+
+\paragraph{}
+After the setting up of the default gateway, the next step was setting up the DNS server.
+As mentioned earlier, the DHCP has the job of handing out IP addresses and more for a client to be 
+able to use the network. An IP allows a device to communicate with other hosts, but IP addresses 
+are inconvinient to memorize or type down. The DNS Server and Domain Name exist 
+to allow for devices to access the DHCP server through use of IPs that resolve into domain names (\cite{dns}).
+The domain name was set to OPS.local and two IPs, 192.168.0.5 and 8.8.8.8, for two servers were set.
+This would mean that in order to access the server they would simply need to type in the domain name, making it 
+more accessible for non-domain joined machines.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/DHCP_14.png}
+    \caption{DNS Server and Domain Name}
+\end{figure}
+
+\paragraph{}
+After the DNS Server and Domain Names are configured, 
+there was an option for WINS Server configuration. WINS is a part of the scope 
+that resolves NetBOIS computer names to IP Addresses. It is needed to support pre-Windows 2000 
+systems and older application using NetBOIS over TCP/IP (\cite{wins}). None of the systems planned to be connected in the network 
+do not qualify as pre-Windows 2000 systems, there WINS is not needed.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/DHCP_15.png}
+    \caption{WINS Server configurinf left vacant}
+\end{figure}
+
+\paragraph{}
+All necessary parts of the scope have been configured. After passing the WINS Server configuring, all that was left was activation of the scope.
+Upon activating the scope, the wizard will present completion display. To close the wizard, the finish button was clicked. 
+The scope is now activated and ready for testing. The scope will now had out IP addresses from 
+192.168.0.100 to 192.168.0.254 and this will be its address pool. At the time of the creation of the scope, 
+there were no address leases yet.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/DHCP_16.png}
+    \caption{Activation of Scope}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/DHCP_17.png}
+    \caption{Finishing New Scope Wizard}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\linewidth]{Images/DHCP/DHCP_18.png}
+    \caption{New DHCP Scope created}
+\end{figure}
+
+\subsection{Testing of DHCP Server}
+
