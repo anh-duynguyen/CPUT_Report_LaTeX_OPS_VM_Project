@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.27)  22 SEP 2026 21:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.27)  22 SEP 2026 22:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1462,112 +1462,115 @@ Package microtype Info: Loading generic protrusion settings for font family
 File: Images/DHCP/DHCP_01.png Graphic file (type png)
 <use Images/DHCP/DHCP_01.png>
 Package pdftex.def Info: Images/DHCP/DHCP_01.png  used on input line 62.
-(pdftex.def)             Requested size: 213.39568pt x 210.7122pt.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
  [9]
 <Images/DHCP/DHCP_02.png, id=264, 961.5925pt x 949.5475pt>
 File: Images/DHCP/DHCP_02.png Graphic file (type png)
 <use Images/DHCP/DHCP_02.png>
 Package pdftex.def Info: Images/DHCP/DHCP_02.png  used on input line 68.
-(pdftex.def)             Requested size: 213.39568pt x 210.7122pt.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
 <Images/DHCP/DHCP_03.png, id=265, 961.5925pt x 949.5475pt>
 File: Images/DHCP/DHCP_03.png Graphic file (type png)
 <use Images/DHCP/DHCP_03.png>
 Package pdftex.def Info: Images/DHCP/DHCP_03.png  used on input line 74.
-(pdftex.def)             Requested size: 213.39568pt x 210.7122pt.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
  [10 <./Images/DHCP/DHCP_01.png> <./Images/DHCP/DHCP_02.png>]
 <Images/DHCP/DHCP_04.png, id=273, 961.5925pt x 949.5475pt>
 File: Images/DHCP/DHCP_04.png Graphic file (type png)
 <use Images/DHCP/DHCP_04.png>
 Package pdftex.def Info: Images/DHCP/DHCP_04.png  used on input line 92.
-(pdftex.def)             Requested size: 213.39568pt x 210.7122pt.
-<Images/DHCP/DHCP_05.png, id=274, 961.5925pt x 949.5475pt>
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [11 <./Images/DHCP/DHCP_03.png>]
+<Images/DHCP/DHCP_05.png, id=282, 961.5925pt x 949.5475pt>
 File: Images/DHCP/DHCP_05.png Graphic file (type png)
 <use Images/DHCP/DHCP_05.png>
 Package pdftex.def Info: Images/DHCP/DHCP_05.png  used on input line 98.
-(pdftex.def)             Requested size: 213.39568pt x 210.7122pt.
- [11 <./Images/DHCP/DHCP_03.png> <./Images/DHCP/DHCP_04.png>]
-<Images/DHCP/DHCP_06.png, id=284, 961.5925pt x 949.5475pt>
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [12 <./Images/DHCP/DHCP_04.png> <./Images/DHCP/DHCP_05.png>]
+<Images/DHCP/DHCP_06.png, id=289, 961.5925pt x 949.5475pt>
 File: Images/DHCP/DHCP_06.png Graphic file (type png)
 <use Images/DHCP/DHCP_06.png>
 Package pdftex.def Info: Images/DHCP/DHCP_06.png  used on input line 113.
-(pdftex.def)             Requested size: 213.39568pt x 210.7122pt.
-<Images/DHCP/DHCP_07.png, id=285, 961.5925pt x 949.5475pt>
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+<Images/DHCP/DHCP_07.png, id=290, 961.5925pt x 949.5475pt>
 File: Images/DHCP/DHCP_07.png Graphic file (type png)
 <use Images/DHCP/DHCP_07.png>
 Package pdftex.def Info: Images/DHCP/DHCP_07.png  used on input line 118.
-(pdftex.def)             Requested size: 213.39568pt x 210.7122pt.
- [12 <./Images/DHCP/DHCP_05.png> <./Images/DHCP/DHCP_06.png>]
-<Images/DHCP/DHCP_08.png, id=293, 961.5925pt x 949.5475pt>
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [13 <./Images/DHCP/DHCP_06.png>]
+<Images/DHCP/DHCP_08.png, id=297, 961.5925pt x 949.5475pt>
 File: Images/DHCP/DHCP_08.png Graphic file (type png)
 <use Images/DHCP/DHCP_08.png>
 Package pdftex.def Info: Images/DHCP/DHCP_08.png  used on input line 124.
-(pdftex.def)             Requested size: 213.39568pt x 210.7122pt.
-<Images/DHCP/DHCP_10.png, id=296, 961.5925pt x 949.5475pt>
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [14 <./Images/DHCP/DHCP_07.png> <./Images/DHCP/DHCP_08.png>]
+<Images/DHCP/DHCP_10.png, id=306, 961.5925pt x 949.5475pt>
 File: Images/DHCP/DHCP_10.png Graphic file (type png)
 <use Images/DHCP/DHCP_10.png>
 Package pdftex.def Info: Images/DHCP/DHCP_10.png  used on input line 142.
-(pdftex.def)             Requested size: 213.39568pt x 210.7122pt.
- [13 <./Images/DHCP/DHCP_07.png> <./Images/DHCP/DHCP_08.png>]
-<Images/DHCP/DHCP_09.png, id=306, 961.5925pt x 949.5475pt>
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+<Images/DHCP/DHCP_09.png, id=307, 961.5925pt x 949.5475pt>
 File: Images/DHCP/DHCP_09.png Graphic file (type png)
 <use Images/DHCP/DHCP_09.png>
 Package pdftex.def Info: Images/DHCP/DHCP_09.png  used on input line 148.
-(pdftex.def)             Requested size: 213.39568pt x 210.7122pt.
-<Images/DHCP/DHCP_11.png, id=307, 961.5925pt x 949.5475pt>
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [15 <./Images/DHCP/DHCP_10.png>]
+<Images/DHCP/DHCP_11.png, id=317, 961.5925pt x 949.5475pt>
 File: Images/DHCP/DHCP_11.png Graphic file (type png)
 <use Images/DHCP/DHCP_11.png>
 Package pdftex.def Info: Images/DHCP/DHCP_11.png  used on input line 154.
-(pdftex.def)             Requested size: 213.39568pt x 210.7122pt.
- [14 <./Images/DHCP/DHCP_10.png> <./Images/DHCP/DHCP_09.png>]
-<Images/DHCP/DHCP_12.png, id=314, 961.5925pt x 949.5475pt>
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [16 <./Images/DHCP/DHCP_09.png> <./Images/DHCP/DHCP_11.png>]
+<Images/DHCP/DHCP_12.png, id=324, 961.5925pt x 949.5475pt>
 File: Images/DHCP/DHCP_12.png Graphic file (type png)
 <use Images/DHCP/DHCP_12.png>
 Package pdftex.def Info: Images/DHCP/DHCP_12.png  used on input line 168.
-(pdftex.def)             Requested size: 213.39568pt x 210.7122pt.
-<Images/DHCP/DHCP_13.png, id=315, 961.5925pt x 949.5475pt>
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+<Images/DHCP/DHCP_13.png, id=325, 961.5925pt x 949.5475pt>
 File: Images/DHCP/DHCP_13.png Graphic file (type png)
 <use Images/DHCP/DHCP_13.png>
 Package pdftex.def Info: Images/DHCP/DHCP_13.png  used on input line 174.
-(pdftex.def)             Requested size: 213.39568pt x 210.7122pt.
- [15 <./Images/DHCP/DHCP_11.png> <./Images/DHCP/DHCP_12.png>]
-<Images/DHCP/DHCP_14.png, id=325, 961.5925pt x 949.5475pt>
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [17 <./Images/DHCP/DHCP_12.png>]
+<Images/DHCP/DHCP_14.png, id=334, 961.5925pt x 949.5475pt>
 File: Images/DHCP/DHCP_14.png Graphic file (type png)
 <use Images/DHCP/DHCP_14.png>
 Package pdftex.def Info: Images/DHCP/DHCP_14.png  used on input line 190.
-(pdftex.def)             Requested size: 213.39568pt x 210.7122pt.
- [16 <./Images/DHCP/DHCP_13.png> <./Images/DHCP/DHCP_14.png>]
-<Images/DHCP/DHCP_15.png, id=335, 961.5925pt x 949.5475pt>
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [18 <./Images/DHCP/DHCP_13.png>]
+<Images/DHCP/DHCP_15.png, id=343, 961.5925pt x 949.5475pt>
 File: Images/DHCP/DHCP_15.png Graphic file (type png)
 <use Images/DHCP/DHCP_15.png>
 Package pdftex.def Info: Images/DHCP/DHCP_15.png  used on input line 203.
-(pdftex.def)             Requested size: 213.39568pt x 210.7122pt.
-<Images/DHCP/DHCP_16.png, id=336, 961.5925pt x 949.5475pt>
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [19 <./Images/DHCP/DHCP_14.png>]
+<Images/DHCP/DHCP_16.png, id=351, 961.5925pt x 949.5475pt>
 File: Images/DHCP/DHCP_16.png Graphic file (type png)
 <use Images/DHCP/DHCP_16.png>
 Package pdftex.def Info: Images/DHCP/DHCP_16.png  used on input line 216.
-(pdftex.def)             Requested size: 213.39568pt x 210.7122pt.
- [17 <./Images/DHCP/DHCP_15.png>]
-<Images/DHCP/DHCP_17.png, id=346, 961.5925pt x 949.5475pt>
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [20 <./Images/DHCP/DHCP_15.png>]
+<Images/DHCP/DHCP_17.png, id=358, 961.5925pt x 949.5475pt>
 File: Images/DHCP/DHCP_17.png Graphic file (type png)
 <use Images/DHCP/DHCP_17.png>
 Package pdftex.def Info: Images/DHCP/DHCP_17.png  used on input line 222.
-(pdftex.def)             Requested size: 213.39568pt x 210.7122pt.
-<Images/DHCP/DHCP_18.png, id=347, 961.5925pt x 949.5475pt>
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+<Images/DHCP/DHCP_18.png, id=359, 961.5925pt x 949.5475pt>
 File: Images/DHCP/DHCP_18.png Graphic file (type png)
 <use Images/DHCP/DHCP_18.png>
 Package pdftex.def Info: Images/DHCP/DHCP_18.png  used on input line 227.
-(pdftex.def)             Requested size: 213.39568pt x 210.7122pt.
- [18 <./Images/DHCP/DHCP_16.png> <./Images/DHCP/DHCP_17.png>]) [19 <./Images/DHCP/DHCP_18.png>]
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [21 <./Images/DHCP/DHCP_16.png> <./Images/DHCP/DHCP_17.png>]) [22 <./Images/DHCP/DHCP_18.png>]
 \openout2 = `Chapters/Chapter8_Conclusions.aux'.
 
  (./Chapters/Chapter8_Conclusions.tex
 Chapter 3.
-[20
+[23
 
 
 
 
-] [21] [22] [23]) [24] [25] [26] [27
+] [24] [25] [26]) [27] [28] [29] [30
 
 
 
@@ -1577,7 +1580,7 @@ Chapter 3.
 
  (./Appendix.tex
 Appendix A.
-) [28
+) [31
 
 
 ] (./Main.aux (./Title.aux) (./Declaration.aux) (./Abstract.aux) (./Chapters/Chapter1_Introduction.aux) (./Chapters/DHCP.aux) (./Chapters/Chapter8_Conclusions.aux) (./Appendix.aux))
@@ -1592,18 +1595,18 @@ Package logreq Info: Writing requests to 'Main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49569 strings out of 467532
- 1023644 string characters out of 5423647
+ 49572 strings out of 467532
+ 1023665 string characters out of 5423647
  2049385 words of memory out of 5000000
  77529 multiletter control sequences out of 15000+600000
  685342 words of font info for 141 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,14n,107p,2590b,1588s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Main.pdf (36 pages, 1594723 bytes).
+Output written on Main.pdf (39 pages, 1595558 bytes).
 PDF statistics:
- 471 PDF objects out of 1000 (max. 8388607)
- 364 compressed objects within 4 object streams
- 99 named destinations out of 1000 (max. 500000)
+ 486 PDF objects out of 1000 (max. 8388607)
+ 376 compressed objects within 4 object streams
+ 102 named destinations out of 1000 (max. 500000)
  33578 words of extra memory for PDF output out of 35830 (max. 10000000)
 

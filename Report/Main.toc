@@ -17,18 +17,18 @@
 \contentsline {subsection}{\numberline {2.2.2}The DHCP Scope}{11}{subsection.2.2.2}%
 \contentsline {paragraph}{}{11}{paragraph*.16}%
 \contentsline {paragraph}{}{11}{paragraph*.17}%
-\contentsline {paragraph}{}{12}{paragraph*.20}%
-\contentsline {paragraph}{}{13}{paragraph*.24}%
-\contentsline {paragraph}{}{15}{paragraph*.28}%
-\contentsline {paragraph}{}{16}{paragraph*.31}%
-\contentsline {paragraph}{}{17}{paragraph*.33}%
-\contentsline {paragraph}{}{17}{paragraph*.35}%
-\contentsline {subsection}{\numberline {2.2.3}Testing of DHCP Server}{19}{subsection.2.2.3}%
-\contentsline {chapter}{\numberline {3}Conclusion}{20}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Summary}{20}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Key Findings}{21}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Future Work}{23}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Final Remarks}{25}{section.3.4}%
-\contentsline {chapter}{Bibliography}{27}{section.3.4}%
-\contentsline {chapter}{\numberline {A}Appendix}{28}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Github Repository}{28}{section.A.1}%
+\contentsline {paragraph}{}{13}{paragraph*.20}%
+\contentsline {paragraph}{}{15}{paragraph*.24}%
+\contentsline {paragraph}{}{17}{paragraph*.28}%
+\contentsline {paragraph}{}{18}{paragraph*.31}%
+\contentsline {paragraph}{}{19}{paragraph*.33}%
+\contentsline {paragraph}{}{20}{paragraph*.35}%
+\contentsline {subsection}{\numberline {2.2.3}Testing of DHCP Server}{22}{subsection.2.2.3}%
+\contentsline {chapter}{\numberline {3}Conclusion}{23}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Summary}{23}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Key Findings}{24}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Future Work}{26}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Final Remarks}{28}{section.3.4}%
+\contentsline {chapter}{Bibliography}{30}{section.3.4}%
+\contentsline {chapter}{\numberline {A}Appendix}{31}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Github Repository}{31}{section.A.1}%
