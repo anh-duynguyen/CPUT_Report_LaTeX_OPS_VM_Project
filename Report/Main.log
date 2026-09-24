@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.27)  22 SEP 2026 22:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.27)  24 SEP 2026 14:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1137,7 +1137,7 @@ Package csquotes Info: ... none found.
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 50.
  (c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (./Main.aux (./Title.aux) (./Declaration.aux) (./Abstract.aux) (./Chapters/Chapter1_Introduction.aux) (./Chapters/DHCP.aux) (./Chapters/Chapter8_Conclusions.aux) (./Appendix.aux))
+) (./Main.aux (./Title.aux) (./Declaration.aux) (./Abstract.aux) (./Chapters/Chapter1_Introduction.aux) (./Chapters/Chapter4_DHCP.aux) (./Chapters/Chapter8_Conclusions.aux) (./Appendix.aux))
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
@@ -1440,9 +1440,9 @@ Chapter 1.
 
 
 ] [2] [3] [4]) [5] [6] [7]
-\openout2 = `Chapters/DHCP.aux'.
+\openout2 = `Chapters/Chapter4_DHCP.aux'.
 
- (./Chapters/DHCP.tex
+ (./Chapters/Chapter4_DHCP.tex
 Chapter 2.
 [8
 
@@ -1583,7 +1583,7 @@ Appendix A.
 ) [31
 
 
-] (./Main.aux (./Title.aux) (./Declaration.aux) (./Abstract.aux) (./Chapters/Chapter1_Introduction.aux) (./Chapters/DHCP.aux) (./Chapters/Chapter8_Conclusions.aux) (./Appendix.aux))
+] (./Main.aux (./Title.aux) (./Declaration.aux) (./Abstract.aux) (./Chapters/Chapter1_Introduction.aux) (./Chapters/Chapter4_DHCP.aux) (./Chapters/Chapter8_Conclusions.aux) (./Appendix.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1596,7 +1596,7 @@ Package logreq Info: Writing requests to 'Main.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  49572 strings out of 467532
- 1023665 string characters out of 5423647
+ 1023890 string characters out of 5423647
  2049385 words of memory out of 5000000
  77529 multiletter control sequences out of 15000+600000
  685342 words of font info for 141 fonts, out of 8000000 for 9000
