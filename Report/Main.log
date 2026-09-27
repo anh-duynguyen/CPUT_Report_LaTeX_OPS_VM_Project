@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.3.2)  21 SEP 2026 20:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.3.2)  27 SEP 2026 14:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1130,7 +1130,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmr on input line 48.
 
 (c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (./Main.aux (./Title.aux) (./Declaration.aux) (./Abstract.aux) (./Chapters/Chapter1_Introduction.aux) (./Chapters/Chapter8_Conclusions.aux) (./Appendix.aux))
+) (./Main.aux (./Title.aux) (./Declaration.aux) (./Abstract.aux) (./Chapters/Chapter1_Introduction.aux) (./Chapters/Chapter2_Installation.aux) (./Chapters/Chapter3_ADDS.aux) (./Chapters/Chapter4_DHCP.aux) (./Chapters/Chapter5_DNS.aux) (./Chapters/Chapter6_Group_Policy.aux) (./Chapters/Chapter7_Remote_Access.aux) (./Chapters/Chapter8_Windows_Certificate.aux) (./Chapters/Chapter9_Testing.aux) (./Chapters/Chapter10_Conclusions.aux) (./Appendix.aux))
 \openout1 = `Main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
@@ -1433,18 +1433,66 @@ Chapter 1.
 
 
 ]) [2]
-\openout2 = `Chapters/Chapter8_Conclusions.aux'.
+\openout2 = `Chapters/Chapter2_Installation.aux'.
 
- (./Chapters/Chapter8_Conclusions.tex
+ (./Chapters/Chapter2_Installation.tex)
+\openout2 = `Chapters/Chapter3_ADDS.aux'.
+
+ (./Chapters/Chapter3_ADDS.tex)
+\openout2 = `Chapters/Chapter4_DHCP.aux'.
+
+ (./Chapters/Chapter4_DHCP.tex)
+\openout2 = `Chapters/Chapter5_DNS.aux'.
+
+ (./Chapters/Chapter5_DNS.tex)
+\openout2 = `Chapters/Chapter6_Group_Policy.aux'.
+
+ (./Chapters/Chapter6_Group_Policy.tex)
+\openout2 = `Chapters/Chapter7_Remote_Access.aux'.
+
+ (./Chapters/Chapter7_Remote_Access.tex)
+\openout2 = `Chapters/Chapter8_Windows_Certificate.aux'.
+
+ (./Chapters/Chapter8_Windows_Certificate.tex)
+\openout2 = `Chapters/Chapter9_Testing.aux'.
+
+ (./Chapters/Chapter9_Testing.tex)
+\openout2 = `Chapters/Chapter10_Conclusions.aux'.
+
+ (./Chapters/Chapter10_Conclusions.tex
 Chapter 2.
 [3
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ] [4] [5] [6]) [7] [8] [9]
 
-LaTeX Warning: Empty bibliography on input line 91.
+LaTeX Warning: Empty bibliography on input line 99.
 
 \openout2 = `Appendix.aux'.
 
@@ -1456,7 +1504,7 @@ Appendix A.
 
 
 
-] (./Main.aux (./Title.aux) (./Declaration.aux) (./Abstract.aux) (./Chapters/Chapter1_Introduction.aux) (./Chapters/Chapter8_Conclusions.aux) (./Appendix.aux))
+] (./Main.aux (./Title.aux) (./Declaration.aux) (./Abstract.aux) (./Chapters/Chapter1_Introduction.aux) (./Chapters/Chapter2_Installation.aux) (./Chapters/Chapter3_ADDS.aux) (./Chapters/Chapter4_DHCP.aux) (./Chapters/Chapter5_DNS.aux) (./Chapters/Chapter6_Group_Policy.aux) (./Chapters/Chapter7_Remote_Access.aux) (./Chapters/Chapter8_Windows_Certificate.aux) (./Chapters/Chapter9_Testing.aux) (./Chapters/Chapter10_Conclusions.aux) (./Appendix.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1468,10 +1516,10 @@ Package logreq Info: Writing requests to 'Main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48970 strings out of 467533
- 1010822 string characters out of 5423669
- 2044639 words of memory out of 5000000
- 77032 multiletter control sequences out of 15000+600000
+ 49170 strings out of 467533
+ 1019201 string characters out of 5423669
+ 2065847 words of memory out of 5000000
+ 77176 multiletter control sequences out of 15000+600000
  679527 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,14n,107p,2579b,1184s stack positions out of 10000i,1000n,20000p,200000b,200000s
