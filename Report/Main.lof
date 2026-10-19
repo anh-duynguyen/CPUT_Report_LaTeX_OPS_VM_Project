@@ -1,0 +1,28 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Description of DHCP Post-Install Configuration Wizard}}{10}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Authorization of DHCP Post-Install Configuration Wizard}}{10}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Post Install Configuration Completed}}{11}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces DHCP Selected on Tools Dropdown Menu}}{12}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces DHCP Windows}}{12}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Adding a Scope}}{13}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces New Scope Wizard}}{14}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Group One Scope Made}}{14}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces No Exclusions made}}{15}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Setting IP Address Range}}{16}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Lease duration of 8 days set}}{16}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Default Gateway Configured (1)}}{17}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Default Gateway Configured (2)}}{18}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces DNS Server and Domain Name}}{19}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces WINS Server configurinf left vacant}}{20}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Activation of Scope}}{21}{figure.caption.36}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Finishing New Scope Wizard}}{21}{figure.caption.37}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces New DHCP Scope created}}{22}{figure.caption.38}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Example of accessing DHCP through Powershell}}{23}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Example of adding a DHCP reservation}}{23}{figure.caption.41}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Example of verification of DHCP reservation}}{23}{figure.caption.42}%
+\contentsline {figure}{\numberline {2.22}{\ignorespaces Example of IP address tracking}}{23}{figure.caption.43}%
+\contentsline {figure}{\numberline {2.23}{\ignorespaces Example of Get-DhcpServerv4Scope command in use}}{24}{figure.caption.44}%
+\contentsline {figure}{\numberline {2.24}{\ignorespaces ipconfig /all command in Command prompt}}{26}{figure.caption.45}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }

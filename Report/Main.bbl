@@ -413,6 +413,35 @@
       \verb https://learn.microsoft.com/fr-fr/previous-versions/windows/powershell-scripting/jj590737(v=wps.620)
       \endverb
     \endentry
+    \entry{L}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=9e4a347629169075e18b6d33ad34a5e6}{%
+           family={Garn},
+           familyi={G\bibinitperiod},
+           given={Damon},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{9e4a347629169075e18b6d33ad34a5e6}
+      \strng{fullhash}{9e4a347629169075e18b6d33ad34a5e6}
+      \strng{fullhashraw}{9e4a347629169075e18b6d33ad34a5e6}
+      \strng{bibnamehash}{9e4a347629169075e18b6d33ad34a5e6}
+      \strng{authorbibnamehash}{9e4a347629169075e18b6d33ad34a5e6}
+      \strng{authornamehash}{9e4a347629169075e18b6d33ad34a5e6}
+      \strng{authorfullhash}{9e4a347629169075e18b6d33ad34a5e6}
+      \strng{authorfullhashraw}{9e4a347629169075e18b6d33ad34a5e6}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Use advanced DHCP logging techniques for troubleshooting}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.techtarget.com/it-infrastructure/tutorial/Use-advanced-DHCP-logging-techniques-for-troubleshooting
+      \endverb
+      \verb{url}
+      \verb https://www.techtarget.com/it-infrastructure/tutorial/Use-advanced-DHCP-logging-techniques-for-troubleshooting
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

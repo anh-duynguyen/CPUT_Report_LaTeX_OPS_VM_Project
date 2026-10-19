@@ -1,0 +1,43 @@
+\contentsline {chapter}{List of Figures}{vi}{chapter*.4}%
+\contentsline {chapter}{List of Tables}{vii}{chapter*.5}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Background}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Objectives}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Report Structure}{5}{section.1.3}%
+\contentsline {chapter}{\numberline {2}DHCP Configuration}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Background}{8}{section.2.1}%
+\contentsline {paragraph}{}{8}{paragraph*.7}%
+\contentsline {paragraph}{}{8}{paragraph*.8}%
+\contentsline {paragraph}{}{8}{paragraph*.9}%
+\contentsline {section}{\numberline {2.2}Configuration Steps}{9}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}DHCP Post-Install configuration}{9}{subsection.2.2.1}%
+\contentsline {paragraph}{}{9}{paragraph*.10}%
+\contentsline {paragraph}{}{9}{paragraph*.11}%
+\contentsline {paragraph}{}{9}{paragraph*.12}%
+\contentsline {subsection}{\numberline {2.2.2}The DHCP Scope}{11}{subsection.2.2.2}%
+\contentsline {paragraph}{}{11}{paragraph*.16}%
+\contentsline {paragraph}{}{11}{paragraph*.17}%
+\contentsline {paragraph}{}{13}{paragraph*.20}%
+\contentsline {paragraph}{}{15}{paragraph*.24}%
+\contentsline {paragraph}{}{17}{paragraph*.28}%
+\contentsline {paragraph}{}{18}{paragraph*.31}%
+\contentsline {paragraph}{}{19}{paragraph*.33}%
+\contentsline {paragraph}{}{20}{paragraph*.35}%
+\contentsline {section}{\numberline {2.3}Issues encountered for DHCP Server Setup and Alternative Paths}{22}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Use of Powershell in event of DHCP Window Failure}{22}{subsection.2.3.1}%
+\contentsline {paragraph}{}{22}{paragraph*.39}%
+\contentsline {subsection}{\numberline {2.3.2}Use Windows Powershell to create DHCP scope}{23}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Testing}{25}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Checking Server}{25}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Test from a client and Verifying on server}{25}{subsection.2.4.2}%
+\contentsline {paragraph}{}{26}{paragraph*.46}%
+\contentsline {paragraph}{}{26}{paragraph*.47}%
+\contentsline {paragraph}{}{26}{paragraph*.48}%
+\contentsline {chapter}{\numberline {3}Conclusion}{27}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Summary}{27}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Key Findings}{28}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Future Work}{30}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Final Remarks}{32}{section.3.4}%
+\contentsline {chapter}{Bibliography}{34}{section.3.4}%
+\contentsline {chapter}{\numberline {A}Appendix}{36}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Github Repository}{36}{section.A.1}%
