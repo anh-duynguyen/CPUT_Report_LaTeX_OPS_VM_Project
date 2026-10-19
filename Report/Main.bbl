@@ -215,6 +215,204 @@
       \verb https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2000/bb727108(v=technet.10)
       \endverb
     \endentry
+    \entry{PowershellDHCP}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DhcpServer Module}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/en-us/powershell/module/dhcpserver/?view=windowsserver2019-ps
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/en-us/powershell/module/dhcpserver/?view=windowsserver2019-ps
+      \endverb
+    \endentry
+    \entry{DHCPWeb}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=1686cf40b9f6a3bb2ce44a0fa159c151}{%
+           family={Sherry},
+           familyi={S\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{1686cf40b9f6a3bb2ce44a0fa159c151}
+      \strng{fullhash}{1686cf40b9f6a3bb2ce44a0fa159c151}
+      \strng{fullhashraw}{1686cf40b9f6a3bb2ce44a0fa159c151}
+      \strng{bibnamehash}{1686cf40b9f6a3bb2ce44a0fa159c151}
+      \strng{authorbibnamehash}{1686cf40b9f6a3bb2ce44a0fa159c151}
+      \strng{authornamehash}{1686cf40b9f6a3bb2ce44a0fa159c151}
+      \strng{authorfullhash}{1686cf40b9f6a3bb2ce44a0fa159c151}
+      \strng{authorfullhashraw}{1686cf40b9f6a3bb2ce44a0fa159c151}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Managing Microsoft DHCP Scope and other Components}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://adamtheautomator.com/dhcp-scope/
+      \endverb
+      \verb{url}
+      \verb https://adamtheautomator.com/dhcp-scope/
+      \endverb
+    \endentry
+    \entry{Splat}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=fdd2692cb31c3bab5f5d99f8e8c7e510}{%
+           family={Listek},
+           familyi={L\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{fdd2692cb31c3bab5f5d99f8e8c7e510}
+      \strng{fullhash}{fdd2692cb31c3bab5f5d99f8e8c7e510}
+      \strng{fullhashraw}{fdd2692cb31c3bab5f5d99f8e8c7e510}
+      \strng{bibnamehash}{fdd2692cb31c3bab5f5d99f8e8c7e510}
+      \strng{authorbibnamehash}{fdd2692cb31c3bab5f5d99f8e8c7e510}
+      \strng{authornamehash}{fdd2692cb31c3bab5f5d99f8e8c7e510}
+      \strng{authorfullhash}{fdd2692cb31c3bab5f5d99f8e8c7e510}
+      \strng{authorfullhashraw}{fdd2692cb31c3bab5f5d99f8e8c7e510}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{PowerShell Splatting: Simplify and Organize Your Scripts}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://adamtheautomator.com/powershell-splatting/
+      \endverb
+      \verb{url}
+      \verb https://adamtheautomator.com/powershell-splatting/
+      \endverb
+    \endentry
+    \entry{QS}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Quickstart: Install and configure DHCP Server}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/en-us/windows-server/networking/technologies/dhcp/quickstart-install-configure-dhcp-server?tabs=powershell
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/en-us/windows-server/networking/technologies/dhcp/quickstart-install-configure-dhcp-server?tabs=powershell
+      \endverb
+    \endentry
+    \entry{Leases}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Verify, Release, or Renew a Client Address Lease}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd183660(v=ws.10)
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd183660(v=ws.10)
+      \endverb
+    \endentry
+    \entry{Trble}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Troubleshooting DHCP clients}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc757164(v=ws.10)?redirectedfrom=MSDN
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc757164(v=ws.10)?redirectedfrom=MSDN
+      \endverb
+    \endentry
+    \entry{T1}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Get-DhcpServerv4Lease}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/fr-fr/previous-versions/windows/powershell-scripting/jj590737(v=wps.620)
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/fr-fr/previous-versions/windows/powershell-scripting/jj590737(v=wps.620)
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
