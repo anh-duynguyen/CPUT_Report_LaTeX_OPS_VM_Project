@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.3.2)  27 SEP 2026 14:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.3.2)  21 OCT 2026 22:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -24,6 +24,8 @@ File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen148
+) (c:/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 ) (./Settings.tex (c:/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
@@ -1123,34 +1125,43 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \l__lipsum_a_int=\count544
 \l__lipsum_b_int=\count545
  (c:/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 48.
+(c:/texlive/2025/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count546
+\float@exts=\toks68
+\float@box=\box90
+\@float@everytoks=\toks69
+\@floatcapt=\box91
+) (c:/texlive/2025/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 75.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... none found.
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 48.
-
-(c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmr.fd
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 75.
+ (c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (./Main.aux (./Title.aux) (./Declaration.aux) (./Abstract.aux) (./Chapters/Chapter1_Introduction.aux) (./Chapters/Chapter2_Installation.aux) (./Chapters/Chapter3_ADDS.aux) (./Chapters/Chapter4_DHCP.aux) (./Chapters/Chapter5_DNS.aux) (./Chapters/Chapter6_Group_Policy.aux) (./Chapters/Chapter7_Remote_Access.aux) (./Chapters/Chapter8_Windows_Certificate.aux) (./Chapters/Chapter9_Testing.aux) (./Chapters/Chapter10_Conclusions.aux) (./Appendix.aux))
+) (./Main.aux (./Title.aux) (./Declaration.aux) (./Abstract.aux) (./Chapters/Chapter1_Introduction.aux) (./Chapters/Chapter2_Installation.aux) (./Chapters/Chapter3_ADDS.aux) (./Chapters/Chapter4_DHCP.aux) (./Chapters/Chapter5_DNS.aux) (./Chapters/Chapter6_Group_Policy.aux) (./Chapters/Chapter7_Remote_Access.aux) (./Chapters/Chapter8_Windows_Certificate.aux) (./Chapters/Chapter9_Conclusions.aux) (./Appendix.aux))
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1189,28 +1200,35 @@ LaTeX Font Info:    ... okay on input line 48.
 (c:/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 48.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 75.
  (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count546
+\scratchcounter=\count547
 \scratchdimen=\dimen360
-\scratchbox=\box90
-\nofMPsegments=\count547
-\nofMParguments=\count548
-\everyMPshowfont=\toks68
-\MPscratchCnt=\count549
+\scratchbox=\box92
+\nofMPsegments=\count548
+\nofMParguments=\count549
+\everyMPshowfont=\toks70
+\MPscratchCnt=\count550
 \MPscratchDim=\dimen361
-\MPnumerator=\count550
-\makeMPintoPDFobject=\count551
-\everyMPtoPDFconversion=\toks69
+\MPnumerator=\count551
+\makeMPintoPDFobject=\count552
+\everyMPtoPDFconversion=\toks71
 ) (c:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (c:/texlive/2025/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
  (c:/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
  (c:/texlive/2025/texmf-dist/tex/latex/caption/ltcaption.sty
@@ -1232,9 +1250,9 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Main.bbl' found.
  (./Main.bbl)
-Package biblatex Info: Reference section=0 on input line 48.
-Package biblatex Info: Reference segment=0 on input line 48.
-Package hyperref Info: Link coloring ON on input line 48.
+Package biblatex Info: Reference section=0 on input line 75.
+Package biblatex Info: Reference segment=0 on input line 75.
+Package hyperref Info: Link coloring ON on input line 75.
  (./Main.out) (./Main.out)
 \@outlinefile=\write5
 \openout5 = `Main.out'.
@@ -1242,13 +1260,13 @@ Package hyperref Info: Link coloring ON on input line 48.
 Package microtype Info: Patching varwidth to enable character protrusion.
 \MT@vwid@leftmargin=\dimen362
 \MT@vwid@rightmargin=\dimen363
-LaTeX Info: Redefining \microtypecontext on input line 48.
-Package microtype Info: Applying patch `item' on input line 48.
-Package microtype Info: Applying patch `toc' on input line 48.
-Package microtype Info: Applying patch `eqnum' on input line 48.
-Package microtype Info: Applying patch `footnote' on input line 48.
-Package microtype Info: Applying patch `verbatim' on input line 48.
-LaTeX Info: Redefining \microtypesetup on input line 48.
+LaTeX Info: Redefining \microtypecontext on input line 75.
+Package microtype Info: Applying patch `item' on input line 75.
+Package microtype Info: Applying patch `toc' on input line 75.
+Package microtype Info: Applying patch `eqnum' on input line 75.
+Package microtype Info: Applying patch `footnote' on input line 75.
+Package microtype Info: Applying patch `verbatim' on input line 75.
+LaTeX Info: Redefining \microtypesetup on input line 75.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1273,7 +1291,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 \openout2 = `Title.aux'.
 
  (./Title.tex
-<Images/logo_CPUT.png, id=62, 376.40625pt x 111.41624pt>
+<Images/logo_CPUT.png, id=90, 376.40625pt x 111.41624pt>
 File: Images/logo_CPUT.png Graphic file (type png)
 <use Images/logo_CPUT.png>
 Package pdftex.def Info: Images/logo_CPUT.png  used on input line 9.
@@ -1321,32 +1339,32 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 \openout2 = `Declaration.aux'.
 
  (./Declaration.tex
-<Images/signature_anh_duy_nguyen.png, id=75, 823.075pt x 200.75pt>
+<Images/signature_anh_duy_nguyen.png, id=103, 823.075pt x 200.75pt>
 File: Images/signature_anh_duy_nguyen.png Graphic file (type png)
 <use Images/signature_anh_duy_nguyen.png>
 Package pdftex.def Info: Images/signature_anh_duy_nguyen.png  used on input line 8.
 (pdftex.def)             Requested size: 136.56761pt x 45.52519pt.
-<Images/signature_carl_lamprecht.png, id=76, 1606.0pt x 1046.91125pt>
+<Images/signature_carl_lamprecht.png, id=104, 1606.0pt x 1046.91125pt>
 File: Images/signature_carl_lamprecht.png Graphic file (type png)
 <use Images/signature_carl_lamprecht.png>
 Package pdftex.def Info: Images/signature_carl_lamprecht.png  used on input line 9.
 (pdftex.def)             Requested size: 136.56946pt x 45.5115pt.
-<Images/signature_peter_ngesi.png, id=77, 433.62pt x 266.9975pt>
+<Images/signature_peter_ngesi.png, id=105, 433.62pt x 266.9975pt>
 File: Images/signature_peter_ngesi.png Graphic file (type png)
 <use Images/signature_peter_ngesi.png>
 Package pdftex.def Info: Images/signature_peter_ngesi.png  used on input line 13.
 (pdftex.def)             Requested size: 136.57117pt x 45.5234pt.
-<Images/signature_gian_koekemoer.png, id=78, 43.66313pt x 29.35968pt>
+<Images/signature_gian_koekemoer.png, id=106, 43.66313pt x 29.35968pt>
 File: Images/signature_gian_koekemoer.png Graphic file (type png)
 <use Images/signature_gian_koekemoer.png>
 Package pdftex.def Info: Images/signature_gian_koekemoer.png  used on input line 14.
 (pdftex.def)             Requested size: 136.59413pt x 45.52448pt.
-<Images/signature_tihmo_koch.png, id=79, 152.82094pt x 114.4275pt>
+<Images/signature_tihmo_koch.png, id=107, 152.82094pt x 114.4275pt>
 File: Images/signature_tihmo_koch.png Graphic file (type png)
 <use Images/signature_tihmo_koch.png>
 Package pdftex.def Info: Images/signature_tihmo_koch.png  used on input line 18.
 (pdftex.def)             Requested size: 136.57915pt x 45.52399pt.
-<Images/signature_sibusiso_kheswa.png, id=80, 880.28876pt x 383.4325pt>
+<Images/signature_sibusiso_kheswa.png, id=108, 880.28876pt x 383.4325pt>
 File: Images/signature_sibusiso_kheswa.png Graphic file (type png)
 <use Images/signature_sibusiso_kheswa.png>
 Package pdftex.def Info: Images/signature_sibusiso_kheswa.png  used on input line 19.
@@ -1435,7 +1453,121 @@ Chapter 1.
 ]) [2]
 \openout2 = `Chapters/Chapter2_Installation.aux'.
 
- (./Chapters/Chapter2_Installation.tex)
+ (./Chapters/Chapter2_Installation.tex
+Chapter 2.
+<Images/VM/VM_install_01.png, id=211, 786.94pt x 528.97626pt>
+File: Images/VM/VM_install_01.png Graphic file (type png)
+<use Images/VM/VM_install_01.png>
+Package pdftex.def Info: Images/VM/VM_install_01.png  used on input line 17.
+(pdftex.def)             Requested size: 362.76529pt x 243.8486pt.
+<Images/VM/VM_install_02.png, id=212, 937.5025pt x 528.97626pt>
+File: Images/VM/VM_install_02.png Graphic file (type png)
+<use Images/VM/VM_install_02.png>
+Package pdftex.def Info: Images/VM/VM_install_02.png  used on input line 18.
+(pdftex.def)             Requested size: 362.76347pt x 204.68561pt.
+[3
+
+
+
+
+]
+<Images/VM/VM_install_03.png, id=217, 937.5025pt x 528.97626pt>
+File: Images/VM/VM_install_03.png Graphic file (type png)
+<use Images/VM/VM_install_03.png>
+Package pdftex.def Info: Images/VM/VM_install_03.png  used on input line 19.
+(pdftex.def)             Requested size: 362.76347pt x 204.68561pt.
+<Images/VM/VM_install_04.png, id=218, 937.5025pt x 528.97626pt>
+File: Images/VM/VM_install_04.png Graphic file (type png)
+<use Images/VM/VM_install_04.png>
+Package pdftex.def Info: Images/VM/VM_install_04.png  used on input line 20.
+(pdftex.def)             Requested size: 362.76347pt x 204.68561pt.
+ [4 <./Images/VM/VM_install_01.png> <./Images/VM/VM_install_02.png>]
+<Images/VM/VM_install_05.png, id=225, 1089.06876pt x 669.50125pt>
+File: Images/VM/VM_install_05.png Graphic file (type png)
+<use Images/VM/VM_install_05.png>
+Package pdftex.def Info: Images/VM/VM_install_05.png  used on input line 21.
+(pdftex.def)             Requested size: 362.76721pt x 223.00989pt.
+<Images/VM/VM_install_06.png, id=226, 936.49875pt x 1003.75pt>
+File: Images/VM/VM_install_06.png Graphic file (type png)
+<use Images/VM/VM_install_06.png>
+Package pdftex.def Info: Images/VM/VM_install_06.png  used on input line 22.
+(pdftex.def)             Requested size: 229.49422pt x 245.9745pt.
+ [5 <./Images/VM/VM_install_03.png> <./Images/VM/VM_install_04.png>] [6 <./Images/VM/VM_install_05.png> <./Images/VM/VM_install_06.png>]
+<Images/WinServ_install/WinServer_install_01.png, id=240, 1009.7725pt x 793.96625pt>
+File: Images/WinServ_install/WinServer_install_01.png Graphic file (type png)
+<use Images/WinServ_install/WinServer_install_01.png>
+Package pdftex.def Info: Images/WinServ_install/WinServer_install_01.png  used on input line 33.
+(pdftex.def)             Requested size: 312.84134pt x 245.98161pt.
+<Images/WinServ_install/WinServer_install_02.png, id=241, 961.5925pt x 1003.75pt>
+File: Images/WinServ_install/WinServer_install_02.png Graphic file (type png)
+<use Images/WinServ_install/WinServer_install_02.png>
+Package pdftex.def Info: Images/WinServ_install/WinServer_install_02.png  used on input line 34.
+(pdftex.def)             Requested size: 235.64357pt x 245.9745pt.
+<Images/WinServ_install/WinServer_install_03.png, id=242, 961.5925pt x 1003.75pt>
+File: Images/WinServ_install/WinServer_install_03.png Graphic file (type png)
+<use Images/WinServ_install/WinServer_install_03.png>
+Package pdftex.def Info: Images/WinServ_install/WinServer_install_03.png  used on input line 35.
+(pdftex.def)             Requested size: 235.64357pt x 245.9745pt.
+<Images/WinServ_install/WinServer_install_04.png, id=243, 961.5925pt x 1003.75pt>
+File: Images/WinServ_install/WinServer_install_04.png Graphic file (type png)
+<use Images/WinServ_install/WinServer_install_04.png>
+Package pdftex.def Info: Images/WinServ_install/WinServer_install_04.png  used on input line 36.
+(pdftex.def)             Requested size: 235.64357pt x 245.9745pt.
+ [7 <./Images/WinServ_install/WinServer_install_01.png> <./Images/WinServ_install/WinServer_install_02.png>]
+<Images/WinServ_install/WinServer_install_05.png, id=250, 961.5925pt x 1003.75pt>
+File: Images/WinServ_install/WinServer_install_05.png Graphic file (type png)
+<use Images/WinServ_install/WinServer_install_05.png>
+Package pdftex.def Info: Images/WinServ_install/WinServer_install_05.png  used on input line 37.
+(pdftex.def)             Requested size: 235.64357pt x 245.9745pt.
+<Images/WinServ_install/WinServer_install_06.png, id=251, 961.5925pt x 1003.75pt>
+File: Images/WinServ_install/WinServer_install_06.png Graphic file (type png)
+<use Images/WinServ_install/WinServer_install_06.png>
+Package pdftex.def Info: Images/WinServ_install/WinServer_install_06.png  used on input line 38.
+(pdftex.def)             Requested size: 235.64357pt x 245.9745pt.
+ [8 <./Images/WinServ_install/WinServer_install_03.png> <./Images/WinServ_install/WinServer_install_04.png>]
+<Images/WinServ_install/WinServer_install_07.png, id=258, 961.5925pt x 1003.75pt>
+File: Images/WinServ_install/WinServer_install_07.png Graphic file (type png)
+<use Images/WinServ_install/WinServer_install_07.png>
+Package pdftex.def Info: Images/WinServ_install/WinServer_install_07.png  used on input line 39.
+(pdftex.def)             Requested size: 235.64357pt x 245.9745pt.
+<Images/WinServ_install/WinServer_install_08.png, id=259, 1009.7725pt x 793.96625pt>
+File: Images/WinServ_install/WinServer_install_08.png Graphic file (type png)
+<use Images/WinServ_install/WinServer_install_08.png>
+Package pdftex.def Info: Images/WinServ_install/WinServer_install_08.png  used on input line 40.
+(pdftex.def)             Requested size: 312.84134pt x 245.98161pt.
+ [9 <./Images/WinServ_install/WinServer_install_05.png> <./Images/WinServ_install/WinServer_install_06.png>]
+<Images/WinServ_install/WinServer_install_09.png, id=266, 1027.84pt x 825.0825pt>
+File: Images/WinServ_install/WinServer_install_09.png Graphic file (type png)
+<use Images/WinServ_install/WinServer_install_09.png>
+Package pdftex.def Info: Images/WinServ_install/WinServer_install_09.png  used on input line 41.
+(pdftex.def)             Requested size: 306.4253pt x 245.97812pt.
+<Images/WinServ_install/WinServer_install_10.png, id=267, 1027.84pt x 825.0825pt>
+File: Images/WinServ_install/WinServer_install_10.png Graphic file (type png)
+<use Images/WinServ_install/WinServer_install_10.png>
+Package pdftex.def Info: Images/WinServ_install/WinServer_install_10.png  used on input line 42.
+(pdftex.def)             Requested size: 306.4253pt x 245.97812pt.
+ [10 <./Images/WinServ_install/WinServer_install_07.png> <./Images/WinServ_install/WinServer_install_08.png>]
+<Images/WinServ_install/WinServer_install_11.png, id=274, 1027.84pt x 825.0825pt>
+File: Images/WinServ_install/WinServer_install_11.png Graphic file (type png)
+<use Images/WinServ_install/WinServer_install_11.png>
+Package pdftex.def Info: Images/WinServ_install/WinServer_install_11.png  used on input line 43.
+(pdftex.def)             Requested size: 306.4253pt x 245.97812pt.
+ [11 <./Images/WinServ_install/WinServer_install_09.png> <./Images/WinServ_install/WinServer_install_10.png>]
+<Images/WinServ_install/WinServer_dash_01.png, id=281, 1027.84pt x 825.0825pt>
+File: Images/WinServ_install/WinServer_dash_01.png Graphic file (type png)
+<use Images/WinServ_install/WinServer_dash_01.png>
+Package pdftex.def Info: Images/WinServ_install/WinServer_dash_01.png  used on input line 53.
+(pdftex.def)             Requested size: 306.4253pt x 245.97812pt.
+ [12 <./Images/WinServ_install/WinServer_install_11.png>]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 60.
+ (c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [13 <./Images/WinServ_install/WinServer_dash_01.png>]) [14]
 \openout2 = `Chapters/Chapter3_ADDS.aux'.
 
  (./Chapters/Chapter3_ADDS.tex)
@@ -1454,14 +1586,11 @@ Chapter 1.
 \openout2 = `Chapters/Chapter8_Windows_Certificate.aux'.
 
  (./Chapters/Chapter8_Windows_Certificate.tex)
-\openout2 = `Chapters/Chapter9_Testing.aux'.
+\openout2 = `Chapters/Chapter9_Conclusions.aux'.
 
- (./Chapters/Chapter9_Testing.tex)
-\openout2 = `Chapters/Chapter10_Conclusions.aux'.
-
- (./Chapters/Chapter10_Conclusions.tex
-Chapter 2.
-[3
+ (./Chapters/Chapter9_Conclusions.tex
+Chapter 3.
+[15
 
 
 
@@ -1484,50 +1613,44 @@ Chapter 2.
 
 
 
+] [16] [17] [18]) [19] [20] [21]
 
-
-
-
-
-
-] [4] [5] [6]) [7] [8] [9]
-
-LaTeX Warning: Empty bibliography on input line 99.
+LaTeX Warning: Empty bibliography on input line 128.
 
 \openout2 = `Appendix.aux'.
 
 (./Appendix.tex
 Appendix A.
-) [10
+) [22
 
 
 
 
 
-] (./Main.aux (./Title.aux) (./Declaration.aux) (./Abstract.aux) (./Chapters/Chapter1_Introduction.aux) (./Chapters/Chapter2_Installation.aux) (./Chapters/Chapter3_ADDS.aux) (./Chapters/Chapter4_DHCP.aux) (./Chapters/Chapter5_DNS.aux) (./Chapters/Chapter6_Group_Policy.aux) (./Chapters/Chapter7_Remote_Access.aux) (./Chapters/Chapter8_Windows_Certificate.aux) (./Chapters/Chapter9_Testing.aux) (./Chapters/Chapter10_Conclusions.aux) (./Appendix.aux))
+] (./Main.aux (./Title.aux) (./Declaration.aux) (./Abstract.aux) (./Chapters/Chapter1_Introduction.aux) (./Chapters/Chapter2_Installation.aux) (./Chapters/Chapter3_ADDS.aux) (./Chapters/Chapter4_DHCP.aux) (./Chapters/Chapter5_DNS.aux) (./Chapters/Chapter6_Group_Policy.aux) (./Chapters/Chapter7_Remote_Access.aux) (./Chapters/Chapter8_Windows_Certificate.aux) (./Chapters/Chapter9_Conclusions.aux) (./Appendix.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: DC5C291204C26ED07CA9838D4DE8422C;1563.
+(rerunfilecheck)             Checksum: DE49AA6CFE17578DD88B08B6AB47CBA0;2922.
 Package logreq Info: Writing requests to 'Main.run.xml'.
 \openout1 = `Main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49170 strings out of 467533
- 1019201 string characters out of 5423669
- 2065847 words of memory out of 5000000
- 77176 multiletter control sequences out of 15000+600000
- 679527 words of font info for 128 fonts, out of 8000000 for 9000
+ 49534 strings out of 467533
+ 1028910 string characters out of 5423669
+ 2067336 words of memory out of 5000000
+ 77480 multiletter control sequences out of 15000+600000
+ 680391 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,14n,107p,2579b,1184s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb>
-Output written on Main.pdf (17 pages, 587609 bytes).
+ 89i,14n,107p,2579b,1182s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on Main.pdf (29 pages, 2372114 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
- 162 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 30880 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 380 PDF objects out of 1000 (max. 8388607)
+ 283 compressed objects within 3 object streams
+ 71 named destinations out of 1000 (max. 500000)
+ 31538 words of extra memory for PDF output out of 35830 (max. 10000000)
 

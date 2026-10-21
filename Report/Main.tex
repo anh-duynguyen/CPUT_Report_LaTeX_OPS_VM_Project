@@ -1,4 +1,11 @@
 \documentclass[12pt,oneside,openright,a4paper]{report}
+
+% T1 encoding goes first so characters like < and > print properly in
+% \texttt (with the old default encoding they come out as upside-down
+% punctuation). It's loaded before Settings so any font packages in there
+% build on top of it.
+\usepackage[T1]{fontenc}
+
 \setlength{\emergencystretch}{3em}
 % -------------------------------
 % Load all packages and styling
@@ -6,7 +13,27 @@
 \input{Settings}
 \usepackage{fancyhdr}
 \setlength{\headheight}{28pt}
-\setlength{\headheight}{28pt}
+
+% Figure packages. subcaption/subfigure are deliberately NOT used any more:
+% every screenshot is its own figure, which avoids the subfigure errors and
+% keeps each image sitting exactly where it appears in the text.
+\usepackage{graphicx}      % \includegraphics
+\usepackage{float}         % [H] = "put it right here"
+\usepackage[section]{placeins} % floats can never drift past the end of a section
+
+% \screenshot{file}{caption}{label}
+% One image per figure, placed exactly where it is written ([H]). The height
+% limit is there so two screenshots fit on a page and a tall image can never
+% overflow it; keepaspectratio stops the image being stretched to fit.
+\newcommand{\screenshot}[3]{%
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.85\textwidth,height=0.35\textheight,keepaspectratio]{#1}
+        \caption{#2}
+        \label{#3}
+    \end{figure}%
+}
+
 % -------------------------------
 % GLOSSARIES
 % -------------------------------
@@ -88,12 +115,14 @@ The report may not be published either in part
 \include{Chapters/Chapter6_Group_Policy}
 \include{Chapters/Chapter7_Remote_Access}
 \include{Chapters/Chapter8_Windows_Certificate}
-\include{Chapters/Chapter9_Testing}
-\include{Chapters/Chapter10_Conclusions}
+\include{Chapters/Chapter9_Conclusions}
 
 % -------------------------------
 % BIBLIOGRAPHY
 % -------------------------------
+% \printbibliography only prints entries that are actually cited. If you
+% still get "Empty bibliography", add \cite{key} in the chapters, or
+% temporarily put \nocite{*} on the next line to print every .bib entry.
 \clearpage
 \addcontentsline{toc}{chapter}{Bibliography}
 \printbibliography

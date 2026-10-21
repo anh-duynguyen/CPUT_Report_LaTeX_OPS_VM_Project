@@ -1,0 +1,77 @@
+\chapter{Installation and Initial Configuration of Windows Server 2019}
+
+\section{Introduction}
+
+This chapter describes the installation and initial configuration of Windows Server 2019 within the virtualised environment used during Semester 1. The purpose of this stage was to establish a functioning server that could support the deployment of the network services required for the project.
+
+The installation process involved preparing the virtual machine using VirtualBox, installing the operating system, and completing the initial server configuration. These steps provided the foundation for the subsequent configuration of Active Directory Domain Services (AD DS), DNS, DHCP, Group Policy, Remote Access, and Windows Certificate Services.
+
+\section{Virtual Machine Preparation}
+
+Before installing Windows Server 2019, a virtual machine was prepared using VirtualBox. Virtualisation allows multiple operating systems to run on a single physical computer while maintaining separate virtual environments.
+
+The virtual machine was configured with the necessary resources to support the operating system and the planned server roles. These resources included virtual memory, processor allocation, virtual storage, and a network adapter. The Windows Server 2019 installation media was then attached to the virtual machine, allowing it to boot from the installation image.
+
+% Virtual machine configuration screenshots, in the order the steps were done.
+% \screenshot{image}{caption}{label} is defined in Main.tex.
+\screenshot{Images/VM/VM_install_01.png}{Initial Virtual Machine Configuration.}{fig:vm_configuration1}
+\screenshot{Images/VM/VM_install_02.png}{Virtual Machine Configuration Step 2.}{fig:vm_configuration2}
+\screenshot{Images/VM/VM_install_03.png}{Virtual Machine Configuration Step 3.}{fig:vm_configuration3}
+\screenshot{Images/VM/VM_install_04.png}{Virtual Machine Configuration Step 4.}{fig:vm_configuration4}
+\screenshot{Images/VM/VM_install_05.png}{Virtual Machine Configuration Step 5.}{fig:vm_configuration5}
+\screenshot{Images/VM/VM_install_06.png}{Final Virtual Machine Configuration Step.}{fig:vm_configuration6}
+
+\section{Installation of Windows Server 2019}
+
+Once the virtual machine had been configured, it was started and the Windows Server 2019 installation process was initiated. The installation wizard was used to select the appropriate language, time and currency format, and keyboard layout.
+
+The required Windows Server 2019 edition was then selected. The installation proceeded by accepting the applicable licence terms, selecting the installation type, and choosing the virtual disk on which the operating system would be installed.
+
+After the installation files had been copied and the required setup operations completed, the virtual machine restarted. The initial administrator password was configured, allowing access to the server using the local Administrator account.
+
+% Windows Server installation screenshots, in installation order.
+\screenshot{Images/WinServ_install/WinServer_install_01.png}{Installation Screen 1.}{fig:server_installation1}
+\screenshot{Images/WinServ_install/WinServer_install_02.png}{Installation Screen 2.}{fig:server_installation2}
+\screenshot{Images/WinServ_install/WinServer_install_03.png}{Installation Screen 3.}{fig:server_installation3}
+\screenshot{Images/WinServ_install/WinServer_install_04.png}{Installation Screen 4.}{fig:server_installation4}
+\screenshot{Images/WinServ_install/WinServer_install_05.png}{Installation Screen 5.}{fig:server_installation5}
+\screenshot{Images/WinServ_install/WinServer_install_06.png}{Installation Screen 6.}{fig:server_installation6}
+\screenshot{Images/WinServ_install/WinServer_install_07.png}{Installation Screen 7.}{fig:server_installation7}
+\screenshot{Images/WinServ_install/WinServer_install_08.png}{Installation Screen 8.}{fig:server_installation8}
+\screenshot{Images/WinServ_install/WinServer_install_09.png}{Windows Server Account Set-Up.}{fig:server_installation9}
+\screenshot{Images/WinServ_install/WinServer_install_10.png}{Windows Server Log-In Screen.}{fig:server_installation10}
+\screenshot{Images/WinServ_install/WinServer_install_11.png}{Windows Server Loaded and installed.}{fig:server_installation11}
+
+\section{Testing}
+
+Testing was conducted to verify that Windows Server 2019 had been installed successfully and that the initial server configuration was functioning as expected. The tests focused on operating system availability, server identification, network configuration, and basic network connectivity.
+
+\subsection{Operating System Verification}
+
+The server was restarted to confirm that Windows Server 2019 could boot successfully after installation. The administrator was able to log in, and the Server Manager dashboard was accessible. This confirmed that the operating system was operational and ready for further configuration.
+
+\screenshot{Images/WinServ_install/WinServer_dash_01.png}{Server Manager dashboard following the installation of Windows Server 2019.}{fig:server_dashboard}
+
+The dashboard provided access to the server's management tools and the interface used to install and configure additional server roles and features.
+
+Further testing should verify the server hostname, IP configuration, and network connectivity. The following commands can be used to perform these checks:
+
+\begin{itemize}
+    \item \texttt{hostname} -- displays the configured computer name.
+    \item \texttt{ipconfig /all} -- displays the network adapter configuration.
+    % \textless and \textgreater are used because a bare < or > prints as upside-down
+    % punctuation in text mode unless T1 font encoding is loaded.
+    \item \texttt{ping \textless{}gateway-IP\textgreater{}} -- tests connectivity to the configured network gateway, where applicable.
+\end{itemize}
+
+The outputs should be recorded and included as supporting evidence. Any failed tests should be investigated and resolved before proceeding with the configuration of additional server roles.
+
+More comprehensive testing of Active Directory Domain Services, DNS, DHCP, Remote Access, and Windows Certificate Services is addressed in the relevant chapters of this report.
+
+\section{Chapter Summary}
+
+This chapter described the preparation of the virtual machine, installation of Windows Server 2019, and completion of the initial server configuration. The process established the operating system environment required for the deployment of additional server roles and network services.
+
+Initial verification procedures were also described to assess operating system availability, server identification, network configuration, and connectivity. These steps establish the foundation for the remaining stages of the project.
+
+The next chapter discusses the configuration and testing of Active Directory Domain Services (AD DS), which provides centralised management of users, computers, and authentication within the network environment.
