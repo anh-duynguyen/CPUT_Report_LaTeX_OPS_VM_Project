@@ -1,5 +1,5 @@
-\contentsline {chapter}{List of Figures}{v}{chapter*.4}%
-\contentsline {chapter}{List of Tables}{vi}{chapter*.5}%
+\contentsline {chapter}{List of Figures}{vi}{chapter*.4}%
+\contentsline {chapter}{List of Tables}{viii}{chapter*.5}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Objectives}{1}{section.1.2}%
@@ -11,11 +11,19 @@
 \contentsline {section}{\numberline {2.4}Testing}{12}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Operating System Verification}{12}{subsection.2.4.1}%
 \contentsline {section}{\numberline {2.5}Chapter Summary}{13}{section.2.5}%
-\contentsline {chapter}{\numberline {3}Conclusion}{15}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Summary}{15}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Key Findings}{16}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Future Work}{18}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Final Remarks}{20}{section.3.4}%
-\contentsline {chapter}{\numberline {A}Appendix}{22}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Github Repository}{22}{section.A.1}%
-\contentsline {chapter}{Bibliography}{22}{section.3.4}%
+\contentsline {chapter}{\numberline {3}Group Policy setup and configuration for Windows Server 2019}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{15}{section.3.1}%
+\contentsline {section}{\numberline {3.2}How does Group Policy work?}{15}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Assignment specified Group Policy configuration}{16}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Organizational Unit creation and configuration}{16}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Group Policy Object creation and configuration}{30}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Testing}{36}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Chapter Summary}{37}{section.3.7}%
+\contentsline {chapter}{\numberline {4}Conclusion}{38}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Summary}{38}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Key Findings}{39}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Future Work}{41}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Final Remarks}{43}{section.4.4}%
+\contentsline {chapter}{\numberline {A}Appendix}{45}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Github Repository}{45}{section.A.1}%
+\contentsline {chapter}{Bibliography}{45}{section.4.4}%

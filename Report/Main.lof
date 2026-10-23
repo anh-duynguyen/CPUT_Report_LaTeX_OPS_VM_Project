@@ -19,4 +19,45 @@
 \contentsline {figure}{\numberline {2.17}{\ignorespaces Windows Server Loaded and installed.}}{12}{figure.caption.23}%
 \contentsline {figure}{\numberline {2.18}{\ignorespaces Server Manager dashboard following the installation of Windows Server 2019.}}{13}{figure.caption.24}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Active Directory Users and Computers.}}{17}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces New OU object selected under the domain OPS.local.}}{17}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces New OU object created and named Group1-OU.}}{18}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces New OU object listed under the selected domain.}}{18}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces New User object selected under the Group1-OU.}}{19}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces New User object configuration.}}{19}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces New User object password configuration.}}{20}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces New User object summary.}}{20}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces User object created and named. Here are two users listed.}}{21}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces New Group Object selected under the Group1-OU. This allows the grouping of users.}}{21}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces New Group object configuration. Group name, scope and type configured.}}{22}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces New Group object listed under the Group1-OU.}}{22}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces User1 showing membership configuration method 1.}}{23}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces User1 membership configuration step 1.}}{23}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces User1 membership configuration step 2.}}{24}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces User1 membership configuration step 3.}}{24}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Group search window}}{25}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces G1 Users Group find and selection.}}{25}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Group selection and addition window.}}{26}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces User1 membership tab.}}{26}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces User2 showing membership configuration method 2. Add to a group selected.}}{27}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces G1 Users Group properties selected to add Users to itself.}}{27}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Properties tab with list of members for G1 Users Group.}}{28}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Users find and selection.}}{28}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces User2 selected and will be added to the group.}}{29}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Properties tab with list of members for G1 Users Group. The list now includes User2.}}{29}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Group Policy Management Console. Prevent access to the Command Prompt selected.}}{30}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Policy settings for Prevent access to the Command Prompt. Enabled is selected.}}{30}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Policy settings for Prevent access to the Command Prompt shown as enabled.}}{31}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Password Policy settings. Maximum password age selected.}}{31}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Maximum password age set to 42 days.}}{32}{figure.caption.55}%
+\contentsline {figure}{\numberline {3.32}{\ignorespaces Maximum password age shown as 42 days.}}{32}{figure.caption.56}%
+\contentsline {figure}{\numberline {3.33}{\ignorespaces Minimum password length set to 10 characters.}}{33}{figure.caption.57}%
+\contentsline {figure}{\numberline {3.34}{\ignorespaces Minimum password length shown as 10 characters.}}{33}{figure.caption.58}%
+\contentsline {figure}{\numberline {3.35}{\ignorespaces All removable storage classes: Deny all access selected.}}{34}{figure.caption.59}%
+\contentsline {figure}{\numberline {3.36}{\ignorespaces All removable storage classes: Deny all access Enabled.}}{34}{figure.caption.60}%
+\contentsline {figure}{\numberline {3.37}{\ignorespaces All removable storage classes: Deny all access shown as enabled.}}{35}{figure.caption.61}%
+\contentsline {figure}{\numberline {3.38}{\ignorespaces Turn off Windows Installer selected.}}{35}{figure.caption.62}%
+\contentsline {figure}{\numberline {3.39}{\ignorespaces Turn off Windows Installer Enabled.}}{36}{figure.caption.63}%
+\contentsline {figure}{\numberline {3.40}{\ignorespaces Turn off Windows Installer shown as enabled.}}{36}{figure.caption.64}%
+\addvspace {10\p@ }
 \addvspace {10\p@ }

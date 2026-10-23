@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.3.2)  21 OCT 2026 22:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.3.2)  23 OCT 2026 16:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1291,7 +1291,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 \openout2 = `Title.aux'.
 
  (./Title.tex
-<Images/logo_CPUT.png, id=90, 376.40625pt x 111.41624pt>
+<Images/logo_CPUT.png, id=122, 376.40625pt x 111.41624pt>
 File: Images/logo_CPUT.png Graphic file (type png)
 <use Images/logo_CPUT.png>
 Package pdftex.def Info: Images/logo_CPUT.png  used on input line 9.
@@ -1339,32 +1339,32 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 \openout2 = `Declaration.aux'.
 
  (./Declaration.tex
-<Images/signature_anh_duy_nguyen.png, id=103, 823.075pt x 200.75pt>
+<Images/signature_anh_duy_nguyen.png, id=135, 823.075pt x 200.75pt>
 File: Images/signature_anh_duy_nguyen.png Graphic file (type png)
 <use Images/signature_anh_duy_nguyen.png>
 Package pdftex.def Info: Images/signature_anh_duy_nguyen.png  used on input line 8.
 (pdftex.def)             Requested size: 136.56761pt x 45.52519pt.
-<Images/signature_carl_lamprecht.png, id=104, 1606.0pt x 1046.91125pt>
+<Images/signature_carl_lamprecht.png, id=136, 1606.0pt x 1046.91125pt>
 File: Images/signature_carl_lamprecht.png Graphic file (type png)
 <use Images/signature_carl_lamprecht.png>
 Package pdftex.def Info: Images/signature_carl_lamprecht.png  used on input line 9.
 (pdftex.def)             Requested size: 136.56946pt x 45.5115pt.
-<Images/signature_peter_ngesi.png, id=105, 433.62pt x 266.9975pt>
+<Images/signature_peter_ngesi.png, id=137, 433.62pt x 266.9975pt>
 File: Images/signature_peter_ngesi.png Graphic file (type png)
 <use Images/signature_peter_ngesi.png>
 Package pdftex.def Info: Images/signature_peter_ngesi.png  used on input line 13.
 (pdftex.def)             Requested size: 136.57117pt x 45.5234pt.
-<Images/signature_gian_koekemoer.png, id=106, 43.66313pt x 29.35968pt>
+<Images/signature_gian_koekemoer.png, id=138, 43.66313pt x 29.35968pt>
 File: Images/signature_gian_koekemoer.png Graphic file (type png)
 <use Images/signature_gian_koekemoer.png>
 Package pdftex.def Info: Images/signature_gian_koekemoer.png  used on input line 14.
 (pdftex.def)             Requested size: 136.59413pt x 45.52448pt.
-<Images/signature_tihmo_koch.png, id=107, 152.82094pt x 114.4275pt>
+<Images/signature_tihmo_koch.png, id=139, 152.82094pt x 114.4275pt>
 File: Images/signature_tihmo_koch.png Graphic file (type png)
 <use Images/signature_tihmo_koch.png>
 Package pdftex.def Info: Images/signature_tihmo_koch.png  used on input line 18.
 (pdftex.def)             Requested size: 136.57915pt x 45.52399pt.
-<Images/signature_sibusiso_kheswa.png, id=108, 880.28876pt x 383.4325pt>
+<Images/signature_sibusiso_kheswa.png, id=140, 880.28876pt x 383.4325pt>
 File: Images/signature_sibusiso_kheswa.png Graphic file (type png)
 <use Images/signature_sibusiso_kheswa.png>
 Package pdftex.def Info: Images/signature_sibusiso_kheswa.png  used on input line 19.
@@ -1418,27 +1418,27 @@ Package pdftex.def Info: Images/signature_sibusiso_kheswa.png  used on input lin
 
 
 
-] (./Main.toc)
+] (./Main.toc [4
+
+
+
+
+])
 \tf@toc=\write6
 \openout6 = `Main.toc'.
 
- [4
+ [5] (./Main.lof [6
 
 
-
-
-] (./Main.lof)
+])
 \tf@lof=\write7
 \openout7 = `Main.lof'.
 
- [5
-
-
-] (./Main.lot)
+ [7] (./Main.lot)
 \tf@lot=\write8
 \openout8 = `Main.lot'.
 
- [6
+ [8
 
 
 ]
@@ -1455,12 +1455,12 @@ Chapter 1.
 
  (./Chapters/Chapter2_Installation.tex
 Chapter 2.
-<Images/VM/VM_install_01.png, id=211, 786.94pt x 528.97626pt>
+<Images/VM/VM_install_01.png, id=346, 786.94pt x 528.97626pt>
 File: Images/VM/VM_install_01.png Graphic file (type png)
 <use Images/VM/VM_install_01.png>
 Package pdftex.def Info: Images/VM/VM_install_01.png  used on input line 17.
 (pdftex.def)             Requested size: 362.76529pt x 243.8486pt.
-<Images/VM/VM_install_02.png, id=212, 937.5025pt x 528.97626pt>
+<Images/VM/VM_install_02.png, id=347, 937.5025pt x 528.97626pt>
 File: Images/VM/VM_install_02.png Graphic file (type png)
 <use Images/VM/VM_install_02.png>
 Package pdftex.def Info: Images/VM/VM_install_02.png  used on input line 18.
@@ -1471,89 +1471,89 @@ Package pdftex.def Info: Images/VM/VM_install_02.png  used on input line 18.
 
 
 ]
-<Images/VM/VM_install_03.png, id=217, 937.5025pt x 528.97626pt>
+<Images/VM/VM_install_03.png, id=353, 937.5025pt x 528.97626pt>
 File: Images/VM/VM_install_03.png Graphic file (type png)
 <use Images/VM/VM_install_03.png>
 Package pdftex.def Info: Images/VM/VM_install_03.png  used on input line 19.
 (pdftex.def)             Requested size: 362.76347pt x 204.68561pt.
-<Images/VM/VM_install_04.png, id=218, 937.5025pt x 528.97626pt>
+<Images/VM/VM_install_04.png, id=354, 937.5025pt x 528.97626pt>
 File: Images/VM/VM_install_04.png Graphic file (type png)
 <use Images/VM/VM_install_04.png>
 Package pdftex.def Info: Images/VM/VM_install_04.png  used on input line 20.
 (pdftex.def)             Requested size: 362.76347pt x 204.68561pt.
  [4 <./Images/VM/VM_install_01.png> <./Images/VM/VM_install_02.png>]
-<Images/VM/VM_install_05.png, id=225, 1089.06876pt x 669.50125pt>
+<Images/VM/VM_install_05.png, id=362, 1089.06876pt x 669.50125pt>
 File: Images/VM/VM_install_05.png Graphic file (type png)
 <use Images/VM/VM_install_05.png>
 Package pdftex.def Info: Images/VM/VM_install_05.png  used on input line 21.
 (pdftex.def)             Requested size: 362.76721pt x 223.00989pt.
-<Images/VM/VM_install_06.png, id=226, 936.49875pt x 1003.75pt>
+<Images/VM/VM_install_06.png, id=363, 936.49875pt x 1003.75pt>
 File: Images/VM/VM_install_06.png Graphic file (type png)
 <use Images/VM/VM_install_06.png>
 Package pdftex.def Info: Images/VM/VM_install_06.png  used on input line 22.
 (pdftex.def)             Requested size: 229.49422pt x 245.9745pt.
  [5 <./Images/VM/VM_install_03.png> <./Images/VM/VM_install_04.png>] [6 <./Images/VM/VM_install_05.png> <./Images/VM/VM_install_06.png>]
-<Images/WinServ_install/WinServer_install_01.png, id=240, 1009.7725pt x 793.96625pt>
+<Images/WinServ_install/WinServer_install_01.png, id=376, 1009.7725pt x 793.96625pt>
 File: Images/WinServ_install/WinServer_install_01.png Graphic file (type png)
 <use Images/WinServ_install/WinServer_install_01.png>
 Package pdftex.def Info: Images/WinServ_install/WinServer_install_01.png  used on input line 33.
 (pdftex.def)             Requested size: 312.84134pt x 245.98161pt.
-<Images/WinServ_install/WinServer_install_02.png, id=241, 961.5925pt x 1003.75pt>
+<Images/WinServ_install/WinServer_install_02.png, id=377, 961.5925pt x 1003.75pt>
 File: Images/WinServ_install/WinServer_install_02.png Graphic file (type png)
 <use Images/WinServ_install/WinServer_install_02.png>
 Package pdftex.def Info: Images/WinServ_install/WinServer_install_02.png  used on input line 34.
 (pdftex.def)             Requested size: 235.64357pt x 245.9745pt.
-<Images/WinServ_install/WinServer_install_03.png, id=242, 961.5925pt x 1003.75pt>
+<Images/WinServ_install/WinServer_install_03.png, id=378, 961.5925pt x 1003.75pt>
 File: Images/WinServ_install/WinServer_install_03.png Graphic file (type png)
 <use Images/WinServ_install/WinServer_install_03.png>
 Package pdftex.def Info: Images/WinServ_install/WinServer_install_03.png  used on input line 35.
 (pdftex.def)             Requested size: 235.64357pt x 245.9745pt.
-<Images/WinServ_install/WinServer_install_04.png, id=243, 961.5925pt x 1003.75pt>
+<Images/WinServ_install/WinServer_install_04.png, id=379, 961.5925pt x 1003.75pt>
 File: Images/WinServ_install/WinServer_install_04.png Graphic file (type png)
 <use Images/WinServ_install/WinServer_install_04.png>
 Package pdftex.def Info: Images/WinServ_install/WinServer_install_04.png  used on input line 36.
 (pdftex.def)             Requested size: 235.64357pt x 245.9745pt.
  [7 <./Images/WinServ_install/WinServer_install_01.png> <./Images/WinServ_install/WinServer_install_02.png>]
-<Images/WinServ_install/WinServer_install_05.png, id=250, 961.5925pt x 1003.75pt>
+<Images/WinServ_install/WinServer_install_05.png, id=386, 961.5925pt x 1003.75pt>
 File: Images/WinServ_install/WinServer_install_05.png Graphic file (type png)
 <use Images/WinServ_install/WinServer_install_05.png>
 Package pdftex.def Info: Images/WinServ_install/WinServer_install_05.png  used on input line 37.
 (pdftex.def)             Requested size: 235.64357pt x 245.9745pt.
-<Images/WinServ_install/WinServer_install_06.png, id=251, 961.5925pt x 1003.75pt>
+<Images/WinServ_install/WinServer_install_06.png, id=387, 961.5925pt x 1003.75pt>
 File: Images/WinServ_install/WinServer_install_06.png Graphic file (type png)
 <use Images/WinServ_install/WinServer_install_06.png>
 Package pdftex.def Info: Images/WinServ_install/WinServer_install_06.png  used on input line 38.
 (pdftex.def)             Requested size: 235.64357pt x 245.9745pt.
  [8 <./Images/WinServ_install/WinServer_install_03.png> <./Images/WinServ_install/WinServer_install_04.png>]
-<Images/WinServ_install/WinServer_install_07.png, id=258, 961.5925pt x 1003.75pt>
+<Images/WinServ_install/WinServer_install_07.png, id=394, 961.5925pt x 1003.75pt>
 File: Images/WinServ_install/WinServer_install_07.png Graphic file (type png)
 <use Images/WinServ_install/WinServer_install_07.png>
 Package pdftex.def Info: Images/WinServ_install/WinServer_install_07.png  used on input line 39.
 (pdftex.def)             Requested size: 235.64357pt x 245.9745pt.
-<Images/WinServ_install/WinServer_install_08.png, id=259, 1009.7725pt x 793.96625pt>
+<Images/WinServ_install/WinServer_install_08.png, id=395, 1009.7725pt x 793.96625pt>
 File: Images/WinServ_install/WinServer_install_08.png Graphic file (type png)
 <use Images/WinServ_install/WinServer_install_08.png>
 Package pdftex.def Info: Images/WinServ_install/WinServer_install_08.png  used on input line 40.
 (pdftex.def)             Requested size: 312.84134pt x 245.98161pt.
  [9 <./Images/WinServ_install/WinServer_install_05.png> <./Images/WinServ_install/WinServer_install_06.png>]
-<Images/WinServ_install/WinServer_install_09.png, id=266, 1027.84pt x 825.0825pt>
+<Images/WinServ_install/WinServer_install_09.png, id=402, 1027.84pt x 825.0825pt>
 File: Images/WinServ_install/WinServer_install_09.png Graphic file (type png)
 <use Images/WinServ_install/WinServer_install_09.png>
 Package pdftex.def Info: Images/WinServ_install/WinServer_install_09.png  used on input line 41.
 (pdftex.def)             Requested size: 306.4253pt x 245.97812pt.
-<Images/WinServ_install/WinServer_install_10.png, id=267, 1027.84pt x 825.0825pt>
+<Images/WinServ_install/WinServer_install_10.png, id=403, 1027.84pt x 825.0825pt>
 File: Images/WinServ_install/WinServer_install_10.png Graphic file (type png)
 <use Images/WinServ_install/WinServer_install_10.png>
 Package pdftex.def Info: Images/WinServ_install/WinServer_install_10.png  used on input line 42.
 (pdftex.def)             Requested size: 306.4253pt x 245.97812pt.
  [10 <./Images/WinServ_install/WinServer_install_07.png> <./Images/WinServ_install/WinServer_install_08.png>]
-<Images/WinServ_install/WinServer_install_11.png, id=274, 1027.84pt x 825.0825pt>
+<Images/WinServ_install/WinServer_install_11.png, id=411, 1027.84pt x 825.0825pt>
 File: Images/WinServ_install/WinServer_install_11.png Graphic file (type png)
 <use Images/WinServ_install/WinServer_install_11.png>
 Package pdftex.def Info: Images/WinServ_install/WinServer_install_11.png  used on input line 43.
 (pdftex.def)             Requested size: 306.4253pt x 245.97812pt.
  [11 <./Images/WinServ_install/WinServer_install_09.png> <./Images/WinServ_install/WinServer_install_10.png>]
-<Images/WinServ_install/WinServer_dash_01.png, id=281, 1027.84pt x 825.0825pt>
+<Images/WinServ_install/WinServer_dash_01.png, id=418, 1027.84pt x 825.0825pt>
 File: Images/WinServ_install/WinServer_dash_01.png Graphic file (type png)
 <use Images/WinServ_install/WinServer_dash_01.png>
 Package pdftex.def Info: Images/WinServ_install/WinServer_dash_01.png  used on input line 53.
@@ -1579,16 +1579,7 @@ Package microtype Info: Loading generic protrusion settings for font family
  (./Chapters/Chapter5_DNS.tex)
 \openout2 = `Chapters/Chapter6_Group_Policy.aux'.
 
- (./Chapters/Chapter6_Group_Policy.tex)
-\openout2 = `Chapters/Chapter7_Remote_Access.aux'.
-
- (./Chapters/Chapter7_Remote_Access.tex)
-\openout2 = `Chapters/Chapter8_Windows_Certificate.aux'.
-
- (./Chapters/Chapter8_Windows_Certificate.tex)
-\openout2 = `Chapters/Chapter9_Conclusions.aux'.
-
- (./Chapters/Chapter9_Conclusions.tex
+ (./Chapters/Chapter6_Group_Policy.tex
 Chapter 3.
 [15
 
@@ -1604,6 +1595,238 @@ Chapter 3.
 
 
 
+]
+<Images/OU_groups_users/OU_groups_users_01.png, id=442, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_01.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_01.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_01.png  used on input line 35.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+<Images/OU_groups_users/OU_groups_users_02.png, id=443, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_02.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_02.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_02.png  used on input line 36.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+ [16]
+<Images/OU_groups_users/OU_groups_users_03.png, id=449, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_03.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_03.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_03.png  used on input line 37.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+<Images/OU_groups_users/OU_groups_users_04.png, id=450, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_04.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_04.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_04.png  used on input line 38.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+ [17 <./Images/OU_groups_users/OU_groups_users_01.png> <./Images/OU_groups_users/OU_groups_users_02.png>]
+<Images/OU_groups_users/OU_groups_users_05.png, id=457, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_05.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_05.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_05.png  used on input line 39.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+<Images/OU_groups_users/OU_groups_users_06.png, id=458, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_06.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_06.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_06.png  used on input line 40.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+ [18 <./Images/OU_groups_users/OU_groups_users_03.png> <./Images/OU_groups_users/OU_groups_users_04.png>]
+<Images/OU_groups_users/OU_groups_users_07.png, id=465, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_07.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_07.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_07.png  used on input line 41.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+<Images/OU_groups_users/OU_groups_users_08.png, id=466, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_08.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_08.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_08.png  used on input line 42.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+ [19 <./Images/OU_groups_users/OU_groups_users_05.png> <./Images/OU_groups_users/OU_groups_users_06.png>]
+<Images/OU_groups_users/OU_groups_users_09.png, id=473, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_09.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_09.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_09.png  used on input line 43.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+<Images/OU_groups_users/OU_groups_users_10.png, id=474, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_10.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_10.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_10.png  used on input line 44.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+ [20 <./Images/OU_groups_users/OU_groups_users_07.png> <./Images/OU_groups_users/OU_groups_users_08.png>]
+<Images/OU_groups_users/OU_groups_users_11.png, id=481, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_11.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_11.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_11.png  used on input line 45.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+<Images/OU_groups_users/OU_groups_users_12.png, id=482, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_12.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_12.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_12.png  used on input line 46.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+ [21 <./Images/OU_groups_users/OU_groups_users_09.png> <./Images/OU_groups_users/OU_groups_users_10.png>]
+<Images/OU_groups_users/OU_groups_users_13.png, id=489, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_13.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_13.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_13.png  used on input line 47.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+<Images/OU_groups_users/OU_groups_users_14.png, id=490, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_14.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_14.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_14.png  used on input line 48.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+ [22 <./Images/OU_groups_users/OU_groups_users_11.png> <./Images/OU_groups_users/OU_groups_users_12.png>]
+<Images/OU_groups_users/OU_groups_users_15.png, id=499, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_15.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_15.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_15.png  used on input line 49.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+<Images/OU_groups_users/OU_groups_users_16.png, id=500, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_16.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_16.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_16.png  used on input line 50.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+ [23 <./Images/OU_groups_users/OU_groups_users_13.png> <./Images/OU_groups_users/OU_groups_users_14.png>]
+<Images/OU_groups_users/OU_groups_users_17.png, id=507, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_17.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_17.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_17.png  used on input line 51.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+<Images/OU_groups_users/OU_groups_users_18.png, id=508, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_18.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_18.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_18.png  used on input line 52.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+ [24 <./Images/OU_groups_users/OU_groups_users_15.png> <./Images/OU_groups_users/OU_groups_users_16.png>]
+<Images/OU_groups_users/OU_groups_users_19.png, id=515, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_19.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_19.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_19.png  used on input line 53.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+<Images/OU_groups_users/OU_groups_users_20.png, id=516, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_20.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_20.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_20.png  used on input line 54.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+ [25 <./Images/OU_groups_users/OU_groups_users_17.png> <./Images/OU_groups_users/OU_groups_users_18.png>]
+<Images/OU_groups_users/OU_groups_users_21.png, id=523, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_21.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_21.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_21.png  used on input line 55.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+<Images/OU_groups_users/OU_groups_users_22.png, id=524, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_22.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_22.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_22.png  used on input line 56.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+ [26 <./Images/OU_groups_users/OU_groups_users_19.png> <./Images/OU_groups_users/OU_groups_users_20.png>]
+<Images/OU_groups_users/OU_groups_users_23.png, id=531, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_23.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_23.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_23.png  used on input line 57.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+<Images/OU_groups_users/OU_groups_users_24.png, id=532, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_24.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_24.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_24.png  used on input line 58.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+ [27 <./Images/OU_groups_users/OU_groups_users_21.png> <./Images/OU_groups_users/OU_groups_users_22.png>]
+<Images/OU_groups_users/OU_groups_users_25.png, id=539, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_25.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_25.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_25.png  used on input line 59.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+<Images/OU_groups_users/OU_groups_users_26.png, id=540, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_26.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_26.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_26.png  used on input line 60.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+ [28 <./Images/OU_groups_users/OU_groups_users_23.png> <./Images/OU_groups_users/OU_groups_users_24.png>]
+<Images/GPO/GPO/GPO Cmd 01.png, id=548, 935.495pt x 949.5475pt>
+File: Images/GPO/GPO/GPO Cmd 01.png Graphic file (type png)
+<use Images/GPO/GPO/GPO Cmd 01.png>
+Package pdftex.def Info: Images/GPO/GPO/GPO Cmd 01.png  used on input line 65.
+(pdftex.def)             Requested size: 242.33794pt x 245.97821pt.
+<Images/GPO/GPO/GPO Cmd 02.png, id=549, 935.495pt x 949.5475pt>
+File: Images/GPO/GPO/GPO Cmd 02.png Graphic file (type png)
+<use Images/GPO/GPO/GPO Cmd 02.png>
+Package pdftex.def Info: Images/GPO/GPO/GPO Cmd 02.png  used on input line 66.
+(pdftex.def)             Requested size: 242.33794pt x 245.97821pt.
+ [29 <./Images/OU_groups_users/OU_groups_users_25.png> <./Images/OU_groups_users/OU_groups_users_26.png>]
+<Images/GPO/GPO/GPO Cmd 03.png, id=556, 935.495pt x 949.5475pt>
+File: Images/GPO/GPO/GPO Cmd 03.png Graphic file (type png)
+<use Images/GPO/GPO/GPO Cmd 03.png>
+Package pdftex.def Info: Images/GPO/GPO/GPO Cmd 03.png  used on input line 67.
+(pdftex.def)             Requested size: 242.33794pt x 245.97821pt.
+<Images/GPO/GPO/GPO PWD 01.png, id=557, 935.495pt x 949.5475pt>
+File: Images/GPO/GPO/GPO PWD 01.png Graphic file (type png)
+<use Images/GPO/GPO/GPO PWD 01.png>
+Package pdftex.def Info: Images/GPO/GPO/GPO PWD 01.png  used on input line 68.
+(pdftex.def)             Requested size: 242.33794pt x 245.97821pt.
+ [30 <./Images/GPO/GPO/GPO Cmd 01.png> <./Images/GPO/GPO/GPO Cmd 02.png>]
+<Images/GPO/GPO/GPO PWD 02.png, id=564, 935.495pt x 949.5475pt>
+File: Images/GPO/GPO/GPO PWD 02.png Graphic file (type png)
+<use Images/GPO/GPO/GPO PWD 02.png>
+Package pdftex.def Info: Images/GPO/GPO/GPO PWD 02.png  used on input line 69.
+(pdftex.def)             Requested size: 242.33794pt x 245.97821pt.
+<Images/GPO/GPO/GPO PWD 03.png, id=565, 935.495pt x 949.5475pt>
+File: Images/GPO/GPO/GPO PWD 03.png Graphic file (type png)
+<use Images/GPO/GPO/GPO PWD 03.png>
+Package pdftex.def Info: Images/GPO/GPO/GPO PWD 03.png  used on input line 70.
+(pdftex.def)             Requested size: 242.33794pt x 245.97821pt.
+ [31 <./Images/GPO/GPO/GPO Cmd 03.png> <./Images/GPO/GPO/GPO PWD 01.png>]
+<Images/GPO/GPO/GPO PWD 04.png, id=572, 935.495pt x 949.5475pt>
+File: Images/GPO/GPO/GPO PWD 04.png Graphic file (type png)
+<use Images/GPO/GPO/GPO PWD 04.png>
+Package pdftex.def Info: Images/GPO/GPO/GPO PWD 04.png  used on input line 71.
+(pdftex.def)             Requested size: 242.33794pt x 245.97821pt.
+<Images/GPO/GPO/GPO PWD 05.png, id=573, 935.495pt x 949.5475pt>
+File: Images/GPO/GPO/GPO PWD 05.png Graphic file (type png)
+<use Images/GPO/GPO/GPO PWD 05.png>
+Package pdftex.def Info: Images/GPO/GPO/GPO PWD 05.png  used on input line 72.
+(pdftex.def)             Requested size: 242.33794pt x 245.97821pt.
+ [32 <./Images/GPO/GPO/GPO PWD 02.png> <./Images/GPO/GPO/GPO PWD 03.png>]
+<Images/GPO/GPO/GPO Storage 01.png, id=580, 935.495pt x 949.5475pt>
+File: Images/GPO/GPO/GPO Storage 01.png Graphic file (type png)
+<use Images/GPO/GPO/GPO Storage 01.png>
+Package pdftex.def Info: Images/GPO/GPO/GPO Storage 01.png  used on input line 73.
+(pdftex.def)             Requested size: 242.33794pt x 245.97821pt.
+<Images/GPO/GPO/GPO Storage 02.png, id=581, 935.495pt x 949.5475pt>
+File: Images/GPO/GPO/GPO Storage 02.png Graphic file (type png)
+<use Images/GPO/GPO/GPO Storage 02.png>
+Package pdftex.def Info: Images/GPO/GPO/GPO Storage 02.png  used on input line 74.
+(pdftex.def)             Requested size: 242.33794pt x 245.97821pt.
+ [33 <./Images/GPO/GPO/GPO PWD 04.png> <./Images/GPO/GPO/GPO PWD 05.png>]
+<Images/GPO/GPO/GPO Storage 03.png, id=588, 935.495pt x 949.5475pt>
+File: Images/GPO/GPO/GPO Storage 03.png Graphic file (type png)
+<use Images/GPO/GPO/GPO Storage 03.png>
+Package pdftex.def Info: Images/GPO/GPO/GPO Storage 03.png  used on input line 75.
+(pdftex.def)             Requested size: 242.33794pt x 245.97821pt.
+<Images/GPO/GPO/GPO Win Installer 01.png, id=589, 935.495pt x 949.5475pt>
+File: Images/GPO/GPO/GPO Win Installer 01.png Graphic file (type png)
+<use Images/GPO/GPO/GPO Win Installer 01.png>
+Package pdftex.def Info: Images/GPO/GPO/GPO Win Installer 01.png  used on input line 76.
+(pdftex.def)             Requested size: 242.33794pt x 245.97821pt.
+ [34 <./Images/GPO/GPO/GPO Storage 01.png> <./Images/GPO/GPO/GPO Storage 02.png>]
+<Images/GPO/GPO/GPO Win Installer 02.png, id=597, 935.495pt x 949.5475pt>
+File: Images/GPO/GPO/GPO Win Installer 02.png Graphic file (type png)
+<use Images/GPO/GPO/GPO Win Installer 02.png>
+Package pdftex.def Info: Images/GPO/GPO/GPO Win Installer 02.png  used on input line 77.
+(pdftex.def)             Requested size: 242.33794pt x 245.97821pt.
+<Images/GPO/GPO/GPO Win Installer 03.png, id=598, 935.495pt x 949.5475pt>
+File: Images/GPO/GPO/GPO Win Installer 03.png Graphic file (type png)
+<use Images/GPO/GPO/GPO Win Installer 03.png>
+Package pdftex.def Info: Images/GPO/GPO/GPO Win Installer 03.png  used on input line 78.
+(pdftex.def)             Requested size: 242.33794pt x 245.97821pt.
+ [35 <./Images/GPO/GPO/GPO Storage 03.png> <./Images/GPO/GPO/GPO Win Installer 01.png>] [36 <./Images/GPO/GPO/GPO Win Installer 02.png> <./Images/GPO/GPO/GPO Win Installer 03.png>]) [37]
+\openout2 = `Chapters/Chapter7_Remote_Access.aux'.
+
+ (./Chapters/Chapter7_Remote_Access.tex)
+\openout2 = `Chapters/Chapter8_Windows_Certificate.aux'.
+
+ (./Chapters/Chapter8_Windows_Certificate.tex)
+\openout2 = `Chapters/Chapter9_Conclusions.aux'.
+
+ (./Chapters/Chapter9_Conclusions.tex
+Chapter 4.
+[38
 
 
 
@@ -1613,7 +1836,8 @@ Chapter 3.
 
 
 
-] [16] [17] [18]) [19] [20] [21]
+
+] [39] [40] [41]) [42] [43] [44]
 
 LaTeX Warning: Empty bibliography on input line 128.
 
@@ -1621,7 +1845,7 @@ LaTeX Warning: Empty bibliography on input line 128.
 
 (./Appendix.tex
 Appendix A.
-) [22
+) [45
 
 
 
@@ -1633,24 +1857,24 @@ LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: DE49AA6CFE17578DD88B08B6AB47CBA0;2922.
+(rerunfilecheck)             Checksum: ED384FD0DDFA0721A84759E4BD0151D4;4729.
 Package logreq Info: Writing requests to 'Main.run.xml'.
 \openout1 = `Main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49534 strings out of 467533
- 1028910 string characters out of 5423669
- 2067336 words of memory out of 5000000
- 77480 multiletter control sequences out of 15000+600000
- 680391 words of font info for 135 fonts, out of 8000000 for 9000
+ 49951 strings out of 467533
+ 1044293 string characters out of 5423669
+ 2077610 words of memory out of 5000000
+ 77810 multiletter control sequences out of 15000+600000
+ 680864 words of font info for 140 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  89i,14n,107p,2579b,1182s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Main.pdf (29 pages, 2372114 bytes).
+Output written on Main.pdf (54 pages, 4287141 bytes).
 PDF statistics:
- 380 PDF objects out of 1000 (max. 8388607)
- 283 compressed objects within 3 object streams
- 71 named destinations out of 1000 (max. 500000)
- 31538 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 716 PDF objects out of 1000 (max. 8388607)
+ 511 compressed objects within 6 object streams
+ 148 named destinations out of 1000 (max. 500000)
+ 31802 words of extra memory for PDF output out of 35830 (max. 10000000)
 
