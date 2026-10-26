@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.6)  26 OCT 2026 13:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.6)  26 OCT 2026 14:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Alden/Desktop/OPS260S_Group1_Report_updated/OPS260S_Group1_Report/report/main.tex
-(c:/Users/Alden/Desktop/OPS260S_Group1_Report_updated/OPS260S_Group1_Report/report/main.tex
+**c:/Users/Alden/Desktop/ProjectOpsV2/CPUT_Report_LaTeX_OPS_VM_Project/main.tex
+(c:/Users/Alden/Desktop/ProjectOpsV2/CPUT_Report_LaTeX_OPS_VM_Project/main.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (C:\Users\Alden\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
@@ -1846,12 +1846,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  34451 strings out of 467867
- 685036 string characters out of 5418335
+ 684750 string characters out of 5418335
  1291481 words of memory out of 5000000
  61858 multiletter control sequences out of 15000+600000
  706987 words of font info for 387 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,13n,108p,1083b,1966s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,13n,108p,1070b,1966s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Alden\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecit1000.pk> <C:\Users\Alden\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tctt1000.pk> <C:\Users\Alden\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\Alden\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\Alden\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk><C:/Users/Alden/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Alden/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Alden/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Alden/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/Alden/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/Alden/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplri8a.pfb>
 Output written on main.pdf (182 pages, 11348663 bytes).
 PDF statistics:

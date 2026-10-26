@@ -1,6 +1,6 @@
-PWD c:\Users\Alden\Desktop\OPS260S_Group1_Report_updated\OPS260S_Group1_Report\report
+PWD c:\Users\Alden\Desktop\ProjectOpsV2\CPUT_Report_LaTeX_OPS_VM_Project
 INPUT C:\Users\Alden\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Alden\Desktop\OPS260S_Group1_Report_updated\OPS260S_Group1_Report\report\main.tex
+INPUT c:\Users\Alden\Desktop\ProjectOpsV2\CPUT_Report_LaTeX_OPS_VM_Project\main.tex
 OUTPUT main.log
 INPUT C:\Users\Alden\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
 INPUT C:\Users\Alden\AppData\Local\Programs\MiKTeX\tex\latex\base\report.cls
