@@ -1511,4 +1511,530 @@ File: Images/WinServ_install/WinServer_install_03.png Graphic file (type png)
 <use Images/WinServ_install/WinServer_install_03.png>
 Package pdftex.def Info: Images/WinServ_install/WinServer_install_03.png  used on input line 35.
 (pdftex.def)             Requested size: 235.64357pt x 245.9745pt.
-<Images/WinServ_i
+<Images/WinServ_install/WinServer_install_04.png, id=486, 961.5925pt x 1003.75pt>
+File: Images/WinServ_install/WinServer_install_04.png Graphic file (type png)
+<use Images/WinServ_install/WinServer_install_04.png>
+Package pdftex.def Info: Images/WinServ_install/WinServer_install_04.png  used on input line 36.
+(pdftex.def)             Requested size: 235.64357pt x 245.9745pt.
+ [7 <./Images/WinServ_install/WinServer_install_01.png> <./Images/WinServ_install/WinServer_install_02.png>]
+<Images/WinServ_install/WinServer_install_05.png, id=493, 961.5925pt x 1003.75pt>
+File: Images/WinServ_install/WinServer_install_05.png Graphic file (type png)
+<use Images/WinServ_install/WinServer_install_05.png>
+Package pdftex.def Info: Images/WinServ_install/WinServer_install_05.png  used on input line 37.
+(pdftex.def)             Requested size: 235.64357pt x 245.9745pt.
+<Images/WinServ_install/WinServer_install_06.png, id=494, 961.5925pt x 1003.75pt>
+File: Images/WinServ_install/WinServer_install_06.png Graphic file (type png)
+<use Images/WinServ_install/WinServer_install_06.png>
+Package pdftex.def Info: Images/WinServ_install/WinServer_install_06.png  used on input line 38.
+(pdftex.def)             Requested size: 235.64357pt x 245.9745pt.
+ [8 <./Images/WinServ_install/WinServer_install_03.png> <./Images/WinServ_install/WinServer_install_04.png>]
+<Images/WinServ_install/WinServer_install_07.png, id=501, 961.5925pt x 1003.75pt>
+File: Images/WinServ_install/WinServer_install_07.png Graphic file (type png)
+<use Images/WinServ_install/WinServer_install_07.png>
+Package pdftex.def Info: Images/WinServ_install/WinServer_install_07.png  used on input line 39.
+(pdftex.def)             Requested size: 235.64357pt x 245.9745pt.
+<Images/WinServ_install/WinServer_install_08.png, id=502, 1009.7725pt x 793.96625pt>
+File: Images/WinServ_install/WinServer_install_08.png Graphic file (type png)
+<use Images/WinServ_install/WinServer_install_08.png>
+Package pdftex.def Info: Images/WinServ_install/WinServer_install_08.png  used on input line 40.
+(pdftex.def)             Requested size: 312.84134pt x 245.98161pt.
+ [9 <./Images/WinServ_install/WinServer_install_05.png> <./Images/WinServ_install/WinServer_install_06.png>]
+<Images/WinServ_install/WinServer_install_09.png, id=510, 1027.84pt x 825.0825pt>
+File: Images/WinServ_install/WinServer_install_09.png Graphic file (type png)
+<use Images/WinServ_install/WinServer_install_09.png>
+Package pdftex.def Info: Images/WinServ_install/WinServer_install_09.png  used on input line 41.
+(pdftex.def)             Requested size: 306.4253pt x 245.97812pt.
+<Images/WinServ_install/WinServer_install_10.png, id=511, 1027.84pt x 825.0825pt>
+File: Images/WinServ_install/WinServer_install_10.png Graphic file (type png)
+<use Images/WinServ_install/WinServer_install_10.png>
+Package pdftex.def Info: Images/WinServ_install/WinServer_install_10.png  used on input line 42.
+(pdftex.def)             Requested size: 306.4253pt x 245.97812pt.
+ [10 <./Images/WinServ_install/WinServer_install_07.png> <./Images/WinServ_install/WinServer_install_08.png>]
+<Images/WinServ_install/WinServer_install_11.png, id=518, 1027.84pt x 825.0825pt>
+File: Images/WinServ_install/WinServer_install_11.png Graphic file (type png)
+<use Images/WinServ_install/WinServer_install_11.png>
+Package pdftex.def Info: Images/WinServ_install/WinServer_install_11.png  used on input line 43.
+(pdftex.def)             Requested size: 306.4253pt x 245.97812pt.
+ [11 <./Images/WinServ_install/WinServer_install_09.png> <./Images/WinServ_install/WinServer_install_10.png>]
+<Images/WinServ_install/WinServer_dash_01.png, id=526, 1027.84pt x 825.0825pt>
+File: Images/WinServ_install/WinServer_dash_01.png Graphic file (type png)
+<use Images/WinServ_install/WinServer_dash_01.png>
+Package pdftex.def Info: Images/WinServ_install/WinServer_dash_01.png  used on input line 53.
+(pdftex.def)             Requested size: 306.4253pt x 245.97812pt.
+ [12 <./Images/WinServ_install/WinServer_install_11.png>]
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 60.
+ (c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [13 <./Images/WinServ_install/WinServer_dash_01.png>]) [14]
+\openout2 = `Chapters/Chapter3_ADDS.aux'.
+
+ (./Chapters/Chapter3_ADDS.tex)
+\openout2 = `Chapters/Chapter4_DHCP.aux'.
+
+ (./Chapters/Chapter4_DHCP.tex
+Chapter 3.
+[15
+
+
+
+
+
+
+
+]
+<Images/DHCP/DHCP_01.png, id=566, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_01.png Graphic file (type png)
+<use Images/DHCP/DHCP_01.png>
+Package pdftex.def Info: Images/DHCP/DHCP_01.png  used on input line 62.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [16]
+<Images/DHCP/DHCP_02.png, id=576, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_02.png Graphic file (type png)
+<use Images/DHCP/DHCP_02.png>
+Package pdftex.def Info: Images/DHCP/DHCP_02.png  used on input line 68.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+<Images/DHCP/DHCP_03.png, id=577, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_03.png Graphic file (type png)
+<use Images/DHCP/DHCP_03.png>
+Package pdftex.def Info: Images/DHCP/DHCP_03.png  used on input line 74.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [17 <./Images/DHCP/DHCP_01.png> <./Images/DHCP/DHCP_02.png>]
+<Images/DHCP/DHCP_04.png, id=585, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_04.png Graphic file (type png)
+<use Images/DHCP/DHCP_04.png>
+Package pdftex.def Info: Images/DHCP/DHCP_04.png  used on input line 92.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [18 <./Images/DHCP/DHCP_03.png>]
+<Images/DHCP/DHCP_05.png, id=593, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_05.png Graphic file (type png)
+<use Images/DHCP/DHCP_05.png>
+Package pdftex.def Info: Images/DHCP/DHCP_05.png  used on input line 98.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [19 <./Images/DHCP/DHCP_04.png> <./Images/DHCP/DHCP_05.png>]
+<Images/DHCP/DHCP_06.png, id=600, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_06.png Graphic file (type png)
+<use Images/DHCP/DHCP_06.png>
+Package pdftex.def Info: Images/DHCP/DHCP_06.png  used on input line 113.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+<Images/DHCP/DHCP_07.png, id=601, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_07.png Graphic file (type png)
+<use Images/DHCP/DHCP_07.png>
+Package pdftex.def Info: Images/DHCP/DHCP_07.png  used on input line 118.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [20 <./Images/DHCP/DHCP_06.png>]
+<Images/DHCP/DHCP_08.png, id=608, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_08.png Graphic file (type png)
+<use Images/DHCP/DHCP_08.png>
+Package pdftex.def Info: Images/DHCP/DHCP_08.png  used on input line 124.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [21 <./Images/DHCP/DHCP_07.png> <./Images/DHCP/DHCP_08.png>]
+<Images/DHCP/DHCP_10.png, id=618, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_10.png Graphic file (type png)
+<use Images/DHCP/DHCP_10.png>
+Package pdftex.def Info: Images/DHCP/DHCP_10.png  used on input line 142.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+<Images/DHCP/DHCP_09.png, id=619, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_09.png Graphic file (type png)
+<use Images/DHCP/DHCP_09.png>
+Package pdftex.def Info: Images/DHCP/DHCP_09.png  used on input line 148.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [22 <./Images/DHCP/DHCP_10.png>]
+<Images/DHCP/DHCP_11.png, id=628, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_11.png Graphic file (type png)
+<use Images/DHCP/DHCP_11.png>
+Package pdftex.def Info: Images/DHCP/DHCP_11.png  used on input line 154.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [23 <./Images/DHCP/DHCP_09.png> <./Images/DHCP/DHCP_11.png>]
+<Images/DHCP/DHCP_12.png, id=635, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_12.png Graphic file (type png)
+<use Images/DHCP/DHCP_12.png>
+Package pdftex.def Info: Images/DHCP/DHCP_12.png  used on input line 168.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+<Images/DHCP/DHCP_13.png, id=636, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_13.png Graphic file (type png)
+<use Images/DHCP/DHCP_13.png>
+Package pdftex.def Info: Images/DHCP/DHCP_13.png  used on input line 174.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [24 <./Images/DHCP/DHCP_12.png>]
+<Images/DHCP/DHCP_14.png, id=644, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_14.png Graphic file (type png)
+<use Images/DHCP/DHCP_14.png>
+Package pdftex.def Info: Images/DHCP/DHCP_14.png  used on input line 190.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [25 <./Images/DHCP/DHCP_13.png>]
+<Images/DHCP/DHCP_15.png, id=654, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_15.png Graphic file (type png)
+<use Images/DHCP/DHCP_15.png>
+Package pdftex.def Info: Images/DHCP/DHCP_15.png  used on input line 203.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [26 <./Images/DHCP/DHCP_14.png>]
+<Images/DHCP/DHCP_16.png, id=662, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_16.png Graphic file (type png)
+<use Images/DHCP/DHCP_16.png>
+Package pdftex.def Info: Images/DHCP/DHCP_16.png  used on input line 216.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [27 <./Images/DHCP/DHCP_15.png>]
+<Images/DHCP/DHCP_17.png, id=670, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_17.png Graphic file (type png)
+<use Images/DHCP/DHCP_17.png>
+Package pdftex.def Info: Images/DHCP/DHCP_17.png  used on input line 222.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+<Images/DHCP/DHCP_18.png, id=671, 961.5925pt x 949.5475pt>
+File: Images/DHCP/DHCP_18.png Graphic file (type png)
+<use Images/DHCP/DHCP_18.png>
+Package pdftex.def Info: Images/DHCP/DHCP_18.png  used on input line 227.
+(pdftex.def)             Requested size: 298.75264pt x 295.00868pt.
+ [28 <./Images/DHCP/DHCP_16.png> <./Images/DHCP/DHCP_17.png>] [29 <./Images/DHCP/DHCP_18.png>]
+<Images/DHCP/Accessing DHCP through Powershell.png, id=686, 499.8675pt x 139.01938pt>
+File: Images/DHCP/Accessing DHCP through Powershell.png Graphic file (type png)
+<use Images/DHCP/Accessing DHCP through Powershell.png>
+Package pdftex.def Info: Images/DHCP/Accessing DHCP through Powershell.png  used on input line 259.
+(pdftex.def)             Requested size: 298.75264pt x 83.08983pt.
+<Images/DHCP/Adding a DHCP reservation.png, id=687, 465.74pt x 49.68562pt>
+File: Images/DHCP/Adding a DHCP reservation.png Graphic file (type png)
+<use Images/DHCP/Adding a DHCP reservation.png>
+Package pdftex.def Info: Images/DHCP/Adding a DHCP reservation.png  used on input line 265.
+(pdftex.def)             Requested size: 298.75264pt x 31.87222pt.
+<Images/DHCP/Verification of DHCP reservation.png, id=688, 891.83188pt x 72.77188pt>
+File: Images/DHCP/Verification of DHCP reservation.png Graphic file (type png)
+<use Images/DHCP/Verification of DHCP reservation.png>
+Package pdftex.def Info: Images/DHCP/Verification of DHCP reservation.png  used on input line 271.
+(pdftex.def)             Requested size: 298.75264pt x 24.37788pt.
+<Images/DHCP/IP address tracking.png, id=689, 562.1pt x 68.255pt>
+File: Images/DHCP/IP address tracking.png Graphic file (type png)
+<use Images/DHCP/IP address tracking.png>
+Package pdftex.def Info: Images/DHCP/IP address tracking.png  used on input line 277.
+(pdftex.def)             Requested size: 298.75264pt x 36.27702pt.
+<Images/DHCP/PS_Get_DHCP_Scope_pt1.png, id=692, 728.7225pt x 81.30376pt>
+File: Images/DHCP/PS_Get_DHCP_Scope_pt1.png Graphic file (type png)
+<use Images/DHCP/PS_Get_DHCP_Scope_pt1.png>
+Package pdftex.def Info: Images/DHCP/PS_Get_DHCP_Scope_pt1.png  used on input line 292.
+(pdftex.def)             Requested size: 298.75264pt x 33.33102pt.
+ [30 <./Images/DHCP/Accessing DHCP through Powershell.png> <./Images/DHCP/Adding a DHCP reservation.png> <./Images/DHCP/Verification of DHCP reservation.png> <./Images/DHCP/IP address tracking.png>] [31 <./Images/DHCP/PS_Get_DHCP_Scope_pt1.png>] [32]
+<Images/DHCP/command to check dhcp server .png, id=719, 167.62625pt x 18.56938pt>
+File: Images/DHCP/command to check dhcp server .png Graphic file (type png)
+<use Images/DHCP/command to check dhcp server .png>
+Package pdftex.def Info: Images/DHCP/command to check dhcp server .png  used on input line 390.
+(pdftex.def)             Requested size: 298.75264pt x 33.09529pt.
+) [33 <./Images/DHCP/command to check dhcp server .png>]
+\openout2 = `Chapters/Chapter5_DNS.aux'.
+
+ (./Chapters/Chapter5_DNS.tex)
+\openout2 = `Chapters/Chapter6_Group_Policy.aux'.
+
+ (./Chapters/Chapter6_Group_Policy.tex
+Chapter 4.
+[34
+
+
+
+
+
+
+
+]
+<Images/OU_groups_users/OU_groups_users_01.png, id=745, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_01.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_01.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_01.png  used on input line 35.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+<Images/OU_groups_users/OU_groups_users_02.png, id=746, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_02.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_02.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_02.png  used on input line 36.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+ [35]
+<Images/OU_groups_users/OU_groups_users_03.png, id=751, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_03.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_03.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_03.png  used on input line 37.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+<Images/OU_groups_users/OU_groups_users_04.png, id=752, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_04.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_04.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_04.png  used on input line 38.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+ [36 <./Images/OU_groups_users/OU_groups_users_01.png> <./Images/OU_groups_users/OU_groups_users_02.png>]
+<Images/OU_groups_users/OU_groups_users_05.png, id=759, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_05.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_05.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_05.png  used on input line 39.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+<Images/OU_groups_users/OU_groups_users_06.png, id=760, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_06.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_06.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_06.png  used on input line 40.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+ [37 <./Images/OU_groups_users/OU_groups_users_03.png> <./Images/OU_groups_users/OU_groups_users_04.png>]
+<Images/OU_groups_users/OU_groups_users_07.png, id=767, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_07.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_07.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_07.png  used on input line 41.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+<Images/OU_groups_users/OU_groups_users_08.png, id=768, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_08.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_08.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_08.png  used on input line 42.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+ [38 <./Images/OU_groups_users/OU_groups_users_05.png> <./Images/OU_groups_users/OU_groups_users_06.png>]
+<Images/OU_groups_users/OU_groups_users_09.png, id=775, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_09.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_09.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_09.png  used on input line 43.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+<Images/OU_groups_users/OU_groups_users_10.png, id=776, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_10.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_10.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_10.png  used on input line 44.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+ [39 <./Images/OU_groups_users/OU_groups_users_07.png> <./Images/OU_groups_users/OU_groups_users_08.png>]
+<Images/OU_groups_users/OU_groups_users_11.png, id=784, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_11.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_11.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_11.png  used on input line 45.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+<Images/OU_groups_users/OU_groups_users_12.png, id=785, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_12.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_12.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_12.png  used on input line 46.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+ [40 <./Images/OU_groups_users/OU_groups_users_09.png> <./Images/OU_groups_users/OU_groups_users_10.png>]
+<Images/OU_groups_users/OU_groups_users_13.png, id=793, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_13.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_13.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_13.png  used on input line 47.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+<Images/OU_groups_users/OU_groups_users_14.png, id=794, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_14.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_14.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_14.png  used on input line 48.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+ [41 <./Images/OU_groups_users/OU_groups_users_11.png> <./Images/OU_groups_users/OU_groups_users_12.png>]
+<Images/OU_groups_users/OU_groups_users_15.png, id=801, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_15.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_15.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_15.png  used on input line 49.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+<Images/OU_groups_users/OU_groups_users_16.png, id=802, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_16.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_16.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_16.png  used on input line 50.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+ [42 <./Images/OU_groups_users/OU_groups_users_13.png> <./Images/OU_groups_users/OU_groups_users_14.png>]
+<Images/OU_groups_users/OU_groups_users_17.png, id=809, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_17.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_17.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_17.png  used on input line 51.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+<Images/OU_groups_users/OU_groups_users_18.png, id=810, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_18.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_18.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_18.png  used on input line 52.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+ [43 <./Images/OU_groups_users/OU_groups_users_15.png> <./Images/OU_groups_users/OU_groups_users_16.png>]
+<Images/OU_groups_users/OU_groups_users_19.png, id=817, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_19.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_19.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_19.png  used on input line 53.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+<Images/OU_groups_users/OU_groups_users_20.png, id=818, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_20.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_20.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_20.png  used on input line 54.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+ [44 <./Images/OU_groups_users/OU_groups_users_17.png> <./Images/OU_groups_users/OU_groups_users_18.png>]
+<Images/OU_groups_users/OU_groups_users_21.png, id=825, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_21.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_21.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_21.png  used on input line 55.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+<Images/OU_groups_users/OU_groups_users_22.png, id=826, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_22.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_22.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_22.png  used on input line 56.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+ [45 <./Images/OU_groups_users/OU_groups_users_19.png> <./Images/OU_groups_users/OU_groups_users_20.png>]
+<Images/OU_groups_users/OU_groups_users_23.png, id=834, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_23.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_23.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_23.png  used on input line 57.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+<Images/OU_groups_users/OU_groups_users_24.png, id=835, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_24.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_24.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_24.png  used on input line 58.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+ [46 <./Images/OU_groups_users/OU_groups_users_21.png> <./Images/OU_groups_users/OU_groups_users_22.png>]
+<Images/OU_groups_users/OU_groups_users_25.png, id=842, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_25.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_25.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_25.png  used on input line 59.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+<Images/OU_groups_users/OU_groups_users_26.png, id=843, 961.5925pt x 949.5475pt>
+File: Images/OU_groups_users/OU_groups_users_26.png Graphic file (type png)
+<use Images/OU_groups_users/OU_groups_users_26.png>
+Package pdftex.def Info: Images/OU_groups_users/OU_groups_users_26.png  used on input line 60.
+(pdftex.def)             Requested size: 249.09843pt x 245.97821pt.
+ [47 <./Images/OU_groups_users/OU_groups_users_23.png> <./Images/OU_groups_users/OU_groups_users_24.png>]
+<Images/GPO/GPO/GPO Cmd 01.png, id=850, 935.495pt x 949.5475pt>
+File: Images/GPO/GPO/GPO Cmd 01.png Graphic file (type png)
+<use Images/GPO/GPO/GPO Cmd 01.png>
+Package pdftex.def Info: Images/GPO/GPO/GPO Cmd 01.png  used on input line 65.
+(pdftex.def)             Requested size: 242.33794pt x 245.97821pt.
+<Images/GPO/GPO/GPO Cmd 02.png, id=851, 935.495pt x 949.5475pt>
+File: Images/GPO/GPO/GPO Cmd 02.png Graphic file (type png)
+<use Images/GPO/GPO/GPO Cmd 02.png>
+Package pdftex.def Info: Images/GPO/GPO/GPO Cmd 02.png  used on input line 66.
+(pdftex.def)             Requested size: 242.33794pt x 245.97821pt.
+ [48 <./Images/OU_groups_users/OU_groups_users_25.png> <./Images/OU_groups_users/OU_groups_users_26.png>]
+<Images/GPO/GPO/GPO Cmd 03.png, id=858, 935.495pt x 949.5475pt>
+File: Images/GPO/GPO/GPO Cmd 03.png Graphic file (type png)
+<use Images/GPO/GPO/GPO Cmd 03.png>
+Package pdftex.def Info: Images/GPO/GPO/GPO Cmd 03.png  used on input line 67.
+(pdftex.def)             Requested size: 242.33794pt x 245.97821pt.
+<Images/GPO/GPO/GPO PWD 01.png, id=859, 935.495pt x 949.5475pt>
+File: Images/GPO/GPO/GPO PWD 01.png Graphic file (type png)
+<use Images/GPO/GPO/GPO PWD 01.png>
+Package pdftex.def Info: Images/GPO/GPO/GPO PWD 01.png  used on input line 68.
+(pdftex.def)             Requested size: 242.33794pt x 245.97821pt.
+ [49 <./Images/GPO/GPO/GPO Cmd 01.png> <./Images/GPO/GPO/GPO Cmd 02.png>]
+<Images/GPO/GPO/GPO PWD 02.png, id=866, 935.495pt x 949.5475pt>
+File: Images/GPO/GPO/GPO PWD 02.png Graphic file (type png)
+<use Images/GPO/GPO/GPO PWD 02.png>
+Package pdftex.def Info: Images/GPO/GPO/GPO PWD 02.png  used on input line 69.
+(pdftex.def)             Requested size: 242.33794pt x 245.97821pt.
+<Images/GPO/GPO/GPO PWD 03.png, id=867, 935.495pt x 949.5475pt>
+File: Images/GPO/GPO/GPO PWD 03.png Graphic file (type png)
+<use Images/GPO/GPO/GPO PWD 03.png>
+Package pdftex.def Info: Images/GPO/GPO/GPO PWD 03.png  used on input line 70.
+(pdftex.def)             Requested size: 242.33794pt x 245.97821pt.
+ [50 <./Images/GPO/GPO/GPO Cmd 03.png> <./Images/GPO/GPO/GPO PWD 01.png>]
+<Images/GPO/GPO/GPO PWD 04.png, id=874, 935.495pt x 949.5475pt>
+File: Images/GPO/GPO/GPO PWD 04.png Graphic file (type png)
+<use Images/GPO/GPO/GPO PWD 04.png>
+Package pdftex.def Info: Images/GPO/GPO/GPO PWD 04.png  used on input line 71.
+(pdftex.def)             Requested size: 242.33794pt x 245.97821pt.
+<Images/GPO/GPO/GPO PWD 05.png, id=875, 935.495pt x 949.5475pt>
+File: Images/GPO/GPO/GPO PWD 05.png Graphic file (type png)
+<use Images/GPO/GPO/GPO PWD 05.png>
+Package pdftex.def Info: Images/GPO/GPO/GPO PWD 05.png  used on input line 72.
+(pdftex.def)             Requested size: 242.33794pt x 245.97821pt.
+ [51 <./Images/GPO/GPO/GPO PWD 02.png> <./Images/GPO/GPO/GPO PWD 03.png>]
+<Images/GPO/GPO/GPO Storage 01.png, id=883, 935.495pt x 949.5475pt>
+File: Images/GPO/GPO/GPO Storage 01.png Graphic file (type png)
+<use Images/GPO/GPO/GPO Storage 01.png>
+Package pdftex.def Info: Images/GPO/GPO/GPO Storage 01.png  used on input line 73.
+(pdftex.def)             Requested size: 242.33794pt x 245.97821pt.
+<Images/GPO/GPO/GPO Storage 02.png, id=884, 935.495pt x 949.5475pt>
+File: Images/GPO/GPO/GPO Storage 02.png Graphic file (type png)
+<use Images/GPO/GPO/GPO Storage 02.png>
+Package pdftex.def Info: Images/GPO/GPO/GPO Storage 02.png  used on input line 74.
+(pdftex.def)             Requested size: 242.33794pt x 245.97821pt.
+ [52 <./Images/GPO/GPO/GPO PWD 04.png> <./Images/GPO/GPO/GPO PWD 05.png>]
+<Images/GPO/GPO/GPO Storage 03.png, id=891, 935.495pt x 949.5475pt>
+File: Images/GPO/GPO/GPO Storage 03.png Graphic file (type png)
+<use Images/GPO/GPO/GPO Storage 03.png>
+Package pdftex.def Info: Images/GPO/GPO/GPO Storage 03.png  used on input line 75.
+(pdftex.def)             Requested size: 242.33794pt x 245.97821pt.
+<Images/GPO/GPO/GPO Win Installer 01.png, id=892, 935.495pt x 949.5475pt>
+File: Images/GPO/GPO/GPO Win Installer 01.png Graphic file (type png)
+<use Images/GPO/GPO/GPO Win Installer 01.png>
+Package pdftex.def Info: Images/GPO/GPO/GPO Win Installer 01.png  used on input line 76.
+(pdftex.def)             Requested size: 242.33794pt x 245.97821pt.
+ [53 <./Images/GPO/GPO/GPO Storage 01.png> <./Images/GPO/GPO/GPO Storage 02.png>]
+<Images/GPO/GPO/GPO Win Installer 02.png, id=899, 935.495pt x 949.5475pt>
+File: Images/GPO/GPO/GPO Win Installer 02.png Graphic file (type png)
+<use Images/GPO/GPO/GPO Win Installer 02.png>
+Package pdftex.def Info: Images/GPO/GPO/GPO Win Installer 02.png  used on input line 77.
+(pdftex.def)             Requested size: 242.33794pt x 245.97821pt.
+<Images/GPO/GPO/GPO Win Installer 03.png, id=900, 935.495pt x 949.5475pt>
+File: Images/GPO/GPO/GPO Win Installer 03.png Graphic file (type png)
+<use Images/GPO/GPO/GPO Win Installer 03.png>
+Package pdftex.def Info: Images/GPO/GPO/GPO Win Installer 03.png  used on input line 78.
+(pdftex.def)             Requested size: 242.33794pt x 245.97821pt.
+ [54 <./Images/GPO/GPO/GPO Storage 03.png> <./Images/GPO/GPO/GPO Win Installer 01.png>] [55 <./Images/GPO/GPO/GPO Win Installer 02.png> <./Images/GPO/GPO/GPO Win Installer 03.png>]) [56]
+\openout2 = `Chapters/Chapter7_Remote_Access.aux'.
+
+ (./Chapters/Chapter7_Remote_Access.tex)
+\openout2 = `Chapters/Chapter8_Windows_Certificate.aux'.
+
+ (./Chapters/Chapter8_Windows_Certificate.tex)
+\openout2 = `Chapters/Chapter9_Conclusions.aux'.
+
+ (./Chapters/Chapter9_Conclusions.tex
+Chapter 5.
+[57
+
+
+
+
+
+
+
+
+
+
+] [58] [59] [60]) [61] [62] [63] [64
+
+
+
+
+]
+Underfull \hbox (badness 1168) in paragraph at lines 129--129
+[]\T1/lmr/m/n/12 (+20) Microsoft, \T1/lmr/m/it/12 (+20) Get-dhcpserverv4lease\T1/lmr/m/n/12 (+20) , 2026. [On-line]. Avail-able: [][]$\T1/lmtt/m/n/12 https : / /
+ []
+
+
+Overfull \hbox (7.61168pt too wide) in paragraph at lines 129--129
+\T1/lmtt/m/n/12 tutorial / Use -[] advanced -[] DHCP -[] logging -[] techniques -[] for -[] troubleshooting$[][] 
+ []
+
+[65]
+\openout2 = `Appendix.aux'.
+
+ (./Appendix.tex
+Appendix A.
+) [66
+
+
+] (./Main.aux (./Title.aux) (./Declaration.aux) (./Abstract.aux) (./Chapters/Chapter1_Introduction.aux) (./Chapters/Chapter2_Installation.aux) (./Chapters/Chapter3_ADDS.aux) (./Chapters/Chapter4_DHCP.aux) (./Chapters/Chapter5_DNS.aux) (./Chapters/Chapter6_Group_Policy.aux) (./Chapters/Chapter7_Remote_Access.aux) (./Chapters/Chapter8_Windows_Certificate.aux) (./Chapters/Chapter9_Conclusions.aux) (./Appendix.aux))
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2026-01-19>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `Main.out' has not changed.
+(rerunfilecheck)             Checksum: FE9E7EE6AC24162E8E19269065E6953F;7023.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                Main
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'Main.run.xml'.
+\openout1 = `Main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 50515 strings out of 467532
+ 1058192 string characters out of 5423647
+ 2079342 words of memory out of 5000000
+ 78263 multiletter control sequences out of 15000+600000
+ 686302 words of font info for 151 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 89i,14n,107p,2595b,2398s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on Main.pdf (76 pages, 5339307 bytes).
+PDF statistics:
+ 1087 PDF objects out of 1200 (max. 8388607)
+ 807 compressed objects within 9 object streams
+ 239 named destinations out of 1000 (max. 500000)
+ 34058 words of extra memory for PDF output out of 35830 (max. 10000000)
+

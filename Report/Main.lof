@@ -1,0 +1,88 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Initial Virtual Machine Configuration.}}{4}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Virtual Machine Configuration Step 2.}}{4}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Virtual Machine Configuration Step 3.}}{5}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Virtual Machine Configuration Step 4.}}{5}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Virtual Machine Configuration Step 5.}}{6}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Final Virtual Machine Configuration Step.}}{6}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Installation Screen 1.}}{7}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Installation Screen 2.}}{7}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Installation Screen 3.}}{8}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Installation Screen 4.}}{8}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Installation Screen 5.}}{9}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Installation Screen 6.}}{9}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Installation Screen 7.}}{10}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Installation Screen 8.}}{10}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Windows Server Account Set-Up.}}{11}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Windows Server Log-In Screen.}}{11}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Windows Server Loaded and installed.}}{12}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Server Manager dashboard following the installation of Windows Server 2019.}}{13}{figure.caption.24}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Description of DHCP Post-Install Configuration Wizard}}{17}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Authorization of DHCP Post-Install Configuration Wizard}}{17}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Post Install Configuration Completed}}{18}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces DHCP Selected on Tools Dropdown Menu}}{19}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces DHCP Windows}}{19}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Adding a Scope}}{20}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces New Scope Wizard}}{21}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Group One Scope Made}}{21}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces No Exclusions made}}{22}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Setting IP Address Range}}{23}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Lease duration of 8 days set}}{23}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Default Gateway Configured (1)}}{24}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Default Gateway Configured (2)}}{25}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces DNS Server and Domain Name}}{26}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces WINS Server configurinf left vacant}}{27}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Activation of Scope}}{28}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Finishing New Scope Wizard}}{28}{figure.caption.55}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces New DHCP Scope created}}{29}{figure.caption.56}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Example of accessing DHCP through Powershell}}{30}{figure.caption.58}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Example of adding a DHCP reservation}}{30}{figure.caption.59}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Example of verification of DHCP reservation}}{30}{figure.caption.60}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Example of IP address tracking}}{30}{figure.caption.61}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Example of Get-DhcpServerv4Scope command in use}}{31}{figure.caption.62}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces ipconfig /all command in Command prompt}}{33}{figure.caption.63}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Active Directory Users and Computers.}}{36}{figure.caption.67}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces New OU object selected under the domain OPS.local.}}{36}{figure.caption.68}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces New OU object created and named Group1-OU.}}{37}{figure.caption.69}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces New OU object listed under the selected domain.}}{37}{figure.caption.70}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces New User object selected under the Group1-OU.}}{38}{figure.caption.71}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces New User object configuration.}}{38}{figure.caption.72}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces New User object password configuration.}}{39}{figure.caption.73}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces New User object summary.}}{39}{figure.caption.74}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces User object created and named. Here are two users listed.}}{40}{figure.caption.75}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces New Group Object selected under the Group1-OU. This allows the grouping of users.}}{40}{figure.caption.76}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces New Group object configuration. Group name, scope and type configured.}}{41}{figure.caption.77}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces New Group object listed under the Group1-OU.}}{41}{figure.caption.78}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces User1 showing membership configuration method 1.}}{42}{figure.caption.79}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces User1 membership configuration step 1.}}{42}{figure.caption.80}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces User1 membership configuration step 2.}}{43}{figure.caption.81}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces User1 membership configuration step 3.}}{43}{figure.caption.82}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Group search window}}{44}{figure.caption.83}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces G1 Users Group find and selection.}}{44}{figure.caption.84}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Group selection and addition window.}}{45}{figure.caption.85}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces User1 membership tab.}}{45}{figure.caption.86}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces User2 showing membership configuration method 2. Add to a group selected.}}{46}{figure.caption.87}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces G1 Users Group properties selected to add Users to itself.}}{46}{figure.caption.88}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Properties tab with list of members for G1 Users Group.}}{47}{figure.caption.89}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Users find and selection.}}{47}{figure.caption.90}%
+\contentsline {figure}{\numberline {4.25}{\ignorespaces User2 selected and will be added to the group.}}{48}{figure.caption.91}%
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Properties tab with list of members for G1 Users Group. The list now includes User2.}}{48}{figure.caption.92}%
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Group Policy Management Console. Prevent access to the Command Prompt selected.}}{49}{figure.caption.93}%
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Policy settings for Prevent access to the Command Prompt. Enabled is selected.}}{49}{figure.caption.94}%
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Policy settings for Prevent access to the Command Prompt shown as enabled.}}{50}{figure.caption.95}%
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Password Policy settings. Maximum password age selected.}}{50}{figure.caption.96}%
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Maximum password age set to 42 days.}}{51}{figure.caption.97}%
+\contentsline {figure}{\numberline {4.32}{\ignorespaces Maximum password age shown as 42 days.}}{51}{figure.caption.98}%
+\contentsline {figure}{\numberline {4.33}{\ignorespaces Minimum password length set to 10 characters.}}{52}{figure.caption.99}%
+\contentsline {figure}{\numberline {4.34}{\ignorespaces Minimum password length shown as 10 characters.}}{52}{figure.caption.100}%
+\contentsline {figure}{\numberline {4.35}{\ignorespaces All removable storage classes: Deny all access selected.}}{53}{figure.caption.101}%
+\contentsline {figure}{\numberline {4.36}{\ignorespaces All removable storage classes: Deny all access Enabled.}}{53}{figure.caption.102}%
+\contentsline {figure}{\numberline {4.37}{\ignorespaces All removable storage classes: Deny all access shown as enabled.}}{54}{figure.caption.103}%
+\contentsline {figure}{\numberline {4.38}{\ignorespaces Turn off Windows Installer selected.}}{54}{figure.caption.104}%
+\contentsline {figure}{\numberline {4.39}{\ignorespaces Turn off Windows Installer Enabled.}}{55}{figure.caption.105}%
+\contentsline {figure}{\numberline {4.40}{\ignorespaces Turn off Windows Installer shown as enabled.}}{55}{figure.caption.106}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }

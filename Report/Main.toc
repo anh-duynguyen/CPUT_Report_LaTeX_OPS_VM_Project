@@ -1,0 +1,58 @@
+\contentsline {chapter}{List of Figures}{vi}{chapter*.4}%
+\contentsline {chapter}{List of Tables}{ix}{chapter*.5}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Objectives}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Report Structure}{2}{section.1.3}%
+\contentsline {chapter}{\numberline {2}Installation and Initial Configuration of Windows Server 2019}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Virtual Machine Preparation}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Installation of Windows Server 2019}{6}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Testing}{12}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Operating System Verification}{12}{subsection.2.4.1}%
+\contentsline {section}{\numberline {2.5}Chapter Summary}{13}{section.2.5}%
+\contentsline {chapter}{\numberline {3}DHCP Configuration}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Background}{15}{section.3.1}%
+\contentsline {paragraph}{}{15}{paragraph*.25}%
+\contentsline {paragraph}{}{15}{paragraph*.26}%
+\contentsline {paragraph}{}{15}{paragraph*.27}%
+\contentsline {section}{\numberline {3.2}Configuration Steps}{16}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}DHCP Post-Install configuration}{16}{subsection.3.2.1}%
+\contentsline {paragraph}{}{16}{paragraph*.28}%
+\contentsline {paragraph}{}{16}{paragraph*.29}%
+\contentsline {paragraph}{}{16}{paragraph*.30}%
+\contentsline {subsection}{\numberline {3.2.2}The DHCP Scope}{18}{subsection.3.2.2}%
+\contentsline {paragraph}{}{18}{paragraph*.34}%
+\contentsline {paragraph}{}{18}{paragraph*.35}%
+\contentsline {paragraph}{}{20}{paragraph*.38}%
+\contentsline {paragraph}{}{22}{paragraph*.42}%
+\contentsline {paragraph}{}{24}{paragraph*.46}%
+\contentsline {paragraph}{}{25}{paragraph*.49}%
+\contentsline {paragraph}{}{26}{paragraph*.51}%
+\contentsline {paragraph}{}{27}{paragraph*.53}%
+\contentsline {section}{\numberline {3.3}Issues encountered for DHCP Server Setup and Alternative Paths}{29}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Use of Powershell in event of DHCP Window Failure}{29}{subsection.3.3.1}%
+\contentsline {paragraph}{}{29}{paragraph*.57}%
+\contentsline {subsection}{\numberline {3.3.2}Use Windows Powershell to create DHCP scope}{30}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Testing}{32}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Checking Server}{32}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Test from a client and Verifying on server}{33}{subsection.3.4.2}%
+\contentsline {paragraph}{}{33}{paragraph*.64}%
+\contentsline {paragraph}{}{33}{paragraph*.65}%
+\contentsline {paragraph}{}{33}{paragraph*.66}%
+\contentsline {chapter}{\numberline {4}Group Policy setup and configuration for Windows Server 2019}{34}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introduction}{34}{section.4.1}%
+\contentsline {section}{\numberline {4.2}How does Group Policy work?}{34}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Assignment specified Group Policy configuration}{35}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Organizational Unit creation and configuration}{35}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Group Policy Object creation and configuration}{49}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Testing}{55}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Chapter Summary}{56}{section.4.7}%
+\contentsline {chapter}{\numberline {5}Conclusion}{57}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Summary}{57}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Key Findings}{58}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Future Work}{60}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Final Remarks}{62}{section.5.4}%
+\contentsline {chapter}{Bibliography}{64}{section.5.4}%
+\contentsline {chapter}{\numberline {A}Appendix}{66}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Github Repository}{66}{section.A.1}%
