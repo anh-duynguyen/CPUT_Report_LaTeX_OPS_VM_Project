@@ -1,0 +1,163 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Initial Virtual Machine Configuration}}{4}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces VM Name and Windows Server 2019 ISO Selected}}{5}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Virtual Hardware: Memory and CPUs}}{5}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Virtual Hard Disk Configuration}}{6}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces WinServer Listed in the VirtualBox Manager}}{6}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Final Virtual Machine Configuration Summary}}{7}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Language, Time and Currency Format, and Keyboard Selection}}{8}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Windows Setup: Install Now}}{9}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Selecting the Operating System Edition}}{10}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Accepting the Licence Terms}}{11}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Selecting the Installation Type}}{12}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Selecting the Installation Disk}}{13}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Installing Windows}}{14}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Restart Prompt After Installation}}{15}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Setting the Administrator Password}}{16}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Administrator Log-In Screen}}{17}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Windows Server 2019 Desktop After First Log-In}}{18}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Server Manager Dashboard After the Installation of Windows Server 2019}}{19}{figure.caption.25}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Deployment Configuration - Adding a new forest}}{23}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Specifying the Root Domain Name}}{24}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Domain Controller Options and DSRM Password}}{25}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces DNS Delegation Warning}}{26}{figure.caption.30}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces NetBIOS Domain Name Verification}}{27}{figure.caption.31}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Review Options Summary}}{28}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces PowerShell Deployment Script - Part 1}}{29}{figure.caption.33}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Review Options - Continued}}{30}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces PowerShell Deployment Script - Part 2}}{31}{figure.caption.35}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Prerequisites Check Warning Details}}{32}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Prerequisites Check Passed}}{33}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces AD DS Installation Progress}}{34}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Accessing AD Users and Computers}}{35}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Domain Container Verification}}{36}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Opening Domain Properties}}{37}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Domain Functional Level Verification}}{38}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Opening DNS Manager}}{39}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Forward Lookup Zones}}{40}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Creating a New Reverse Lookup Zone}}{41}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.20}{\ignorespaces New Zone Wizard Welcome Screen}}{42}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Zone Type Selection}}{43}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Active Directory Zone Replication Scope}}{44}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces IPv4 Reverse Lookup Selection}}{45}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Network ID Configuration}}{46}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Dynamic Update Security Configuration}}{47}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Completing the New Zone Wizard}}{48}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Reverse Lookup Zone Verification}}{49}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Host (A) Record Properties}}{50}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Enabling PTR Record Update}}{51}{figure.caption.55}%
+\contentsline {figure}{\numberline {3.30}{\ignorespaces PTR Record Verification}}{52}{figure.caption.56}%
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Network Adapter DNS Configuration}}{53}{figure.caption.57}%
+\contentsline {figure}{\numberline {3.32}{\ignorespaces Basic DNS Resolution Test}}{54}{figure.caption.58}%
+\contentsline {figure}{\numberline {3.33}{\ignorespaces Comprehensive nslookup Verification}}{55}{figure.caption.59}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Description of the DHCP Post-Install Configuration Wizard}}{59}{figure.caption.61}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Authorisation of the DHCP Post-Install Configuration Wizard}}{60}{figure.caption.62}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Post-Install Configuration Completed}}{61}{figure.caption.63}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces DHCP Selected on the Tools Dropdown Menu}}{62}{figure.caption.64}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces DHCP Window}}{63}{figure.caption.65}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Adding a Scope}}{64}{figure.caption.66}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces New Scope Wizard}}{65}{figure.caption.67}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Group One Scope Made}}{66}{figure.caption.68}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces No Exclusions Made}}{67}{figure.caption.69}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Setting the IP Address Range}}{68}{figure.caption.70}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Lease Duration of 8 Days Set}}{69}{figure.caption.71}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Default Gateway Configured (1)}}{70}{figure.caption.72}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Default Gateway Configured (2)}}{71}{figure.caption.73}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces DNS Server and Domain Name}}{72}{figure.caption.74}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces WINS Server Configuration Left Vacant}}{73}{figure.caption.75}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Activation of the Scope}}{74}{figure.caption.76}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Finishing the New Scope Wizard}}{75}{figure.caption.77}%
+\contentsline {figure}{\numberline {4.18}{\ignorespaces New DHCP Scope Created}}{76}{figure.caption.78}%
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Example of Accessing DHCP Through PowerShell}}{77}{figure.caption.80}%
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Example of Adding a DHCP Reservation}}{77}{figure.caption.81}%
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Example of Verification of a DHCP Reservation}}{78}{figure.caption.82}%
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Example of IP Address Tracking}}{78}{figure.caption.83}%
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Example of the Get-DhcpServerv4Scope Command in Use}}{78}{figure.caption.84}%
+\contentsline {figure}{\numberline {4.24}{\ignorespaces \texttt {ipconfig /all} Command in Command Prompt}}{80}{figure.caption.85}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Replace this caption (DNS, step 1)}}{83}{figure.caption.86}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Replace this caption (DNS, step 1 continued)}}{83}{figure.caption.87}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Replace this caption (DNS, step 2)}}{84}{figure.caption.88}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Replace this caption (DNS test result)}}{84}{figure.caption.89}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Active Directory Users and Computers}}{87}{figure.caption.92}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces New OU Object Selected Under the Domain OPS.local}}{88}{figure.caption.93}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces New OU Object Created and Named Group1-OU}}{89}{figure.caption.94}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces New OU Object Listed Under the Selected Domain}}{90}{figure.caption.95}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces New User Object Selected Under the Group1-OU}}{91}{figure.caption.96}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces New User Object Configuration}}{92}{figure.caption.97}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces New User Object Password Configuration}}{93}{figure.caption.98}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces New User Object Summary}}{94}{figure.caption.99}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces User Objects Created and Named; Two Users Are Listed}}{95}{figure.caption.100}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces New Group Object Selected Under the Group1-OU (Allows Grouping of Users)}}{96}{figure.caption.101}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces New Group Object Configuration: Group Name, Scope and Type}}{97}{figure.caption.102}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces New Group Object Listed Under the Group1-OU}}{98}{figure.caption.103}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces User1 Showing Membership Configuration Method 1}}{99}{figure.caption.104}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces User1 Membership Configuration, Step 1}}{100}{figure.caption.105}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces User1 Membership Configuration, Step 2}}{101}{figure.caption.106}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces User1 Membership Configuration, Step 3}}{102}{figure.caption.107}%
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Group Search Window}}{103}{figure.caption.108}%
+\contentsline {figure}{\numberline {6.18}{\ignorespaces G1 Users Group Find and Selection}}{104}{figure.caption.109}%
+\contentsline {figure}{\numberline {6.19}{\ignorespaces Group Selection and Addition Window}}{105}{figure.caption.110}%
+\contentsline {figure}{\numberline {6.20}{\ignorespaces User1 Membership Tab}}{106}{figure.caption.111}%
+\contentsline {figure}{\numberline {6.21}{\ignorespaces User2 Showing Membership Configuration Method 2: Add to a Group Selected}}{107}{figure.caption.112}%
+\contentsline {figure}{\numberline {6.22}{\ignorespaces G1 Users Group Properties Selected to Add Users to It}}{108}{figure.caption.113}%
+\contentsline {figure}{\numberline {6.23}{\ignorespaces Properties Tab With List of Members for the G1 Users Group}}{109}{figure.caption.114}%
+\contentsline {figure}{\numberline {6.24}{\ignorespaces Users Find and Selection}}{110}{figure.caption.115}%
+\contentsline {figure}{\numberline {6.25}{\ignorespaces User2 Selected and Added to the Group}}{111}{figure.caption.116}%
+\contentsline {figure}{\numberline {6.26}{\ignorespaces Properties Tab With List of Members for the G1 Users Group; the List Now Includes User2}}{112}{figure.caption.117}%
+\contentsline {figure}{\numberline {6.27}{\ignorespaces Group Policy Management Editor: Prevent Access to the Command Prompt Selected}}{113}{figure.caption.118}%
+\contentsline {figure}{\numberline {6.28}{\ignorespaces Policy Settings for Prevent Access to the Command Prompt: Enabled Selected}}{114}{figure.caption.119}%
+\contentsline {figure}{\numberline {6.29}{\ignorespaces Prevent Access to the Command Prompt Shown as Enabled}}{115}{figure.caption.120}%
+\contentsline {figure}{\numberline {6.30}{\ignorespaces Password Policy Settings: Maximum Password Age Selected}}{116}{figure.caption.121}%
+\contentsline {figure}{\numberline {6.31}{\ignorespaces Maximum Password Age Set to 42 Days}}{117}{figure.caption.122}%
+\contentsline {figure}{\numberline {6.32}{\ignorespaces Maximum Password Age Shown as 42 Days}}{118}{figure.caption.123}%
+\contentsline {figure}{\numberline {6.33}{\ignorespaces Minimum Password Length Set to 10 Characters}}{119}{figure.caption.124}%
+\contentsline {figure}{\numberline {6.34}{\ignorespaces Minimum Password Length Shown as 10 Characters}}{120}{figure.caption.125}%
+\contentsline {figure}{\numberline {6.35}{\ignorespaces All Removable Storage Classes: Deny All Access Selected}}{121}{figure.caption.126}%
+\contentsline {figure}{\numberline {6.36}{\ignorespaces All Removable Storage Classes: Deny All Access Enabled}}{122}{figure.caption.127}%
+\contentsline {figure}{\numberline {6.37}{\ignorespaces All Removable Storage Classes: Deny All Access Shown as Enabled}}{123}{figure.caption.128}%
+\contentsline {figure}{\numberline {6.38}{\ignorespaces Turn off Windows Installer Selected}}{124}{figure.caption.129}%
+\contentsline {figure}{\numberline {6.39}{\ignorespaces Turn off Windows Installer Enabled}}{125}{figure.caption.130}%
+\contentsline {figure}{\numberline {6.40}{\ignorespaces Turn off Windows Installer Shown as Enabled}}{126}{figure.caption.131}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Replace this caption (Remote Access, step 1)}}{129}{figure.caption.132}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Replace this caption (Remote Access, step 1 continued)}}{129}{figure.caption.133}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Replace this caption (Remote Access, step 2)}}{129}{figure.caption.134}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Replace this caption (Remote Access test result)}}{130}{figure.caption.135}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Selecting the Active Directory Certificate Services Role}}{133}{figure.caption.137}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Select Features Page Left at Its Defaults}}{134}{figure.caption.138}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Introduction to AD CS and the Note on Computer Name Changes}}{135}{figure.caption.139}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Selecting the AD CS Role Services}}{136}{figure.caption.140}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Installation Progress Showing That Further Configuration Is Required}}{137}{figure.caption.141}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Post-Deployment Configuration Notification for AD CS}}{138}{figure.caption.142}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces AD CS Configuration: Credentials}}{139}{figure.caption.143}%
+\contentsline {figure}{\numberline {8.8}{\ignorespaces AD CS Configuration: Role Services to Configure}}{140}{figure.caption.144}%
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Setup Type: Enterprise CA Selected}}{141}{figure.caption.145}%
+\contentsline {figure}{\numberline {8.10}{\ignorespaces CA Type: Root CA Selected}}{142}{figure.caption.146}%
+\contentsline {figure}{\numberline {8.11}{\ignorespaces Private Key: Create a New Private Key}}{143}{figure.caption.147}%
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Cryptography for CA: RSA, 2048-bit Key and SHA256}}{144}{figure.caption.148}%
+\contentsline {figure}{\numberline {8.13}{\ignorespaces CA Name: Common Name and Distinguished Name}}{145}{figure.caption.149}%
+\contentsline {figure}{\numberline {8.14}{\ignorespaces Validity Period Set to Five Years}}{146}{figure.caption.150}%
+\contentsline {figure}{\numberline {8.15}{\ignorespaces CA Database and Log Locations}}{147}{figure.caption.151}%
+\contentsline {figure}{\numberline {8.16}{\ignorespaces Authentication Type for the Certificate Enrollment Policy Web Service}}{148}{figure.caption.152}%
+\contentsline {figure}{\numberline {8.17}{\ignorespaces Server Authentication Certificate to Be Assigned Later}}{149}{figure.caption.153}%
+\contentsline {figure}{\numberline {8.18}{\ignorespaces Confirmation Page: Certification Authority Settings}}{150}{figure.caption.154}%
+\contentsline {figure}{\numberline {8.19}{\ignorespaces Confirmation Page: Remaining Role Services}}{151}{figure.caption.155}%
+\contentsline {figure}{\numberline {8.20}{\ignorespaces Configuration in Progress}}{152}{figure.caption.156}%
+\contentsline {figure}{\numberline {8.21}{\ignorespaces Second Wizard Run: Credentials Required}}{153}{figure.caption.157}%
+\contentsline {figure}{\numberline {8.22}{\ignorespaces Second Wizard Run: Credentials Entered}}{154}{figure.caption.158}%
+\contentsline {figure}{\numberline {8.23}{\ignorespaces Selecting the Certificate Enrollment Web Service}}{155}{figure.caption.159}%
+\contentsline {figure}{\numberline {8.24}{\ignorespaces CA for CES: Selecting the Target CA}}{156}{figure.caption.160}%
+\contentsline {figure}{\numberline {8.25}{\ignorespaces Authentication Type for the Certificate Enrollment Web Service}}{157}{figure.caption.161}%
+\contentsline {figure}{\numberline {8.26}{\ignorespaces Service Account for CES: Built-in Application Pool Identity}}{158}{figure.caption.162}%
+\contentsline {figure}{\numberline {8.27}{\ignorespaces Server Certificate: Certificate Issued by the New CA Selected}}{159}{figure.caption.163}%
+\contentsline {figure}{\numberline {8.28}{\ignorespaces Confirmation Page for the Certificate Enrollment Web Service}}{160}{figure.caption.164}%
+\contentsline {figure}{\numberline {8.29}{\ignorespaces Certificate Enrollment Web Service Configuration in Progress}}{161}{figure.caption.165}%
+\contentsline {figure}{\numberline {8.30}{\ignorespaces Results Page: Role Services Configured Successfully}}{162}{figure.caption.166}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
