@@ -1,0 +1,179 @@
+\chapter{Group Policy Setup and Configuration for Windows Server 2019}
+\label{chap:gpo}
+
+\section{Introduction}
+\label{sec:gpo-intro}
+Group Policy is a feature of Microsoft Windows that provides centralised management and configuration of operating systems, applications, and users' settings in an Active Directory environment. It allows administrators to define security settings, software installation policies, and user interface configurations across multiple computers within a domain.
+
+A well-implemented Group Policy can reduce risk, improve security, and ensure consistency across the network. Group Policy Objects (GPOs) can be defined for specific users, groups, or computers, and can be linked to organisational units (OUs) to apply settings based on the structure of Active Directory \cite{msft-gpo-sec}.
+
+This chapter covers the setup and configuration of Group Policy in a Windows Server 2019 environment, including the creation of an OU structure and the configuration of the GPO settings required by the project, followed by testing of their application.
+
+\section{How Does Group Policy Work?}
+\label{sec:gpo-how}
+Group Policy relies on the Active Directory infrastructure to apply settings to users and computers. When a user logs in or a computer starts up, the Group Policy engine retrieves the relevant GPOs from the domain controller and applies the settings defined within those GPOs. GPOs are processed in the following order:
+\begin{enumerate}
+  \item \textbf{Local Group Policy:} settings defined on the local computer.
+  \item \textbf{Site-level GPOs:} settings defined for the site in which the computer resides.
+  \item \textbf{Domain-level GPOs:} settings defined for the entire domain.
+  \item \textbf{Organisational Unit (OU)-level GPOs:} settings defined for the specific OU in which the user or computer resides.
+\end{enumerate}
+
+When multiple GPOs are applied, the settings from the GPO processed last (the highest precedence) override those from the earlier ones. This allows administrators to create a hierarchy of policies that can be tailored to specific users, groups, or computers.
+
+Policies are refreshed periodically (every 90 minutes by default), and administrators can also force a Group Policy update using the \texttt{gpupdate} command. This ensures that any changes made to GPOs are applied immediately.
+
+\section{Assignment-Specified Group Policy Configuration}
+\label{sec:gpo-spec}
+This section covers the specific Group Policy configuration required for the assignment. The policies required include disabling the Command Prompt, restricting removable storage access, preventing software installation, and enforcing a minimum password length and a maximum password age. Each of these policies is configured through the Group Policy Management Console (GPMC) and applies to the users and computers placed in the appropriate organisational units (OUs) within Active Directory. \autoref{tab:gpo-policies} summarises the policies configured in this chapter.
+
+\begin{table}[H]
+  \centering
+  \small\sffamily
+  \renewcommand{\arraystretch}{1.3}
+  \begin{tabular}{@{}p{5.2cm}p{5.6cm}p{3.3cm}@{}}
+    \toprule
+    \textbf{Policy} & \textbf{Purpose} & \textbf{Setting used} \\
+    \midrule
+    Prevent access to the command prompt & Blocks the interactive command prompt (\texttt{cmd.exe}) & Enabled \\
+    Maximum password age & Forces users to change their password regularly & 42 days \\
+    Minimum password length & Prevents short, easily guessed passwords & 10 characters \\
+    All Removable Storage classes: Deny all access & Blocks USB drives and other removable media & Enabled \\
+    Turn off Windows Installer & Prevents unauthorised software installation & Enabled (Always) \\
+    \bottomrule
+  \end{tabular}
+  \caption{Group Policy settings configured in this chapter}\label{tab:gpo-policies}
+\end{table}
+
+\section{Organisational Unit Creation and Configuration}
+\label{sec:gpo-ou}
+The workflow for creating and configuring Group Policy Objects (GPOs) involves several steps, including accessing the Group Policy Management Console (GPMC), creating a new GPO, configuring the desired settings, and linking the GPO to the appropriate organisational unit (OU). Therefore, the OU structure must be defined in Active Directory before the GPOs are created and linked. \autoref{tab:gpo-objects} lists the Active Directory objects created for the tests.
+
+\begin{table}[H]
+  \centering
+  \small\sffamily
+  \renewcommand{\arraystretch}{1.3}
+  \begin{tabular}{@{}p{3.4cm}p{4.4cm}p{6.3cm}@{}}
+    \toprule
+    \textbf{Object} & \textbf{Name} & \textbf{Details} \\
+    \midrule
+    Organisational unit & Group1-OU & Created under OPS.local; protected from accidental deletion \\
+    Users & G1 User1, G1 User2 & Logon names of the form G1User1@OPS.local; must change password at next logon \\
+    Security group & G1 Users & Global scope, security type; contains both users \\
+    \bottomrule
+  \end{tabular}
+  \caption{Active Directory objects created for the Group Policy tests}\label{tab:gpo-objects}
+\end{table}
+
+%--------------------------------------------------------------
+\subsection{Creating the Organisational Unit}
+\label{sec:gpo-create-ou}
+Open Active Directory Users and Computers from Server Manager (\autoref{fig:gpo-01}), right-click the domain OPS.local, and choose New $\rightarrow$ Organizational Unit (\autoref{fig:gpo-02}). Name the new OU \emph{Group1-OU} (\autoref{fig:gpo-03}). The OU is then listed under the selected domain (\autoref{fig:gpo-04}).
+
+\shot{gpo_01.png}{Active Directory Users and Computers}{fig:gpo-01}
+\shot{gpo_02.png}{New OU Object Selected Under the Domain OPS.local}{fig:gpo-02}
+\shot{gpo_03.png}{New OU Object Created and Named Group1-OU}{fig:gpo-03}
+\shot{gpo_04.png}{New OU Object Listed Under the Selected Domain}{fig:gpo-04}
+
+%--------------------------------------------------------------
+\subsection{Creating the Users}
+\label{sec:gpo-create-users}
+Right-click Group1-OU and choose New $\rightarrow$ User (\autoref{fig:gpo-05}). Enter the user's name and logon name (\autoref{fig:gpo-06}), then set an initial password and the account options (\autoref{fig:gpo-07}). A summary of the new object is shown before it is created (\autoref{fig:gpo-08}). The process was repeated for a second user, and both users are listed in the OU (\autoref{fig:gpo-09}).
+
+\shot{gpo_05.png}{New User Object Selected Under the Group1-OU}{fig:gpo-05}
+\shot{gpo_06.png}{New User Object Configuration}{fig:gpo-06}
+\shot{gpo_07.png}{New User Object Password Configuration}{fig:gpo-07}
+\shot{gpo_08.png}{New User Object Summary}{fig:gpo-08}
+\shot{gpo_09.png}{User Objects Created and Named; Two Users Are Listed}{fig:gpo-09}
+
+%--------------------------------------------------------------
+\subsection{Creating the Security Group}
+\label{sec:gpo-create-group}
+To allow users to be managed together, a security group was created in the OU. Right-click Group1-OU and choose New $\rightarrow$ Group (\autoref{fig:gpo-10}), then configure the group name, scope, and type (\autoref{fig:gpo-11}). The new group is listed under Group1-OU (\autoref{fig:gpo-12}).
+
+\shot{gpo_10.png}{New Group Object Selected Under the Group1-OU (Allows Grouping of Users)}{fig:gpo-10}
+\shot{gpo_11.png}{New Group Object Configuration: Group Name, Scope and Type}{fig:gpo-11}
+\shot{gpo_12.png}{New Group Object Listed Under the Group1-OU}{fig:gpo-12}
+
+%--------------------------------------------------------------
+\subsection{Adding Users to the Group}
+\label{sec:gpo-add-users}
+There are two ways to configure group membership. \textbf{Method~1} starts from the user: open the user's Properties (\autoref{fig:gpo-13}), go to the Member Of tab (\autoref{fig:gpo-14} and \autoref{fig:gpo-15}), click Add (\autoref{fig:gpo-16}), search for the group (\autoref{fig:gpo-17} and \autoref{fig:gpo-18}), and confirm the selection (\autoref{fig:gpo-19}). The membership tab then lists the group (\autoref{fig:gpo-20}). This method was used for G1 User1.
+
+\shot{gpo_13.png}{User1 Showing Membership Configuration Method 1}{fig:gpo-13}
+\shot{gpo_14.png}{User1 Membership Configuration, Step 1}{fig:gpo-14}
+\shot{gpo_15.png}{User1 Membership Configuration, Step 2}{fig:gpo-15}
+\shot{gpo_16.png}{User1 Membership Configuration, Step 3}{fig:gpo-16}
+\shot{gpo_17.png}{Group Search Window}{fig:gpo-17}
+\shot{gpo_18.png}{G1 Users Group Find and Selection}{fig:gpo-18}
+\shot{gpo_19.png}{Group Selection and Addition Window}{fig:gpo-19}
+\shot{gpo_20.png}{User1 Membership Tab}{fig:gpo-20}
+
+\textbf{Method~2} starts from the user or the group. Right-click the user and choose Add to a group (\autoref{fig:gpo-21}), or open the properties of the G1 Users group to add users to it (\autoref{fig:gpo-22}). On the Members tab (\autoref{fig:gpo-23}), click Add, then find and select the users (\autoref{fig:gpo-24} and \autoref{fig:gpo-25}). The members list now includes User2 (\autoref{fig:gpo-26}). This method was used for G1 User2.
+
+\shot{gpo_21.png}{User2 Showing Membership Configuration Method 2: Add to a Group Selected}{fig:gpo-21}
+\shot{gpo_22.png}{G1 Users Group Properties Selected to Add Users to It}{fig:gpo-22}
+\shot{gpo_23.png}{Properties Tab With List of Members for the G1 Users Group}{fig:gpo-23}
+\shot{gpo_24.png}{Users Find and Selection}{fig:gpo-24}
+\shot{gpo_25.png}{User2 Selected and Added to the Group}{fig:gpo-25}
+\shot{gpo_26.png}{Properties Tab With List of Members for the G1 Users Group; the List Now Includes User2}{fig:gpo-26}
+
+\section{Group Policy Object Creation and Configuration}
+\label{sec:gpo-gpo}
+With the OU structure in place, the policies were configured in the Group Policy Management Editor, editing the GPO named \emph{Group1 Domain Policies}. The GPO is created in the Group Policy Management Console and linked to Group1-OU so that its settings apply to the users and computers in that OU.
+
+\subsection{Prevent Access to the Command Prompt}
+\label{sec:gpo-cmd}
+The policy \emph{Prevent access to the command prompt} was located under User Configuration $\rightarrow$ Administrative Templates $\rightarrow$ System (\autoref{fig:gpo-27}). It was set to Enabled (\autoref{fig:gpo-28}), with the option to also disable command prompt script processing left at No. The policy is shown as enabled in the policy list (\autoref{fig:gpo-29}).
+
+\shot{gpo_27.png}{Group Policy Management Editor: Prevent Access to the Command Prompt Selected}{fig:gpo-27}
+\shot{gpo_28.png}{Policy Settings for Prevent Access to the Command Prompt: Enabled Selected}{fig:gpo-28}
+\shot{gpo_29.png}{Prevent Access to the Command Prompt Shown as Enabled}{fig:gpo-29}
+
+\subsection{Password Policy}
+\label{sec:gpo-password}
+The password rules are found under Computer Configuration $\rightarrow$ Windows Settings $\rightarrow$ Security Settings $\rightarrow$ Account Policies $\rightarrow$ Password Policy. \emph{Maximum password age} was selected (\autoref{fig:gpo-30}) and set to 42 days (\autoref{fig:gpo-31}), which is confirmed in the policy list (\autoref{fig:gpo-32}). \emph{Minimum password length} was set to 10 characters (\autoref{fig:gpo-33}), also confirmed in the policy list (\autoref{fig:gpo-34}).
+
+\shot{gpo_30.png}{Password Policy Settings: Maximum Password Age Selected}{fig:gpo-30}
+\shot{gpo_31.png}{Maximum Password Age Set to 42 Days}{fig:gpo-31}
+\shot{gpo_32.png}{Maximum Password Age Shown as 42 Days}{fig:gpo-32}
+\shot{gpo_33.png}{Minimum Password Length Set to 10 Characters}{fig:gpo-33}
+\shot{gpo_34.png}{Minimum Password Length Shown as 10 Characters}{fig:gpo-34}
+
+\subsection{Removable Storage Access}
+\label{sec:gpo-removable}
+Under Administrative Templates $\rightarrow$ System $\rightarrow$ Removable Storage Access, the policy \emph{All Removable Storage classes: Deny all access} was selected (\autoref{fig:gpo-35}) and set to Enabled (\autoref{fig:gpo-36}). When it is enabled, no access is allowed to any removable storage class. The policy is shown as enabled in the policy list (\autoref{fig:gpo-37}).
+
+\shot{gpo_35.png}{All Removable Storage Classes: Deny All Access Selected}{fig:gpo-35}
+\shot{gpo_36.png}{All Removable Storage Classes: Deny All Access Enabled}{fig:gpo-36}
+\shot{gpo_37.png}{All Removable Storage Classes: Deny All Access Shown as Enabled}{fig:gpo-37}
+
+\subsection{Preventing Software Installation}
+\label{sec:gpo-installer}
+Under Administrative Templates $\rightarrow$ Windows Components $\rightarrow$ Windows Installer, the policy \emph{Turn off Windows Installer} was selected (\autoref{fig:gpo-38}) and set to Enabled with the option \emph{Always} (\autoref{fig:gpo-39}), which stops users from installing software with Windows Installer packages. The policy is shown as enabled in the policy list (\autoref{fig:gpo-40}).
+
+\shot{gpo_38.png}{Turn off Windows Installer Selected}{fig:gpo-38}
+\shot{gpo_39.png}{Turn off Windows Installer Enabled}{fig:gpo-39}
+\shot{gpo_40.png}{Turn off Windows Installer Shown as Enabled}{fig:gpo-40}
+
+\section{Testing}
+\label{sec:gpo-testing}
+Testing is a critical step in the Group Policy configuration process to ensure that the policies are applied correctly and function as intended. Three methods are available:
+\begin{enumerate}
+  \item \textbf{Pre-deployment simulation.} After creating and linking the GPOs, administrators can use simulation tools to test the policies before applying them in a production environment.
+  \item \textbf{The \texttt{gpresult} command.} Administrators can verify that the policies are being applied to the target users and computers.
+  \item \textbf{Logging in as an affected user.} Logging in as a user affected by the GPOs confirms that the restrictions and settings are enforced.
+\end{enumerate}
+
+The first and last methods are easily understood and are therefore not covered in detail in this report. The second method is described below. On the client machine, first refresh the policies and then report which GPOs were applied:
+
+\begin{lstlisting}
+gpupdate /force
+gpresult /r
+\end{lstlisting}
+
+The output of \texttt{gpresult /r} lists the applied GPOs under \emph{Applied Group Policy Objects} for both the computer and the user. The restrictions can then be confirmed by logging in as one of the test users and attempting the blocked actions, such as opening Command Prompt or using a removable drive.
+
+\section{Chapter Summary}
+\label{sec:gpo-summary}
+This chapter described how Group Policy works in an Active Directory environment and how the policies required by the project were configured. An organisational unit (Group1-OU), two test users, and a security group (G1 Users) were created in Active Directory, and policies were configured to disable the Command Prompt, deny access to all removable storage, turn off Windows Installer, enforce a minimum password length of 10 characters, and require passwords to be changed every 42 days. The testing procedure to verify that the policies are applied was also described.
