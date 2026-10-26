@@ -1,0 +1,168 @@
+\chapter{Active Directory Domain Services (AD DS) Configuration}
+\label{chap:adds}
+
+\section{What is AD DS?}
+\label{sec:what}
+Active Directory Domain Services (AD DS) is the foundational directory service for Microsoft Active Directory. It operates as a centralized identity management system that authenticates users, computers, and devices on a Windows network. It organizes network resources hierarchically and verifies credentials, ensuring that only authorized entities can access network assets \cite{msft-adds-overview}.
+
+\section{Why is AD DS important?}
+\label{sec:why}
+For a growing infrastructure like CPUT's, AD DS is critical because it centralizes network administration. Instead of managing user accounts and security policies on every individual machine, administrators can manage the entire network from a single domain controller. Crucially, AD DS forms the backbone required to deploy Group Policy Objects (GPOs). Without AD DS, enforcing the required project security policies---such as disabling the Command Prompt, blocking removable media, preventing unauthorized software installations, and enforcing strict password length (10+ characters) and age rules (under 42 days)---would be virtually impossible to scale effectively across the organization \cite{msft-gpo-sec}.
+
+\section{Security Risks if Not Set Up or Set Up Incorrectly}
+\label{sec:risks}
+If AD DS is omitted, the network remains a disjointed workgroup with no centralized security, leaving endpoints highly vulnerable to local exploitation, malware from USB drives, and unauthorized software. If AD DS is set up incorrectly (e.g., weak administrator credentials, misconfigured DNS, or overly permissive access rights), it becomes a single point of failure. An attacker who compromises a misconfigured Domain Controller gains ``keys to the kingdom,'' allowing them to silently escalate privileges, distribute malware laterally across all connected machines, and bypass all intended security policies \cite{msft-sec-guidelines}.
+
+\section{Step-by-Step Configuration Guide}
+\label{sec:guide}
+The configuration is carried out in four steps: promoting the server (\autoref{sec:step1}), verifying the installation (\autoref{sec:step2}), creating a reverse lookup zone (\autoref{sec:step3}), and testing DNS resolution (\autoref{sec:step4}). \autoref{tab:config} lists the values used throughout this guide. If anything goes wrong, see \autoref{sec:troubleshooting}.
+
+\begin{table}[H]
+  \centering
+  \small\sffamily
+  \renewcommand{\arraystretch}{1.3}
+  \begin{tabular}{@{}p{5.6cm}p{8.6cm}@{}}
+    \toprule
+    \textbf{Setting} & \textbf{Value used} \\
+    \midrule
+    Root domain name & OPS.local \\
+    NetBIOS domain name & OPS \\
+    Forest / domain functional level & Windows Server 2016 \\
+    Server static IP (example) & 192.168.0.5 \\
+    Reverse lookup network ID (example) & 192.168.0 \\
+    Reverse zone type & Primary, stored in Active Directory \\
+    Reverse zone replication & All DNS servers on domain controllers in this domain \\
+    Dynamic updates & Secure only \\
+    \bottomrule
+  \end{tabular}
+  \caption{Key configuration values used in this chapter}\label{tab:config}
+\end{table}
+
+%--------------------------------------------------------------
+\subsection{Step 1: Promote the Server to a Domain Controller}
+\label{sec:step1}
+Begin the AD DS Configuration Wizard by selecting ``Add a new forest'' (\autoref{fig:forest}) and specifying your Root domain name, e.g., OPS.local (\autoref{fig:rootdomain}).
+
+\shot{ADDS_01.png}{Deployment Configuration - Adding a new forest}{fig:forest}
+\shot{ADDS_02.png}{Specifying the Root Domain Name}{fig:rootdomain}
+
+Set the Forest and Domain functional levels to Windows Server 2016. Ensure DNS server and Global Catalog are checked, then enter and confirm a strong Directory Services Restore Mode (DSRM) password (\autoref{fig:dsrm}).
+
+\shot{ADDS_03.png}{Domain Controller Options and DSRM Password}{fig:dsrm}
+
+\begin{callout}{Keep the DSRM password safe}
+The DSRM password is required to repair or restore the directory later. Record it in a secure location and do not reuse another account's password.
+\end{callout}
+
+You will encounter a warning stating a delegation for this DNS server cannot be created (\autoref{fig:delegation}). This is expected for the first DC in a new forest (see \autoref{sec:troubleshooting}, item~2). Click Next.
+
+\shot{ADDS_04.png}{DNS Delegation Warning}{fig:delegation}
+
+Verify the assigned NetBIOS domain name, e.g., OPS (\autoref{fig:netbios}).
+
+\shot{ADDS_05.png}{NetBIOS Domain Name Verification}{fig:netbios}
+
+Review your selected AD DS configuration settings before proceeding (\autoref{fig:review}). You can click ``View script'' to see the underlying PowerShell commands (\autoref{fig:ps1}, \autoref{fig:review2} and \autoref{fig:ps2}).
+
+\shot{ADDS_06.png}{Review Options Summary}{fig:review}
+\shot{ADDS_07.png}{PowerShell Deployment Script - Part 1}{fig:ps1}
+\shot{ADDS_08.png}{Review Options - Continued}{fig:review2}
+\shot{ADDS_09.png}{PowerShell Deployment Script - Part 2}{fig:ps2}
+
+The system will verify prerequisites. You may see warnings regarding default cryptography algorithms and physical network adapters without static IPs (\autoref{fig:prereqwarn}), but ensure you see the green checkmark stating ``All prerequisite checks passed successfully'' (\autoref{fig:prereqok}). Click Install. If the static IP warning persists, see \autoref{sec:troubleshooting}, item~1.
+
+\shot{ADDS_10.png}{Prerequisites Check Warning Details}{fig:prereqwarn}
+\shot{ADDS_11.png}{Prerequisites Check Passed}{fig:prereqok}
+
+The server will begin configuring the DNS Server service and AD DS, automatically rebooting once complete (\autoref{fig:install}).
+
+\shot{ADDS_12.png}{AD DS Installation Progress}{fig:install}
+
+%--------------------------------------------------------------
+\subsection{Step 2: Verify Active Directory Installation}
+\label{sec:step2}
+After reboot, log in as the Domain Administrator. Open Server Manager, click ``Tools,'' and select ``Active Directory Users and Computers'' (\autoref{fig:aduc}).
+
+\shot{ADDS(3).png}{Accessing AD Users and Computers}{fig:aduc}
+
+Expand the tree to verify your domain (OPS.local) is present (\autoref{fig:domaincontainer}), then right-click your domain name and select ``Properties'' (\autoref{fig:domainprops}).
+
+\shot{ADDS(4).png}{Domain Container Verification}{fig:domaincontainer}
+\shot{ADDS(5).png}{Opening Domain Properties}{fig:domainprops}
+
+Check the General tab to confirm the Domain and Forest functional levels are active (\autoref{fig:funclevel}).
+
+\shot{ADDS(6).png}{Domain Functional Level Verification}{fig:funclevel}
+
+%--------------------------------------------------------------
+\subsection{Step 3: Configure DNS and Create a Reverse Lookup Zone}
+\label{sec:step3}
+Return to Server Manager, click ``Tools,'' and select ``DNS'' (\autoref{fig:dnsopen}). Expand your server name and verify that the Forward Lookup Zone for your domain was created automatically (\autoref{fig:fwdzones}).
+
+\shot{ADDS(7).png}{Opening DNS Manager}{fig:dnsopen}
+\shot{ADDS(8).png}{Forward Lookup Zones}{fig:fwdzones}
+
+Right-click ``Reverse Lookup Zones'' and select ``New Zone...'' (\autoref{fig:newrev} and \autoref{fig:zonewelcome}).
+
+\shot{ADDS(9).png}{Creating a New Reverse Lookup Zone}{fig:newrev}
+\shot{ADDS(10).png}{New Zone Wizard Welcome Screen}{fig:zonewelcome}
+
+Select ``Primary zone'' and ensure ``Store the zone in Active Directory'' is checked (\autoref{fig:zonetype}) \cite{msft-dns-integration}.
+
+\shot{ADDS(11).png}{Zone Type Selection}{fig:zonetype}
+
+Set replication to ``To all DNS servers running on domain controllers in this domain'' (\autoref{fig:zonescope}).
+
+\shot{ADDS(12).png}{Active Directory Zone Replication Scope}{fig:zonescope}
+
+Choose ``IPv4 Reverse Lookup Zone'' (\autoref{fig:ipv4rev}) and enter your network ID, e.g., 192.168.0 (\autoref{fig:netid}).
+
+\shot{ADDS(13).png}{IPv4 Reverse Lookup Selection}{fig:ipv4rev}
+\shot{ADDS(14).png}{Network ID Configuration}{fig:netid}
+
+Select ``Allow only secure dynamic updates'' to comply with AD security best practices (\autoref{fig:dynupdates}), then click Finish (\autoref{fig:zonefinish}). The new zone is confirmed in \autoref{fig:revverify}.
+
+\shot{ADDS(15).png}{Dynamic Update Security Configuration}{fig:dynupdates}
+\shot{ADDS(16).png}{Completing the New Zone Wizard}{fig:zonefinish}
+\shot{ADDS(17).png}{Reverse Lookup Zone Verification}{fig:revverify}
+
+%--------------------------------------------------------------
+\subsection{Step 4: Update DNS Records and Test Resolution}
+\label{sec:step4}
+Navigate to your Forward Lookup Zone, locate your server's Host (A) record, right-click, and select Properties (\autoref{fig:arecord}). Check the box that says ``Update associated pointer (PTR) record'' and click OK (\autoref{fig:ptrenable}).
+
+\shot{ADDS(18).png}{Host (A) Record Properties}{fig:arecord}
+\shot{ADDS(19).png}{Enabling PTR Record Update}{fig:ptrenable}
+
+Refresh the Reverse Lookup Zone to confirm the Pointer (PTR) record has successfully populated (\autoref{fig:ptrverify}).
+
+\shot{ADDS(20).png}{PTR Record Verification}{fig:ptrverify}
+
+Open your Network Connections, access the IPv4 properties of your adapter, and set the Preferred DNS server to your server's static IP address, e.g., 192.168.0.5 (\autoref{fig:adapterdns}).
+
+\shot{ADDS(21).png}{Network Adapter DNS Configuration}{fig:adapterdns}
+
+Open PowerShell as Administrator. Type \texttt{nslookup} followed by your server's fully qualified domain name (FQDN) to test forward and reverse lookups (\autoref{fig:nslookupbasic} and \autoref{fig:nslookupfull}). Successful replies confirm DNS and AD DS are communicating correctly.
+
+\shot{ADDS(22).png}{Basic DNS Resolution Test}{fig:nslookupbasic}
+\shot{ADDS(23).png}{Comprehensive nslookup Verification}{fig:nslookupfull}
+
+%--------------------------------------------------------------
+\section{Troubleshooting: Possible Sticking Points \& Fixes}
+\label{sec:troubleshooting}
+
+\issue{1. Static IP Prerequisites Warning or Failure}
+{The Prerequisites Check throws a hard error or persistent warning regarding physical network adapters not having static IP addresses.}
+{Before promoting the server, open ``Network and Sharing Center'' $\rightarrow$ ``Change adapter settings.'' Right-click your network interface, select Properties, and manually assign an IPv4 address, Subnet Mask, Default Gateway, and set the Preferred DNS to 127.0.0.1 (loopback) or the static IP you just assigned.}
+
+\issue{2. DNS Delegation Warning During AD DS Setup}
+{A yellow warning icon appears on the DNS Options page stating ``A delegation for this DNS server cannot be created'' (\autoref{fig:delegation}).}
+{This is entirely normal when building the first Domain Controller in a new forest, as there is no existing parent DNS infrastructure to integrate with. No action is required---simply click Next.}
+
+\issue{3. nslookup Times Out or Fails to Resolve}
+{When running \texttt{nslookup} in PowerShell, it returns ``Default Server: UnKnown'' or times out without resolving the IP/Hostname.}
+{This usually means the server's network adapter is looking at an external DNS instead of itself. Go to your IPv4 Network Properties and ensure the ``Preferred DNS server'' is set to the server's own static IP, e.g., 192.168.0.5 (\autoref{fig:adapterdns}). Additionally, check the DNS Manager to ensure the PTR record was actually created in the Reverse Lookup Zone (\autoref{fig:ptrverify}). If missing, manually add it.}
+
+\issue{4. Group Policy Restrictions Not Applying to Users}
+{You configure GPOs to disable CMD, prevent software installations, and restrict removable media, but users can still bypass them.}
+{Ensure that your test users/computers are actually moved into the appropriate Organizational Units (OUs) within Active Directory Users and Computers (\autoref{fig:aduc}). GPOs linked to custom OUs will not apply if the users remain in the default ``Users'' container. Run \texttt{gpupdate /force} in PowerShell on the client machine to apply policies immediately.}

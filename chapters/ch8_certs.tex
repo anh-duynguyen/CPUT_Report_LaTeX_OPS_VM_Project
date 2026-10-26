@@ -1,0 +1,167 @@
+%==============================================================
+%  CHAPTER 8 - WINDOWS CERTIFICATE SERVICES
+%  Screenshots: images/certs_NN.png  =  WinCertServNN.png from the supplied zip
+%  (WinCertServ17 duplicates WinCertServ16 and is not used;
+%   WinCertServ22 is used as images/certs_test_01.png).
+%  New bibliography entries are listed in the cover note -- add them to the
+%  bibliography before compiling, or the \cite keys below will show as [?].
+%==============================================================
+\chapter{Windows Certificate Services Configuration}
+\label{chap:certs}
+
+\section{What are Windows Certificate Services?}
+\label{sec:certs-what}
+Active Directory Certificate Services (AD CS) is a Windows Server role that is used to issue and manage the public key infrastructure (PKI) certificates that secure communication and authentication on a network \cite{certs-overview}. At the centre of AD CS is the certification authority (CA). A CA accepts certificate requests, verifies the identity of the requester according to its policy, and then signs the certificate with its own private key. It is also responsible for revoking certificates that are no longer valid and for publishing revocation lists \cite{certs-cc731523}. Because every certificate it signs can be traced back to the CA, clients that trust the CA will also trust the certificates it issues.
+
+AD CS is made up of several role services. Besides the CA itself, this project installed Certification Authority Web Enrollment, an Online Responder, the Certificate Enrollment Policy Web Service and the Certificate Enrollment Web Service. The Online Responder answers certificate revocation checks using the Online Certificate Status Protocol (OCSP), and the two enrollment web services allow certificates to be requested over HTTPS, including by computers that are not connected to the domain \cite{certs-cc731523,certs-overview}.
+
+\section{Why are Certificate Services Important?}
+\label{sec:certs-why}
+For an organisation such as CPUT, certificates provide the trust that other services depend on. They allow users, computers and services to prove who they are, and they make it possible to encrypt traffic so that it cannot be read in transit. Typical uses include secure wireless networks, virtual private networks (VPNs), IPsec, the Encrypting File System and smart card logon \cite{certs-cc731523}.
+
+AD CS also fits closely with the other services built in this project. An enterprise CA relies on Active Directory Domain Services (Chapter~\ref{chap:adds}): identity information that is already stored in Active Directory is used when certificates are issued, and Group Policy can be used to decide which users and computers may receive which types of certificate \cite{certs-overview}. DNS is needed so that clients can locate the CA and its web services by name, and the certificates issued by the CA can in turn be used to protect the Remote Access service configured earlier in this report. Running one internal CA means that the organisation does not have to buy certificates from an external provider for every internal server.
+
+\section{Security Risks if Not Set Up or Set Up Incorrectly}
+\label{sec:certs-risks}
+If no CA is deployed, internal services have no trusted way of proving their identity. Administrators are then forced to use unencrypted connections, or self-signed certificates that every user must be told to ignore warnings for, which teaches users to accept certificate errors and makes impersonation of a server much easier.
+
+If the CA is set up incorrectly, the damage is greater, because everything that trusts the CA inherits its weaknesses. A short key length or an outdated hash algorithm (the wizard still lists SHA1 and MD5, see Figure~\ref{fig:certs-12}) makes certificates easier to forge \cite{certs-docs}. A CA whose private key is stolen or whose server is compromised can be used to issue valid certificates to an attacker. A CA validity period that is shorter than the certificates it issues, or revocation information that is unavailable, means that certificates fail unexpectedly or that revoked certificates are still accepted. Finally, the name and domain membership of a server cannot be changed once it hosts a CA (Figure~\ref{fig:certs-03}), so a mistake made before installation is expensive to correct afterwards. Web enrollment that is left without a valid HTTPS certificate would send credentials over an unprotected channel.
+
+\section{Step-by-Step Configuration Guide}
+\label{sec:certs-guide}
+The configuration is carried out in three steps: installing the role (subsection~\ref{sec:certs-step1}), configuring the certification authority and its web services (subsection~\ref{sec:certs-step2}), and configuring the Certificate Enrollment Web Service in a second pass of the wizard (subsection~\ref{sec:certs-step3}). Table~\ref{tab:certs-config} lists the values used throughout this guide. If anything goes wrong, see section~\ref{sec:certs-troubleshooting}.
+
+\begin{table}[htbp]
+  \centering
+  \small
+  \begin{tabular}{@{}ll@{}}
+    \toprule
+    \textbf{Setting} & \textbf{Value used} \\
+    \midrule
+    Server name                        & Group1-OPS-SERVER (Group1-OPS-SERVER.OPS.local) \\
+    Domain                             & OPS.local \\
+    Account used for configuration     & OPS\textbackslash Administrator \\
+    CA setup type                      & Enterprise CA \\
+    CA type                            & Root CA \\
+    Private key                        & New private key \\
+    Cryptographic provider             & RSA\#Microsoft Software Key Storage Provider \\
+    Key length / hash algorithm        & 2048 bits / SHA256 \\
+    CA common name                     & OPS-GROUP1-OPS-SERV-CA \\
+    Distinguished name suffix          & DC=OPS,DC=local \\
+    CA validity period                 & 5 years (expires 2031/09/08) \\
+    Database and log location          & C:\textbackslash Windows\textbackslash system32\textbackslash CertLog \\
+    Authentication (CEP and CES)       & Windows integrated authentication \\
+    CES service account                & Built-in application pool identity \\
+    \bottomrule
+  \end{tabular}
+  \caption{Key configuration values used in this chapter}
+  \label{tab:certs-config}
+\end{table}
+
+\subsection{Step 1: Install the Role}
+\label{sec:certs-step1}
+Open Server Manager, choose \emph{Manage} $\rightarrow$ \emph{Add Roles and Features}, and continue to the \emph{Select server roles} page. Tick \emph{Active Directory Certificate Services}; the roles installed in earlier chapters (AD DS, DHCP and DNS) are already marked as installed (\autoref{fig:certs-01}). No additional features are required, so the \emph{Select features} page is accepted unchanged (\autoref{fig:certs-02}).
+
+\shot{certs_01.png}{Selecting the Active Directory Certificate Services Role}{fig:certs-01}
+\shot{certs_02.png}{Select Features Page Left at Its Defaults}{fig:certs-02}
+
+The introduction page for AD CS warns that the computer name and domain settings cannot be changed after a certification authority has been installed (\autoref{fig:certs-03}). For this reason the server was already named and joined to the OPS.local domain before this step was started. On the \emph{Select role services} page the Certification Authority, Certification Authority Web Enrollment, Online Responder, Certificate Enrollment Policy Web Service and Certificate Enrollment Web Service were ticked, while the Network Device Enrollment Service was left unticked because no network devices need certificates in this project (\autoref{fig:certs-04}).
+
+\shot{certs_03.png}{Introduction to AD CS and the Note on Computer Name Changes}{fig:certs-03}
+\shot{certs_04.png}{Selecting the AD CS Role Services}{fig:certs-04}
+
+After the installation is confirmed, the progress page reports that the installation succeeded but that configuration is still required (\autoref{fig:certs-05}). A warning flag also appears in the Server Manager notifications with a link to configure AD CS on the destination server, which starts the configuration wizard used in the next step (\autoref{fig:certs-06}).
+
+\shot{certs_05.png}{Installation Progress Showing That Further Configuration Is Required}{fig:certs-05}
+\shot{certs_06.png}{Post-Deployment Configuration Notification for AD CS}{fig:certs-06}
+
+\subsection{Step 2: Configure the Certification Authority}
+\label{sec:certs-step2}
+The AD CS Configuration wizard first asks for credentials. An enterprise CA can only be installed by a member of the Enterprise Admins group, so the OPS\textbackslash Administrator account was used (\autoref{fig:certs-07}). On the next page the role services to configure were selected: the Certification Authority, Certification Authority Web Enrollment, Online Responder and Certificate Enrollment Policy Web Service. The Certificate Enrollment Web Service is not selected in this first pass and is configured separately in Step~3 (\autoref{fig:certs-08}).
+
+\shot{certs_07.png}{AD CS Configuration: Credentials}{fig:certs-07}
+\shot{certs_08.png}{AD CS Configuration: Role Services to Configure}{fig:certs-08}
+
+The setup type was set to \emph{Enterprise CA}, because the server is a domain member and the CA must integrate with Active Directory (\autoref{fig:certs-09}). It was configured as a \emph{Root CA}, since it is the first and only CA in the hierarchy (\autoref{fig:certs-10}).
+
+\shot{certs_09.png}{Setup Type: Enterprise CA Selected}{fig:certs-09}
+\shot{certs_10.png}{CA Type: Root CA Selected}{fig:certs-10}
+
+A CA must have a private key in order to sign certificates, so the option to create a new private key was kept (\autoref{fig:certs-11}). On the cryptography page the default RSA\#Microsoft Software Key Storage Provider was kept with a key length of 2048 bits, and SHA256 was chosen as the hash algorithm used to sign issued certificates. The older SHA1 and MD5 algorithms are shown in the list but were not selected (\autoref{fig:certs-12}).
+
+\shot{certs_11.png}{Private Key: Create a New Private Key}{fig:certs-11}
+\shot{certs_12.png}{Cryptography for CA: RSA, 2048-bit Key and SHA256}{fig:certs-12}
+
+The CA was given the common name OPS-GROUP1-OPS-SERV-CA. The distinguished name suffix DC=OPS,DC=local is generated automatically from the domain, giving the full name CN=OPS-GROUP1-OPS-SERV-CA,DC=OPS,DC=local (\autoref{fig:certs-13}). The validity period of the CA certificate was set to five years, which gives an expiry date of 2031/09/08. The wizard notes that this period should be longer than the validity of any certificate the CA issues (\autoref{fig:certs-14}). The certificate database and its log were left in the default location, C:\textbackslash Windows\textbackslash system32\textbackslash CertLog (\autoref{fig:certs-15}).
+
+\shot{certs_13.png}{CA Name: Common Name and Distinguished Name}{fig:certs-13}
+\shot{certs_14.png}{Validity Period Set to Five Years}{fig:certs-14}
+\shot{certs_15.png}{CA Database and Log Locations}{fig:certs-15}
+
+The Certificate Enrollment Policy Web Service (CEP) needs to know how clients will authenticate to it. Windows integrated authentication was selected, which lets domain computers and users authenticate with their existing credentials (\autoref{fig:certs-16}). On the \emph{Server Certificate} page, \emph{Choose and assign a certificate for SSL later} was selected, because no certificate could be issued until the CA itself existed. The wizard warns that the service will only function once a valid certificate has been assigned (\autoref{fig:certs-18}); this is dealt with in Step~3 and in section~\ref{sec:certs-troubleshooting}.
+
+\shot{certs_16.png}{Authentication Type for the Certificate Enrollment Policy Web Service}{fig:certs-16}
+\shot{certs_18.png}{Server Authentication Certificate to Be Assigned Later}{fig:certs-18}
+
+The confirmation page summarises the settings before anything is changed. It lists the CA as an Enterprise Root CA with the RSA key provider, SHA256 hash, 2048-bit key, the validity date and the database locations (\autoref{fig:certs-19}). Scrolling down shows the remaining role services, including the Certificate Enrollment Policy Web Service with Windows Integrated Authentication and the server certificate to be chosen later (\autoref{fig:certs-20}). Clicking \emph{Configure} starts the configuration, and its progress is shown in \autoref{fig:certs-21}.
+
+\shot{certs_19.png}{Confirmation Page: Certification Authority Settings}{fig:certs-19}
+\shot{certs_20.png}{Confirmation Page: Remaining Role Services}{fig:certs-20}
+\shot{certs_21.png}{Configuration in Progress}{fig:certs-21}
+
+\subsection{Step 3: Configure the Certificate Enrollment Web Service}
+\label{sec:certs-step3}
+The Certificate Enrollment Web Service (CES) requires an existing CA to send requests to, so it was configured in a second run of the AD CS Configuration wizard once the CA was in place. The wizard opens with an empty credentials box and the \emph{Next} button disabled (\autoref{fig:certs-23}). After entering OPS\textbackslash Administrator, the wizard continues; its steps now include \emph{CA for CES} and \emph{Service Account for CES} (\autoref{fig:certs-24}). Only the Certificate Enrollment Web Service remains to be configured on the role services page; the services configured earlier are shown ticked but are no longer selectable (\autoref{fig:certs-25}).
+
+\shot{certs_23.png}{Second Wizard Run: Credentials Required}{fig:certs-23}
+\shot{certs_24.png}{Second Wizard Run: Credentials Entered}{fig:certs-24}
+\shot{certs_25.png}{Selecting the Certificate Enrollment Web Service}{fig:certs-25}
+
+On the \emph{CA for CES} page the CA created in Step~2 was selected by name, Group1-OPS-SERVER.OPS.local\textbackslash OPS-GROUP1-OPS-SERV-CA, and renewal-only mode was left off (\autoref{fig:certs-26}). Windows integrated authentication was used again (\autoref{fig:certs-27}), and the service was set to run under the built-in application pool identity rather than a separate service account (\autoref{fig:certs-28}).
+
+\shot{certs_26.png}{CA for CES: Selecting the Target CA}{fig:certs-26}
+\shot{certs_27.png}{Authentication Type for the Certificate Enrollment Web Service}{fig:certs-27}
+\shot{certs_28.png}{Service Account for CES: Built-in Application Pool Identity}{fig:certs-28}
+
+This time the \emph{Server Certificate} page offers a certificate issued by the new CA to the server itself (Issued To and Issued By both show OPS-GROUP1-OPS-SERV-CA, expiring 2031/09/08). It was selected so that the web service can use SSL (\autoref{fig:certs-29}). The confirmation page lists the target CA, Windows Integrated Authentication, the application pool identity and the chosen server certificate (\autoref{fig:certs-30}), and the configuration is then started (\autoref{fig:certs-31}).
+
+\shot{certs_29.png}{Server Certificate: Certificate Issued by the New CA Selected}{fig:certs-29}
+\shot{certs_30.png}{Confirmation Page for the Certificate Enrollment Web Service}{fig:certs-30}
+\shot{certs_31.png}{Certificate Enrollment Web Service Configuration in Progress}{fig:certs-31}
+
+\section{Testing}
+\label{sec:certs-testing}
+% NOTE: no post-installation check (e.g. certsrv.msc, https://localhost/certsrv, or the
+% Online Responder snap-in) was supplied. If one is captured, add it here as
+% certs_test_02.png using the same \shot pattern.
+The configuration wizard reports the result of every role service it configures, so the Results page of the first run was used to verify the installation. As shown in \autoref{fig:certs-test-01}, the Certification Authority, Certification Authority Web Enrollment, Online Responder and Certificate Enrollment Policy Web Service all show \emph{Configuration succeeded}. The page also carries two reminders for the Certificate Enrollment Policy Web Service: a server authentication certificate must be configured before clients can use it, and Group Policy must be applied to direct client enrollment requests to the web service. The first of these was addressed by selecting a certificate issued by the new CA when the Certificate Enrollment Web Service was configured (\autoref{fig:certs-29}).
+
+The existence of a certificate issued by OPS-GROUP1-OPS-SERV-CA in the server certificate list of Step~3 is itself a useful test of the CA, because that certificate could only have been issued by the CA once it was running and trusted by the server (\autoref{fig:certs-29}).
+
+\shot{certs_test_01.png}{Results Page: Role Services Configured Successfully}{fig:certs-test-01}
+
+\section{Troubleshooting: Possible Sticking Points \& Fixes}
+\label{sec:certs-troubleshooting}
+\issue{1. Credentials Page Will Not Let You Continue}
+{The \emph{Next} button on the Credentials page is disabled and the credentials box is empty (\autoref{fig:certs-23}). The page lists which role services need local Administrator rights and which need Enterprise Admins membership.}
+{Click \emph{Change\ldots} and enter an account that is a member of the Enterprise Admins group, for example OPS\textbackslash Administrator, as in \autoref{fig:certs-24}. Without it the Enterprise CA and the web services cannot be configured.}
+
+\issue{2. Server Name or Domain Needs to Change After the CA Is Installed}
+{The introduction to AD CS states that the computer name and domain settings cannot be changed once a certification authority has been installed (\autoref{fig:certs-03}). A server renamed afterwards would no longer match the names recorded in its certificates.}
+{Decide on the final server name and join the server to the domain \emph{before} installing the role. If it must be renamed afterwards, the CA has to be removed and configured again, so this is best avoided.}
+
+\issue{3. Warning About the Server Authentication Certificate}
+{The Server Certificate page warns that, for the role service to function, the server must be configured with a valid certificate (\autoref{fig:certs-18}), and the Results page repeats this (\autoref{fig:certs-test-01}). The certificate list on that page is empty because no certificate exists yet.}
+{This is expected during the first run, because the CA that issues the certificate does not exist yet. Select \emph{Choose and assign a certificate for SSL later} and continue. Once the CA is running, either bind a certificate issued by it to the HTTPS binding of the site in IIS Manager, or select the certificate when configuring the next web service, as in \autoref{fig:certs-29}.}
+
+\issue{4. Schannel Warnings in the Server Manager Event List}
+{After the CA role is configured, warnings with the source \emph{Schannel} and event ID 36886 start to appear in the Events tile of Server Manager (visible in \autoref{fig:certs-26} and the following figures). They typically mean that SSL/TLS has no usable server certificate on the machine.}
+{Assign a valid server authentication certificate to the HTTPS binding as described in the previous item. The warnings should no longer be generated for new connections once a certificate is bound.}
+
+\issue{5. Installation Succeeded but the CA Does Not Work}
+{The installation progress page says that the installation succeeded, yet no certificates can be issued and a yellow warning flag remains in Server Manager (\autoref{fig:certs-05}, \autoref{fig:certs-06}).}
+{Installing the role only copies the files. Click the notification flag and choose \emph{Configure Active Directory Certificate Services on the destination server} to start the configuration wizard, then complete Step~2.}
+
+\issue{6. A Role Service Was Left Unconfigured}
+{After the first run, the Results page lists only four role services (\autoref{fig:certs-test-01}); the Certificate Enrollment Web Service is missing because it was not selected on the role services page (\autoref{fig:certs-08}).}
+{Open the AD CS Configuration wizard again from the Server Manager notification, enter the Enterprise Admin credentials, select the remaining role service, and point it to the existing CA on the \emph{CA for CES} page (\autoref{fig:certs-26}).}

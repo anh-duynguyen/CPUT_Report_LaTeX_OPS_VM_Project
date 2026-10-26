@@ -1,0 +1,50 @@
+%==============================================================
+%  CHAPTER 5 - DNS      (skeleton: fill in and delete the TODO boxes)
+%  Pattern: copy any \shot line, change the file name, caption and label.
+%  Screenshots go in images/ using the file name written here (dns_01.png, ...).
+%==============================================================
+\chapter{DNS Configuration}
+\label{chap:dns}
+
+\todo{Chapter 5 was added late, so part of the DNS work was already documented in Chapter~\ref{chap:adds}, and \textbf{does not need to be redone here}. Refer to it instead of repeating it: \autoref{sec:step3} (Chapter~\ref{chap:adds}) covers opening DNS Manager, checking the forward lookup zone and creating the reverse lookup zone (see \autoref{fig:dnsopen} and \autoref{fig:zonescope}), and \autoref{sec:step4} covers the Host (A) and PTR records, the adapter DNS setting and the \texttt{nslookup} tests (see \autoref{fig:arecord}, \autoref{fig:adapterdns} and \autoref{fig:nslookupbasic}); the values are in \autoref{tab:config}. In this chapter, write the DNS background (what it is, why it matters, the risks), summarise those steps in a few sentences with a pointer to Chapter~\ref{chap:adds}, and only add screenshots and tests for DNS work that is \emph{not} already shown there. Delete this box when done.}
+
+\section{What is DNS?}
+\label{sec:dns-what}
+\todo{Write 3--5 sentences defining the Domain Name System (DNS), zones and records, and cite a source with \texttt{\textbackslash cite\{key\}}.}
+
+\section{Why is DNS Important?}
+\label{sec:dns-why}
+\todo{Explain why the organisation needs it (name resolution, locating domain controllers) and how it fits with AD DS and DHCP.}
+
+\section{Security Risks if Not Set Up or Set Up Incorrectly}
+\label{sec:dns-risks}
+\todo{Describe the risks of leaving the role out or misconfiguring it (e.g.\ failed logons, insecure dynamic updates).}
+
+\section{Step-by-Step Configuration Guide}
+\label{sec:dns-guide}
+\todo{Add a short table of the key values used (see Table~\ref{tab:config} in Chapter~\ref{chap:adds} for the format), then one subsection per step. Each step: one paragraph of text that refers to its screenshot with \texttt{\textbackslash autoref\{fig:dns-01\}}, followed by the \texttt{\textbackslash shot} line.}
+
+\subsection{Step 1: Verify the DNS Server Role}
+\label{sec:dns-step1}
+\todo{Describe the step here.}
+
+\shot{dns_01.png}{Replace this caption (DNS, step 1)}{fig:dns-01}
+\shot{dns_02.png}{Replace this caption (DNS, step 1 continued)}{fig:dns-02}
+
+\subsection{Step 2: Configure the Zones and Records}
+\label{sec:dns-step2}
+\todo{Describe the step here.}
+
+\shot{dns_03.png}{Replace this caption (DNS, step 2)}{fig:dns-03}
+
+\section{Testing}
+\label{sec:dns-testing}
+\todo{Explain how the service was tested and what the result was.}
+
+\shot{dns_test_01.png}{Replace this caption (DNS test result)}{fig:dns-test-01}
+
+\section{Troubleshooting: Possible Sticking Points \& Fixes}
+\label{sec:dns-troubleshooting}
+\issue{1. Replace with the problem title}
+{Describe what the user sees.}
+{Describe how to fix it.}

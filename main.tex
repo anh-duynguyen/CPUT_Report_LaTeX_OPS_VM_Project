@@ -1,0 +1,401 @@
+%==============================================================
+%  OPS260S - Group 1 project report  (master file)
+%  Style: identical to the AD DS chapter (ADDS.tex)
+%
+%  HOW THIS PROJECT IS ORGANISED
+%    main.tex            -> preamble, front matter, list of chapters
+%    chapters/*.tex      -> one file per chapter (edit only your own)
+%    images/             -> ALL screenshots live here
+%    README.md           -> how to add images / new chapters
+%
+%  Compile with:  latexmk -pdf main.tex     (or just press Recompile in Overleaf)
+%==============================================================
+\documentclass[12pt,a4paper]{report}
+
+%==============================================================
+%  PACKAGES
+%==============================================================
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathpazo}                 % Palatino body text
+\usepackage[scaled=0.95]{helvet}      % Helvetica for headings / captions
+\usepackage{microtype}
+\usepackage[a4paper,top=2.5cm,bottom=2.4cm,left=2.3cm,right=2.3cm,headheight=15pt]{geometry}
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{float}                    % [H] keeps each screenshot next to its text
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage[font={small,sf},labelfont={bf,color=accent},labelsep=period,justification=centering,skip=6pt]{caption}
+\usepackage[most]{tcolorbox}          % also loads listings
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage[colorlinks=true,linkcolor=accent,citecolor=accent,urlcolor=accent,
+            pdftitle={Design and Implementation of a Secure Windows Server 2019 Infrastructure for Enterprise Network Services},
+            pdfauthor={Group 1}]{hyperref}
+\usepackage{xurl}                     % loaded after hyperref so long URLs break
+
+%==============================================================
+%  COLOURS
+%==============================================================
+\definecolor{accent}{HTML}{1F4E79}
+\definecolor{accentlight}{HTML}{EAF1F8}
+\definecolor{warnred}{HTML}{B03A2E}
+\definecolor{okgreen}{HTML}{1E7B45}
+
+%==============================================================
+%  PAGE & TEXT SETTINGS
+%==============================================================
+\setstretch{1.12}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.7em}
+\emergencystretch=3em
+\setlength{\fboxsep}{2pt}
+\setlength{\fboxrule}{0.6pt}
+\setlist{itemsep=2pt,topsep=4pt,parsep=0pt}
+\renewcommand{\chapterautorefname}{Chapter}
+
+%==============================================================
+%  HEADINGS
+%==============================================================
+\titleformat{\chapter}[display]
+  {\normalfont\sffamily\bfseries\color{accent}}
+  {\Large\chaptertitlename\ \thechapter}
+  {6pt}
+  {\Huge}
+  [\vspace{4pt}{\color{accent}\titlerule[1.4pt]}]
+\titlespacing*{\chapter}{0pt}{-10pt}{22pt}
+
+\titleformat{\section}
+  {\normalfont\sffamily\Large\bfseries\color{accent}}
+  {\thesection}{0.8em}{}
+  [\vspace{-2pt}{\color{accent!35}\titlerule[0.5pt]}]
+\titlespacing*{\section}{0pt}{20pt}{8pt}
+
+\titleformat{\subsection}
+  {\normalfont\sffamily\large\bfseries\color{accent!85!black}}
+  {\thesubsection}{0.8em}{}
+\titlespacing*{\subsection}{0pt}{16pt}{6pt}
+
+%==============================================================
+%  HEADER / FOOTER
+%==============================================================
+\renewcommand{\chaptermark}[1]{\markboth{\thechapter.\ #1}{}}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\sffamily\small\color{gray}OPS260S Operating Systems 2}
+\fancyhead[R]{\sffamily\small\color{gray}\leftmark}
+\fancyfoot[C]{\sffamily\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\headrule}{\color{accent!40}\hrule width\headwidth height\headrulewidth}
+\fancypagestyle{plain}{%
+  \fancyhf{}\fancyfoot[C]{\sffamily\small\thepage}%
+  \renewcommand{\headrulewidth}{0pt}}
+
+%==============================================================
+%  CUSTOM COMMANDS
+%==============================================================
+
+% ---- Screenshot placeholder box (shown automatically if the image is missing)
+\newcommand{\placeholderbox}[1]{%
+  \begin{tcolorbox}[enhanced,width=0.96\linewidth,center,height=5cm,valign=center,halign=center,
+    colback=accentlight,frame hidden,boxrule=0pt,sharp corners,
+    overlay={\draw[accent!60,dashed,line width=0.9pt] (frame.south west) rectangle (frame.north east);}]
+    {\sffamily\bfseries\color{accent}SCREENSHOT PLACEHOLDER}\par\smallskip
+    {\sffamily\small Save the image as}\par
+    {\ttfamily\small images/\detokenize{#1}}\par\smallskip
+    {\sffamily\footnotesize then recompile --- it will appear here automatically}
+  \end{tcolorbox}}
+
+% ---- Log of images that are still missing (written to missing_images.txt on every compile)
+\newwrite\missingfile
+\AtBeginDocument{%
+  \immediate\openout\missingfile=missing_images.txt
+  \immediate\write\missingfile{Screenshots still missing - save each file into the images/ folder:}%
+  \immediate\write\missingfile{}}
+\AtEndDocument{\immediate\closeout\missingfile}
+
+% \shot{file}{caption}{label}  ->  numbered, captioned, framed, full-width screenshot.
+%   If images/<file> exists it is inserted; otherwise a placeholder box is shown instead
+%   and the file name is added to missing_images.txt.
+\newcommand{\shot}[3]{%
+  \begin{figure}[H]
+    \centering
+    \IfFileExists{images/#1}{%
+      \fcolorbox{accent!50}{white}{\includegraphics[width=0.96\linewidth,height=0.5\textheight,keepaspectratio]{images/#1}}%
+    }{%
+      \placeholderbox{#1}%
+      \immediate\write\missingfile{#1}%
+    }%
+    \caption{#2}\label{#3}
+  \end{figure}}
+
+% Blue side-bar call-out box:  \begin{callout}{Title} ... \end{callout}
+\newtcolorbox{callout}[1]{enhanced,breakable,frame hidden,sharp corners,
+  borderline west={3pt}{0pt}{accent},colback=accentlight,
+  left=10pt,right=8pt,top=6pt,bottom=6pt,
+  before upper={\textsf{\bfseries\color{accent}#1}\par\smallskip}}
+
+% Troubleshooting entry:  \issue{title}{symptom}{fix}
+\newcommand{\issue}[3]{%
+  \begin{tcolorbox}[enhanced,breakable,colback=white,colframe=accent,
+    colbacktitle=accent,coltitle=white,fonttitle=\sffamily\bfseries,
+    title={#1},boxrule=0.6pt,arc=2pt,left=8pt,right=8pt,top=6pt,bottom=6pt]
+    \textsf{\bfseries\color{warnred}Symptom.} #2\par\smallskip
+    \textsf{\bfseries\color{okgreen}Fix.} #3
+  \end{tcolorbox}}
+
+% Reminder box for unfinished parts.  Switch all of them off with \showtodofalse
+\newif\ifshowtodo \showtodotrue
+\newcommand{\todo}[1]{%
+  \ifshowtodo
+  \begin{tcolorbox}[enhanced,breakable,colback=warnred!6,colframe=warnred,boxrule=0.5pt,
+    arc=2pt,left=8pt,right=8pt,top=4pt,bottom=4pt]
+    \textsf{\bfseries\color{warnred}TODO.} #1
+  \end{tcolorbox}%
+  \fi}
+
+% PowerShell / command listings
+\lstdefinestyle{ps}{basicstyle=\ttfamily\footnotesize,backgroundcolor=\color{accentlight},
+  frame=single,rulecolor=\color{accent!30},framesep=5pt,xleftmargin=5pt,xrightmargin=5pt,
+  breaklines=true,columns=fullflexible,keepspaces=true,showstringspaces=false,upquote=true,
+  morecomment=[l]{\#},commentstyle=\color{okgreen}\itshape,aboveskip=0.6em,belowskip=0.4em}
+\lstset{style=ps}
+
+% Signature block for the declaration pages:  \sigblock{file}{Name}{Student no.}
+\newcommand{\sigblock}[3]{%
+  \begin{minipage}[t]{0.47\textwidth}\centering
+    \IfFileExists{images/#1}{\includegraphics[height=1.5cm,width=0.9\linewidth,keepaspectratio]{images/#1}}%
+      {\rule{0pt}{1.5cm}}\\[-1pt]
+    \rule{\linewidth}{0.4pt}\\[-1pt]
+    {\small #2, #3}
+  \end{minipage}}
+
+%==============================================================
+%  DOCUMENT
+%==============================================================
+\begin{document}
+
+%--------------------------------------------------------------
+%  TITLE PAGE
+%--------------------------------------------------------------
+\begin{titlepage}
+\centering\singlespacing
+\vspace*{0cm}
+\IfFileExists{images/cput_logo.png}{%
+  \includegraphics[width=7.5cm]{images/cput_logo.png}}{%
+  \begin{tcolorbox}[enhanced,width=7.5cm,center,halign=center,valign=center,height=2.2cm,
+    colback=accentlight,frame hidden,boxrule=0pt,sharp corners,
+    overlay={\draw[accent!60,dashed,line width=0.9pt] (frame.south west) rectangle (frame.north east);}]
+    \sffamily\small Logo placeholder: save as \texttt{images/cput\_logo.png}
+  \end{tcolorbox}}
+
+\vspace{0.8cm}
+{\sffamily\large\color{accent}\textls[80]{\MakeUppercase{Department of Electrical, Electronic\\ and Computer Engineering}}\par}
+
+\vspace{0.9cm}
+{\color{accent}\rule{0.78\textwidth}{1.4pt}}\par
+\vspace{0.4cm}
+{\sffamily\bfseries\huge\color{accent}Design and Implementation of a Secure Windows Server 2019 Infrastructure for Enterprise Network Services\par}
+\vspace{0.4cm}
+{\color{accent}\rule{0.78\textwidth}{1.4pt}}\par
+
+\vspace{0.8cm}
+{\large by}\par
+\vspace{0.2cm}
+{\sffamily\bfseries\LARGE Group 1\par}
+
+\vspace{0.8cm}
+Group project report submitted in partial fulfilment of the requirements for the degree\par
+{\bfseries Bachelor of Engineering Technology in Computer Engineering}\par
+in the Faculty of Engineering and the Built Environment\par
+at the Cape Peninsula University of Technology\par
+
+\vspace{0.5cm}
+{\small
+\begin{tabular}{@{}r@{\hspace{0.8em}}l@{}}
+  Examiner: & Mr.\ Vusumuzi Moyo \\
+  Course Code: & OPS260S -- OPERATING SYSTEMS 2 \\
+\end{tabular}\par}
+
+\vspace{0.4cm}
+Bellville Campus\par
+September 2026\par
+
+\vfill
+{\footnotesize The report may not be published either in part (in scholarly, scientific or technical journals), or as a whole (as a monograph), unless permission has been obtained from the University.\par}
+\end{titlepage}
+
+%--------------------------------------------------------------
+%  FRONT MATTER  (roman page numbers)
+%--------------------------------------------------------------
+\pagenumbering{roman}
+
+\chapter*{Declaration of Authorship}
+We, the undersigned, declare that the contents of this report represent our own unaided work, except where explicitly acknowledged. The report has not previously been submitted for academic examination towards any qualification. Furthermore, it represents our own opinions and not necessarily those of the Cape Peninsula University of Technology.
+
+\vspace{1.2cm}
+\sigblock{sig_nguyen.png}{Anh Duy Nguyen}{251163733}\hfill
+\sigblock{sig_lamprecht.png}{Carl Lamprecht}{205133681}\\[1.2em]
+\sigblock{sig_ngesi.png}{Peter Hlalubonga Ngesi}{250281228}\hfill
+\sigblock{sig_koekemoer.png}{Gian Koekemoer}{250060248}\\[1.2em]
+\sigblock{sig_koch.png}{Tihmo Koch}{250030993}\hfill
+\sigblock{sig_kheswa.png}{Sibusiso Isaac Kheswa}{250175282}
+
+\vspace{1.4cm}
+October 26, 2026\\[-2pt]
+\rule{0.47\textwidth}{0.4pt}\\[-2pt]
+{\small Date}
+
+\clearpage
+\chapter*{AI Declaration}
+We declare that generative artificial intelligence (AI) tools were used in the preparation of this report as follows:
+\begin{itemize}
+  \item \textbf{Grammar, spelling, and language refinement} (e.g., rephrasing for clarity and readability).
+  \item \textbf{\LaTeX{} formatting assistance} (structure and code improvements).
+\end{itemize}
+All AI-generated suggestions were carefully reviewed, edited, and verified by the authors. The core ideas, analysis, research, and final content are entirely the work of the authors. No AI tool was used to generate original ideas, conduct the literature review, or produce the main technical content without substantial human input and oversight.
+
+This declaration is made in accordance with academic integrity principles and the Cape Peninsula University of Technology guidelines on responsible AI use.
+
+\vspace{0.8cm}
+\sigblock{sig_nguyen.png}{Anh Duy Nguyen}{251163733}\hfill
+\sigblock{sig_lamprecht.png}{Carl Lamprecht}{205133681}\\[1.2em]
+\sigblock{sig_ngesi.png}{Peter Hlalubonga Ngesi}{250281228}\hfill
+\sigblock{sig_koekemoer.png}{Gian Koekemoer}{250060248}\\[1.2em]
+\sigblock{sig_koch.png}{Tihmo Koch}{250030993}\hfill
+\sigblock{sig_kheswa.png}{Sibusiso Isaac Kheswa}{250175282}
+
+\vspace{1.2cm}
+October 26, 2026\\[-2pt]
+\rule{0.47\textwidth}{0.4pt}\\[-2pt]
+{\small Date}
+
+\clearpage
+\chapter*{Abstract}
+This report presents the installation, configuration, and testing of a Windows Server 2019 environment developed to meet the network and security requirements of CPUT. The project was implemented using the hypervisor utilised during Semester~1 and included the deployment of several key server roles and services.
+
+The implementation involved configuring Active Directory Domain Services (AD DS) for centralized user and resource management, Domain Name System (DNS) for name resolution, and Dynamic Host Configuration Protocol (DHCP) for automatic IP address allocation. In addition, Group Policy settings were applied to improve the security of the environment by restricting Command Prompt access, disabling removable storage devices, preventing unauthorized software installations, and enforcing stronger password policies.
+
+Remote Access Services and Windows Certificate Services were also configured to provide secure connectivity and authentication within the network environment. Each service was tested to verify that it functioned correctly and met the specified requirements. Screenshots of all installation, configuration, and testing procedures were captured and included as evidence of successful implementation.
+
+The results demonstrate how Windows Server 2019 can be used to create a secure and manageable network infrastructure that supports organisational requirements while following recommended security practices.
+
+\vspace{0.6em}
+\textsf{\bfseries\color{accent}Keywords:} CPUT, Windows Server 2019, Active Directory, DNS, DHCP, Group Policy, Remote Access, Certificate Services, Network Administration, Security Policies, Server Configuration
+
+\clearpage
+\tableofcontents
+\clearpage
+\listoffigures
+\clearpage
+\listoftables
+
+%--------------------------------------------------------------
+%  MAIN MATTER  (arabic page numbers)
+%--------------------------------------------------------------
+\clearpage
+\pagenumbering{arabic}
+
+\input{chapters/ch1_intro}
+\input{chapters/ch2_install}
+\input{chapters/ch3_adds}
+\input{chapters/ch4_dhcp}
+\input{chapters/ch5_dns}
+\input{chapters/ch6_gpo}
+\input{chapters/ch7_remote}
+\input{chapters/ch8_certs}
+\input{chapters/ch9_conclusion}
+
+%==============================================================
+%  BIBLIOGRAPHY  (one shared list - add new entries at the end)
+%==============================================================
+\newpage
+\begin{thebibliography}{99}
+\addcontentsline{toc}{chapter}{Bibliography}
+
+% ---- Chapter 3: AD DS ----
+\bibitem{msft-adds-overview}
+Microsoft Learn. (2023). \textit{Active Directory Domain Services Overview}. Microsoft. Retrieved from \url{https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview}
+
+\bibitem{msft-gpo-sec}
+Microsoft Learn. (2022). \textit{Group Policy and Security Policy Processing}. Microsoft. Retrieved from \url{https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/manage/group-policy/group-policy-processing}
+
+\bibitem{msft-sec-guidelines}
+Microsoft Learn. (2024). \textit{Best Practices for Securing Active Directory}. Microsoft. Retrieved from \url{https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/best-practices-for-securing-active-directory}
+
+\bibitem{msft-dns-integration}
+Microsoft Learn. (2023). \textit{DNS and AD DS Integration}. Microsoft. Retrieved from \url{https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/dns-and-ad-ds}
+
+% ---- Chapter 4: DHCP ----
+\bibitem{krause2019}
+Krause, J. (2019). \textit{Mastering Windows Server 2019} (2nd ed.). Packt Publishing Ltd.
+
+\bibitem{dhcp-groups}
+Microsoft. (2026). \textit{DHCP Groups}. Retrieved from \url{https://learn.microsoft.com/zh-cn/previous-versions/windows/it-pro/windows-server-2003/cc737716(v=ws.10)}
+
+\bibitem{msnoob-dhcp}
+Anggara, A. \textit{Install DHCP Server on Windows Server 2016}. Retrieved from \url{https://msnoob.com/install-dhcp-server-on-windows-server-2016.html}
+
+\bibitem{ipme-ipv4}
+Bello, N. (2026). \textit{How Many IPv4 Addresses Are There?} Retrieved from \url{https://ipme.co/articles/how-many-ipv4-addresses}
+
+\bibitem{rapidseedbox-lease}
+Georgiv, D. (2026). \textit{DHCP Lease Time: How Long Should It Be?} Retrieved from \url{https://www.rapidseedbox.com/blog/dhcp-lease-time#2}
+
+\bibitem{msft-dhcp-dns}
+Microsoft. (2026). \textit{DHCP: The IPv6 Addresses of the DNS Server Should Be Reachable}. Retrieved from \url{https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee941121(v=ws.10)?redirectedfrom=MSDN}
+
+\bibitem{msft-wins}
+Microsoft. (2026). \textit{Chapter 18 -- Maintaining WINS}. Retrieved from \url{https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2000/bb727108(v=technet.10)}
+
+\bibitem{msft-dhcpserver-module}
+Microsoft. (2026). \textit{DhcpServer Module}. Retrieved from \url{https://learn.microsoft.com/en-us/powershell/module/dhcpserver/?view=windowsserver2019-ps}
+
+\bibitem{sherry-dhcp-scope}
+Sherry, S. (2021). \textit{Managing Microsoft DHCP Scope and Other Components}. Retrieved from \url{https://adamtheautomator.com/dhcp-scope/}
+
+\bibitem{listek-splatting}
+Listek, A. (2020). \textit{PowerShell Splatting: Simplify and Organize Your Scripts}. Retrieved from \url{https://adamtheautomator.com/powershell-splatting/}
+
+\bibitem{msft-dhcp-quickstart}
+Microsoft. (2026). \textit{Quickstart: Install and Configure DHCP Server}. Retrieved from \url{https://learn.microsoft.com/en-us/windows-server/networking/technologies/dhcp/quickstart-install-configure-dhcp-server?tabs=powershell}
+
+\bibitem{msft-dhcp-renew}
+Microsoft. (2026). \textit{Verify, Release, or Renew a Client Address Lease}. Retrieved from \url{https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd183660(v=ws.10)}
+
+\bibitem{msft-dhcp-clients}
+Microsoft. (2026). \textit{Troubleshooting DHCP Clients}. Retrieved from \url{https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2003/cc757164(v=ws.10)?redirectedfrom=MSDN}
+
+\bibitem{msft-get-lease}
+Microsoft. (2026). \textit{Get-DhcpServerv4Lease}. Retrieved from \url{https://learn.microsoft.com/fr-fr/previous-versions/windows/powershell-scripting/jj590737(v=wps.620)}
+
+\bibitem{garn-dhcp-logs}
+Garn, D. (2024). \textit{Use Advanced DHCP Logging Techniques for Troubleshooting}. Retrieved from \url{https://www.techtarget.com/it-infrastructure/tutorial/Use-advanced-DHCP-logging-techniques-for-troubleshooting}
+
+% ---- Add further references below (Remote Access, Certificate Services, ...) ----
+
+\bibitem{certs-overview}
+Microsoft Learn. (2026). \textit{Active Directory Certificate Services Overview}. Microsoft. Retrieved from \url{https://learn.microsoft.com/windows-server/identity/ad-cs/active-directory-certificate-services-overview}
+
+\bibitem{certs-docs}
+Microsoft Learn. (2026). \textit{Active Directory Certificate Services Documentation}. Microsoft. Retrieved from \url{https://learn.microsoft.com/windows-server/identity/ad-cs}
+
+\bibitem{certs-cc731523}
+Microsoft. (2026). \textit{Active Directory Certificate Services (Windows Server 2008 R2 and 2008)}. Retrieved from \url{https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc731523(v=ws.10)}
+
+\end{thebibliography}
+
+%==============================================================
+%  APPENDIX
+%==============================================================
+\appendix
+\chapter{Appendix}
+\label{app:appendix}
+
+\section{GitHub Repository}
+\todo{Insert the link to the group's GitHub repository here, e.g.\ \texttt{\textbackslash url\{https://github.com/...\}}.}
+
+\end{document}
