@@ -19,10 +19,36 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
-    \entry{microsoft2026}{misc}{}{}
+    \entry{masterWS19}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=a9b55384a7e579945246bd7a2d787d5b}{%
+           family={Krause},
+           familyi={K\bibinitperiod},
+           given={Jordan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Packt Publishing Ltd}%
+      }
+      \strng{namehash}{a9b55384a7e579945246bd7a2d787d5b}
+      \strng{fullhash}{a9b55384a7e579945246bd7a2d787d5b}
+      \strng{fullhashraw}{a9b55384a7e579945246bd7a2d787d5b}
+      \strng{bibnamehash}{a9b55384a7e579945246bd7a2d787d5b}
+      \strng{authorbibnamehash}{a9b55384a7e579945246bd7a2d787d5b}
+      \strng{authornamehash}{a9b55384a7e579945246bd7a2d787d5b}
+      \strng{authorfullhash}{a9b55384a7e579945246bd7a2d787d5b}
+      \strng{authorfullhashraw}{a9b55384a7e579945246bd7a2d787d5b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mastering Windows Server 2019 Second Edition}
+      \field{year}{2019}
+    \endentry
+    \entry{DHCPgroups}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=140864078aeca1c7c35b4beb33c53c34}{%
-           family={{Microsoft}},
+           family={Microsoft},
            familyi={M\bibinitperiod}}}%
       }
       \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
@@ -34,1093 +60,160 @@
       \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
       \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
       \field{extraname}{1}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DHCP Groups}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/zh-cn/previous-versions/windows/it-pro/windows-server-2003/cc737716(v=ws.10)
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/zh-cn/previous-versions/windows/it-pro/windows-server-2003/cc737716(v=ws.10)
+      \endverb
+    \endentry
+    \entry{DHCPauthor}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=480065bd475125e7dade417292e39aea}{%
+           family={Anggara},
+           familyi={A\bibinitperiod},
+           given={Adrian},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{480065bd475125e7dade417292e39aea}
+      \strng{fullhash}{480065bd475125e7dade417292e39aea}
+      \strng{fullhashraw}{480065bd475125e7dade417292e39aea}
+      \strng{bibnamehash}{480065bd475125e7dade417292e39aea}
+      \strng{authorbibnamehash}{480065bd475125e7dade417292e39aea}
+      \strng{authornamehash}{480065bd475125e7dade417292e39aea}
+      \strng{authorfullhash}{480065bd475125e7dade417292e39aea}
+      \strng{authorfullhashraw}{480065bd475125e7dade417292e39aea}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://news.microsoft.com/announcement/microsoft-is-born/}}
-      \field{note}{Microsoft News, Redmond}
-      \field{title}{Microsoft is Born - The Early History}
-      \field{year}{2026}
+      \field{title}{Install DHCP Server on Windows Server 2016}
+      \verb{urlraw}
+      \verb https://msnoob.com/install-dhcp-server-on-windows-server-2016.html
+      \endverb
+      \verb{url}
+      \verb https://msnoob.com/install-dhcp-server-on-windows-server-2016.html
+      \endverb
     \endentry
-    \entry{guardian2014}{misc}{}{}
+    \entry{ffIP}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=bb37988fad9dca601e518c39c6b6dbc1}{%
-           family={{The Guardian}},
-           familyi={T\bibinitperiod}}}%
+        {{hash=327b75f3d434347fca5dd24605524d37}{%
+           family={Bello},
+           familyi={B\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
       }
-      \strng{namehash}{bb37988fad9dca601e518c39c6b6dbc1}
-      \strng{fullhash}{bb37988fad9dca601e518c39c6b6dbc1}
-      \strng{fullhashraw}{bb37988fad9dca601e518c39c6b6dbc1}
-      \strng{bibnamehash}{bb37988fad9dca601e518c39c6b6dbc1}
-      \strng{authorbibnamehash}{bb37988fad9dca601e518c39c6b6dbc1}
-      \strng{authornamehash}{bb37988fad9dca601e518c39c6b6dbc1}
-      \strng{authorfullhash}{bb37988fad9dca601e518c39c6b6dbc1}
-      \strng{authorfullhashraw}{bb37988fad9dca601e518c39c6b6dbc1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://www.theguardian.com/technology/2014/oct/02/from-windows-1-to-windows-10-29-years-of-windows-evolution}}
-      \field{note}{Guardian News \& Media, London}
-      \field{title}{From Windows 1 to 10: 29 Years of Evolution}
-      \field{year}{2014}
-    \endentry
-    \entry{zdnet2026}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=f7536e34a654c455d79133144e9077a5}{%
-           family={{ZDNET}},
-           familyi={Z\bibinitperiod}}}%
-      }
-      \strng{namehash}{f7536e34a654c455d79133144e9077a5}
-      \strng{fullhash}{f7536e34a654c455d79133144e9077a5}
-      \strng{fullhashraw}{f7536e34a654c455d79133144e9077a5}
-      \strng{bibnamehash}{f7536e34a654c455d79133144e9077a5}
-      \strng{authorbibnamehash}{f7536e34a654c455d79133144e9077a5}
-      \strng{authornamehash}{f7536e34a654c455d79133144e9077a5}
-      \strng{authorfullhash}{f7536e34a654c455d79133144e9077a5}
-      \strng{authorfullhashraw}{f7536e34a654c455d79133144e9077a5}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://www.zdnet.com/article/30-years-of-windows-10-milestones-that-changed-the-face-of-computing/}}
-      \field{note}{Red Ventures, New York}
-      \field{title}{30 Years of Windows: 10 Milestones}
-      \field{year}{2026}
-    \endentry
-    \entry{computerhistory2026}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=efcb178d97153dcc9b575ed34dbd6582}{%
-           family={{Computer History Museum}},
-           familyi={C\bibinitperiod}}}%
-      }
-      \list{organization}{1}{%
-        {Computer History Museum}%
-      }
-      \strng{namehash}{efcb178d97153dcc9b575ed34dbd6582}
-      \strng{fullhash}{efcb178d97153dcc9b575ed34dbd6582}
-      \strng{fullhashraw}{efcb178d97153dcc9b575ed34dbd6582}
-      \strng{bibnamehash}{efcb178d97153dcc9b575ed34dbd6582}
-      \strng{authorbibnamehash}{efcb178d97153dcc9b575ed34dbd6582}
-      \strng{authornamehash}{efcb178d97153dcc9b575ed34dbd6582}
-      \strng{authorfullhash}{efcb178d97153dcc9b575ed34dbd6582}
-      \strng{authorfullhashraw}{efcb178d97153dcc9b575ed34dbd6582}
+      \strng{namehash}{327b75f3d434347fca5dd24605524d37}
+      \strng{fullhash}{327b75f3d434347fca5dd24605524d37}
+      \strng{fullhashraw}{327b75f3d434347fca5dd24605524d37}
+      \strng{bibnamehash}{327b75f3d434347fca5dd24605524d37}
+      \strng{authorbibnamehash}{327b75f3d434347fca5dd24605524d37}
+      \strng{authornamehash}{327b75f3d434347fca5dd24605524d37}
+      \strng{authorfullhash}{327b75f3d434347fca5dd24605524d37}
+      \strng{authorfullhashraw}{327b75f3d434347fca5dd24605524d37}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://computerhistory.org/...}}
-      \field{note}{[Online]. Mountain View: Computer History Museum}
-      \field{title}{The Mother of All Demos}
+      \field{title}{How many IPv4 addresses are there?}
       \field{year}{2026}
+      \verb{urlraw}
+      \verb https://ipme.co/articles/how-many-ipv4-addresses
+      \endverb
+      \verb{url}
+      \verb https://ipme.co/articles/how-many-ipv4-addresses
+      \endverb
     \endentry
-    \entry{indigo2026}{misc}{}{}
+    \entry{rapidseedbox}{misc}{}{}
       \name{author}{1}{}{%
-        {{hash=e4d530cb5817e39d1992c4e2ac34103e}{%
-           family={{Indigo Software}},
-           familyi={I\bibinitperiod}}}%
+        {{hash=c8b03a27e2ef6b7ec190178c10da56cd}{%
+           family={Georgiv},
+           familyi={G\bibinitperiod},
+           given={Deyan},
+           giveni={D\bibinitperiod}}}%
       }
-      \strng{namehash}{e4d530cb5817e39d1992c4e2ac34103e}
-      \strng{fullhash}{e4d530cb5817e39d1992c4e2ac34103e}
-      \strng{fullhashraw}{e4d530cb5817e39d1992c4e2ac34103e}
-      \strng{bibnamehash}{e4d530cb5817e39d1992c4e2ac34103e}
-      \strng{authorbibnamehash}{e4d530cb5817e39d1992c4e2ac34103e}
-      \strng{authornamehash}{e4d530cb5817e39d1992c4e2ac34103e}
-      \strng{authorfullhash}{e4d530cb5817e39d1992c4e2ac34103e}
-      \strng{authorfullhashraw}{e4d530cb5817e39d1992c4e2ac34103e}
+      \strng{namehash}{c8b03a27e2ef6b7ec190178c10da56cd}
+      \strng{fullhash}{c8b03a27e2ef6b7ec190178c10da56cd}
+      \strng{fullhashraw}{c8b03a27e2ef6b7ec190178c10da56cd}
+      \strng{bibnamehash}{c8b03a27e2ef6b7ec190178c10da56cd}
+      \strng{authorbibnamehash}{c8b03a27e2ef6b7ec190178c10da56cd}
+      \strng{authornamehash}{c8b03a27e2ef6b7ec190178c10da56cd}
+      \strng{authorfullhash}{c8b03a27e2ef6b7ec190178c10da56cd}
+      \strng{authorfullhashraw}{c8b03a27e2ef6b7ec190178c10da56cd}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DHCP Lease Time: How Long Should It Be?}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.rapidseedbox.com/blog/dhcp-lease-time#2
+      \endverb
+      \verb{url}
+      \verb https://www.rapidseedbox.com/blog/dhcp-lease-time#2
+      \endverb
+    \endentry
+    \entry{dns}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DHCP: The IPv6 addresses of the DNS server should be reachable}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee941121(v=ws.10)?redirectedfrom=MSDN
+      \endverb
+      \verb{url}
+      \verb https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/ee941121(v=ws.10)?redirectedfrom=MSDN
+      \endverb
+    \endentry
+    \entry{wins}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
+      \field{extraname}{3}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://indigosoftwarecompany.com/ai-features-in-windows-and-office-2026/}}
-      \field{note}{Indigo Software Company, New York}
-      \field{title}{AI Features in Windows 2026 That Boost Productivity}
+      \field{title}{Chapter 18 - Maintaining WINS}
       \field{year}{2026}
-    \endentry
-    \entry{wyngaard2026}{report}{}{}
-      \name{author}{2}{}{%
-        {{hash=15862d39c86bb07370a8d82cf2361988}{%
-           family={Wyngaard},
-           familyi={W\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=f916f6506de9dc200ac0be613cc10e52}{%
-           family={Moyo},
-           familyi={M\bibinitperiod},
-           given={V.},
-           giveni={V\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {CPUT}%
-      }
-      \strng{namehash}{59e499c06bbb4ec7c82412e5dfa3984f}
-      \strng{fullhash}{59e499c06bbb4ec7c82412e5dfa3984f}
-      \strng{fullhashraw}{59e499c06bbb4ec7c82412e5dfa3984f}
-      \strng{bibnamehash}{59e499c06bbb4ec7c82412e5dfa3984f}
-      \strng{authorbibnamehash}{59e499c06bbb4ec7c82412e5dfa3984f}
-      \strng{authornamehash}{59e499c06bbb4ec7c82412e5dfa3984f}
-      \strng{authorfullhash}{59e499c06bbb4ec7c82412e5dfa3984f}
-      \strng{authorfullhashraw}{59e499c06bbb4ec7c82412e5dfa3984f}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Operating Systems 2 (OPS260S) - Research Report}
-      \field{type}{techreport}
-      \field{year}{2026}
-    \endentry
-    \entry{silberschatz2018}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=f9ae1f78b7dfe96c8239dc6c7fb5e722}{%
-           family={Silberschatz},
-           familyi={S\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=3f4abacdfce83c55e50695f77b7d25b3}{%
-           family={Galvin},
-           familyi={G\bibinitperiod},
-           given={P.\bibnamedelimi B.},
-           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-        {{hash=e0f60dc296cd583a60cdc531a9217da7}{%
-           family={Gagne},
-           familyi={G\bibinitperiod},
-           given={G.},
-           giveni={G\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Wiley}%
-      }
-      \strng{namehash}{534ad6be7338532fb399d30e1f3d960a}
-      \strng{fullhash}{726f761dee372408882b9322ace2b570}
-      \strng{fullhashraw}{726f761dee372408882b9322ace2b570}
-      \strng{bibnamehash}{726f761dee372408882b9322ace2b570}
-      \strng{authorbibnamehash}{726f761dee372408882b9322ace2b570}
-      \strng{authornamehash}{534ad6be7338532fb399d30e1f3d960a}
-      \strng{authorfullhash}{726f761dee372408882b9322ace2b570}
-      \strng{authorfullhashraw}{726f761dee372408882b9322ace2b570}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{10th}
-      \field{title}{Operating System Concepts}
-      \field{year}{2018}
-    \endentry
-    \entry{levin2017}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=4b98d7ee08c30c0f63e971d3732ca04e}{%
-           family={Levin},
-           familyi={L\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Technologeeks Press}%
-      }
-      \strng{namehash}{4b98d7ee08c30c0f63e971d3732ca04e}
-      \strng{fullhash}{4b98d7ee08c30c0f63e971d3732ca04e}
-      \strng{fullhashraw}{4b98d7ee08c30c0f63e971d3732ca04e}
-      \strng{bibnamehash}{4b98d7ee08c30c0f63e971d3732ca04e}
-      \strng{authorbibnamehash}{4b98d7ee08c30c0f63e971d3732ca04e}
-      \strng{authornamehash}{4b98d7ee08c30c0f63e971d3732ca04e}
-      \strng{authorfullhash}{4b98d7ee08c30c0f63e971d3732ca04e}
-      \strng{authorfullhashraw}{4b98d7ee08c30c0f63e971d3732ca04e}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{macOS and iOS Internals, Volume 1: User Mode, v1.3}
-      \field{year}{2017}
-    \endentry
-    \entry{siracusa2009}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=2587c5fd71560ee7b18f58d01342c359}{%
-           family={Siracusa},
-           familyi={S\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{2587c5fd71560ee7b18f58d01342c359}
-      \strng{fullhash}{2587c5fd71560ee7b18f58d01342c359}
-      \strng{fullhashraw}{2587c5fd71560ee7b18f58d01342c359}
-      \strng{bibnamehash}{2587c5fd71560ee7b18f58d01342c359}
-      \strng{authorbibnamehash}{2587c5fd71560ee7b18f58d01342c359}
-      \strng{authornamehash}{2587c5fd71560ee7b18f58d01342c359}
-      \strng{authorfullhash}{2587c5fd71560ee7b18f58d01342c359}
-      \strng{authorfullhashraw}{2587c5fd71560ee7b18f58d01342c359}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Ars Technica}
-      \field{title}{Mac OS X 10.6 Snow Leopard Review}
-      \field{year}{2009}
-    \endentry
-    \entry{appleEnergy}{online}{}{}
-      \name{author}{1}{}{%
-        {{hash=3325b015fbae57ba74629a53f1ead961}{%
-           family={{Apple Inc.}},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{fullhash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{fullhashraw}{3325b015fbae57ba74629a53f1ead961}
-      \strng{bibnamehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authorbibnamehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authornamehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authorfullhash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authorfullhashraw}{3325b015fbae57ba74629a53f1ead961}
-      \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Apple Developer Documentation}
-      \field{title}{Memory Management and Energy Efficiency}
-      \field{year}{2025}
-    \endentry
-    \entry{appleAPFS}{online}{}{}
-      \name{author}{1}{}{%
-        {{hash=3325b015fbae57ba74629a53f1ead961}{%
-           family={{Apple Inc.}},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{fullhash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{fullhashraw}{3325b015fbae57ba74629a53f1ead961}
-      \strng{bibnamehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authorbibnamehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authornamehash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authorfullhash}{3325b015fbae57ba74629a53f1ead961}
-      \strng{authorfullhashraw}{3325b015fbae57ba74629a53f1ead961}
-      \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Apple Developer Documentation}
-      \field{title}{About the Apple File System (APFS)}
-      \field{year}{2024}
       \verb{urlraw}
-      \verb https://developer.apple.com
+      \verb https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2000/bb727108(v=technet.10)
       \endverb
       \verb{url}
-      \verb https://developer.apple.com
+      \verb https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2000/bb727108(v=technet.10)
       \endverb
-    \endentry
-    \entry{msRegistry}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
-           family={{Microsoft}},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{fullhashraw}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
-      \strng{authorfullhashraw}{140864078aeca1c7c35b4beb33c53c34}
-      \field{extraname}{2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Microsoft Support}
-      \field{title}{Windows Registry Information for Advanced Users}
-      \field{year}{2023}
-    \endentry
-    \entry{aghera2024horizoniq}{online}{}{}
-      \name{author}{1}{}{%
-        {{hash=4de12b86b37affb2246e0c3d3bba91fe}{%
-           family={Aghera},
-           familyi={A\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{4de12b86b37affb2246e0c3d3bba91fe}
-      \strng{fullhash}{4de12b86b37affb2246e0c3d3bba91fe}
-      \strng{fullhashraw}{4de12b86b37affb2246e0c3d3bba91fe}
-      \strng{bibnamehash}{4de12b86b37affb2246e0c3d3bba91fe}
-      \strng{authorbibnamehash}{4de12b86b37affb2246e0c3d3bba91fe}
-      \strng{authornamehash}{4de12b86b37affb2246e0c3d3bba91fe}
-      \strng{authorfullhash}{4de12b86b37affb2246e0c3d3bba91fe}
-      \strng{authorfullhashraw}{4de12b86b37affb2246e0c3d3bba91fe}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{HorizonIQ: Debian vs Ubuntu}
-      \field{urlday}{11}
-      \field{urlmonth}{3}
-      \field{urlyear}{2026}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.horizoniq.com/blog/debian-vs-ubuntu/
-      \endverb
-      \verb{url}
-      \verb https://www.horizoniq.com/blog/debian-vs-ubuntu/
-      \endverb
-    \endentry
-    \entry{canonical2024ubuntu}{online}{}{}
-      \name{author}{1}{}{%
-        {{hash=e93b55a60e5343a2fb77eeb0feb36ea8}{%
-           family={Ltd.},
-           familyi={L\bibinitperiod},
-           given={Canonical},
-           giveni={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{e93b55a60e5343a2fb77eeb0feb36ea8}
-      \strng{fullhash}{e93b55a60e5343a2fb77eeb0feb36ea8}
-      \strng{fullhashraw}{e93b55a60e5343a2fb77eeb0feb36ea8}
-      \strng{bibnamehash}{e93b55a60e5343a2fb77eeb0feb36ea8}
-      \strng{authorbibnamehash}{e93b55a60e5343a2fb77eeb0feb36ea8}
-      \strng{authornamehash}{e93b55a60e5343a2fb77eeb0feb36ea8}
-      \strng{authorfullhash}{e93b55a60e5343a2fb77eeb0feb36ea8}
-      \strng{authorfullhashraw}{e93b55a60e5343a2fb77eeb0feb36ea8}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{The Ubuntu Story and Philosophy}
-      \field{urlday}{10}
-      \field{urlmonth}{3}
-      \field{urlyear}{2026}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://ubuntu.com
-      \endverb
-      \verb{url}
-      \verb https://ubuntu.com
-      \endverb
-    \endentry
-    \entry{khan2020comparative}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=140f135a975393615dafb43cc2b8a9be}{%
-           family={Khan},
-           familyi={K\bibinitperiod},
-           given={Umaima},
-           giveni={U\bibinitperiod}}}%
-      }
-      \strng{namehash}{140f135a975393615dafb43cc2b8a9be}
-      \strng{fullhash}{140f135a975393615dafb43cc2b8a9be}
-      \strng{fullhashraw}{140f135a975393615dafb43cc2b8a9be}
-      \strng{bibnamehash}{140f135a975393615dafb43cc2b8a9be}
-      \strng{authorbibnamehash}{140f135a975393615dafb43cc2b8a9be}
-      \strng{authornamehash}{140f135a975393615dafb43cc2b8a9be}
-      \strng{authorfullhash}{140f135a975393615dafb43cc2b8a9be}
-      \strng{authorfullhashraw}{140f135a975393615dafb43cc2b8a9be}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Academic Research in Business, Arts and Science (IJARBAS)}
-      \field{title}{Comparative Study of Linux and Windows}
-      \field{volume}{2}
-      \field{year}{2020}
-      \field{pages}{53\bibrangedash 70}
-      \range{pages}{18}
-    \endentry
-    \entry{aldossary2023comparison}{article}{}{}
-      \name{author}{11}{}{%
-        {{hash=a0c867e5879825f1b83a55f3eaded3d7}{%
-           family={Aldossary},
-           familyi={A\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=eb0893e0aab5def257ae7622c1aefd03}{%
-           family={Almhdood},
-           familyi={A\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod}}}%
-        {{hash=016fa97307c5ef9b5afa3a6353c68b41}{%
-           family={Alhothail},
-           familyi={A\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=06ad9ec3395f66bf680b22882313ae2c}{%
-           family={Alshimer},
-           familyi={A\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=d2f490910360050cf03fed239a40e65d}{%
-           family={Alotaibi},
-           familyi={A\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=462cf902c2f59a2d26ed2701ddcc72e0}{%
-           family={Alqahtani},
-           familyi={A\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=d701a21e0e86fa6728d38b056a42570e}{%
-           family={Aldossary},
-           familyi={A\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-        {{hash=158a047e502b6da0e04eb506887cc727}{%
-           family={Alshammari},
-           familyi={A\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=7cf092c7ac71d96849cb817467eeba3a}{%
-           family={Almuqbel},
-           familyi={A\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=e4f487917f1a486b279dec9a23421cf1}{%
-           family={Albatli},
-           familyi={A\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=ded0ac82f6859bed9170c48bc7552a65}{%
-           family={Nagy},
-           familyi={N\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod}}}%
-      }
-      \strng{namehash}{d75d91455ae48148972acfc6ab3de6c8}
-      \strng{fullhash}{9542816ddc96358a90ed9a19c686bc1f}
-      \strng{fullhashraw}{9542816ddc96358a90ed9a19c686bc1f}
-      \strng{bibnamehash}{d75d91455ae48148972acfc6ab3de6c8}
-      \strng{authorbibnamehash}{d75d91455ae48148972acfc6ab3de6c8}
-      \strng{authornamehash}{d75d91455ae48148972acfc6ab3de6c8}
-      \strng{authorfullhash}{9542816ddc96358a90ed9a19c686bc1f}
-      \strng{authorfullhashraw}{9542816ddc96358a90ed9a19c686bc1f}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal Not Specified}
-      \field{title}{Comparison Between Windows and Linux Operating System By Analyzing the Related Security Features}
-      \field{volume}{1}
-      \field{year}{2023}
-      \field{pages}{1\bibrangedash 10}
-      \range{pages}{10}
-    \endentry
-    \entry{love2010linux}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=3262f21e1ec854d54444577e29125b8e}{%
-           family={Love},
-           familyi={L\bibinitperiod},
-           given={Robert},
-           giveni={R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Pearson Education}%
-      }
-      \strng{namehash}{3262f21e1ec854d54444577e29125b8e}
-      \strng{fullhash}{3262f21e1ec854d54444577e29125b8e}
-      \strng{fullhashraw}{3262f21e1ec854d54444577e29125b8e}
-      \strng{bibnamehash}{3262f21e1ec854d54444577e29125b8e}
-      \strng{authorbibnamehash}{3262f21e1ec854d54444577e29125b8e}
-      \strng{authornamehash}{3262f21e1ec854d54444577e29125b8e}
-      \strng{authorfullhash}{3262f21e1ec854d54444577e29125b8e}
-      \strng{authorfullhashraw}{3262f21e1ec854d54444577e29125b8e}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Linux Kernel Development}
-      \field{year}{2010}
-    \endentry
-    \entry{garn2025comparing}{online}{}{}
-      \name{author}{1}{}{%
-        {{hash=9e4a347629169075e18b6d33ad34a5e6}{%
-           family={Garn},
-           familyi={G\bibinitperiod},
-           given={Damon},
-           giveni={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{9e4a347629169075e18b6d33ad34a5e6}
-      \strng{fullhash}{9e4a347629169075e18b6d33ad34a5e6}
-      \strng{fullhashraw}{9e4a347629169075e18b6d33ad34a5e6}
-      \strng{bibnamehash}{9e4a347629169075e18b6d33ad34a5e6}
-      \strng{authorbibnamehash}{9e4a347629169075e18b6d33ad34a5e6}
-      \strng{authornamehash}{9e4a347629169075e18b6d33ad34a5e6}
-      \strng{authorfullhash}{9e4a347629169075e18b6d33ad34a5e6}
-      \strng{authorfullhashraw}{9e4a347629169075e18b6d33ad34a5e6}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Comparing the Linux Kernel vs. the Windows Kernel}
-      \field{urlday}{12}
-      \field{urlmonth}{3}
-      \field{urlyear}{2026}
-      \field{year}{2025}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.techtarget.com/searchenterprisedesktop/tip/Comparing-the-Linux-kernel-vs-the-Windows-kernel
-      \endverb
-      \verb{url}
-      \verb https://www.techtarget.com/searchenterprisedesktop/tip/Comparing-the-Linux-kernel-vs-the-Windows-kernel
-      \endverb
-    \endentry
-    \entry{goyal2018operational}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=303fe230056e069692de720169bcbb29}{%
-           family={Goyal},
-           familyi={G\bibinitperiod},
-           given={Khushbu},
-           giveni={K\bibinitperiod}}}%
-        {{hash=6ac4a741b649d7f495966061c326dc19}{%
-           family={Ranawat},
-           familyi={R\bibinitperiod},
-           given={Karan\bibnamedelimb Raj\bibnamedelima Singh},
-           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=43dcf785d94c2c4d8d75d279fadb294b}{%
-           family={Nayak},
-           familyi={N\bibinitperiod},
-           given={Nirjara},
-           giveni={N\bibinitperiod}}}%
-      }
-      \strng{namehash}{c3d983e419069d3c80a0f70223ce789c}
-      \strng{fullhash}{84c7b8f76efadc6f41ac97b0ff9b9e04}
-      \strng{fullhashraw}{84c7b8f76efadc6f41ac97b0ff9b9e04}
-      \strng{bibnamehash}{84c7b8f76efadc6f41ac97b0ff9b9e04}
-      \strng{authorbibnamehash}{84c7b8f76efadc6f41ac97b0ff9b9e04}
-      \strng{authornamehash}{c3d983e419069d3c80a0f70223ce789c}
-      \strng{authorfullhash}{84c7b8f76efadc6f41ac97b0ff9b9e04}
-      \strng{authorfullhashraw}{84c7b8f76efadc6f41ac97b0ff9b9e04}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Scientific Research in Science and Technology}
-      \field{number}{11}
-      \field{title}{Operational Distinctions Between Linux and Windows}
-      \field{volume}{4}
-      \field{year}{2018}
-      \field{pages}{251\bibrangedash 254}
-      \range{pages}{4}
-    \endentry
-    \entry{tsegaye2004comparison}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=01912085b4ab94b8855428e03c2594f9}{%
-           family={Tsegaye},
-           familyi={T\bibinitperiod},
-           given={Melekam},
-           giveni={M\bibinitperiod}}}%
-        {{hash=859280a3b6a08ce2de50c97afb6f5e5d}{%
-           family={Foss},
-           familyi={F\bibinitperiod},
-           given={Richard},
-           giveni={R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {ACM}%
-      }
-      \strng{namehash}{803fbb9d817fb5727f64f017016146a5}
-      \strng{fullhash}{803fbb9d817fb5727f64f017016146a5}
-      \strng{fullhashraw}{803fbb9d817fb5727f64f017016146a5}
-      \strng{bibnamehash}{803fbb9d817fb5727f64f017016146a5}
-      \strng{authorbibnamehash}{803fbb9d817fb5727f64f017016146a5}
-      \strng{authornamehash}{803fbb9d817fb5727f64f017016146a5}
-      \strng{authorfullhash}{803fbb9d817fb5727f64f017016146a5}
-      \strng{authorfullhashraw}{803fbb9d817fb5727f64f017016146a5}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{ACM SIGOPS Operating Systems Review}
-      \field{number}{2}
-      \field{title}{A Comparison of the Linux and Windows Device Driver Architectures}
-      \field{volume}{38}
-      \field{year}{2004}
-      \field{pages}{8\bibrangedash 33}
-      \range{pages}{26}
-    \endentry
-    \entry{larabel2024ubuntu}{online}{}{}
-      \name{author}{1}{}{%
-        {{hash=b51b9464b5589cf5380e3b897d0a43b6}{%
-           family={Larabel},
-           familyi={L\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{b51b9464b5589cf5380e3b897d0a43b6}
-      \strng{fullhash}{b51b9464b5589cf5380e3b897d0a43b6}
-      \strng{fullhashraw}{b51b9464b5589cf5380e3b897d0a43b6}
-      \strng{bibnamehash}{b51b9464b5589cf5380e3b897d0a43b6}
-      \strng{authorbibnamehash}{b51b9464b5589cf5380e3b897d0a43b6}
-      \strng{authornamehash}{b51b9464b5589cf5380e3b897d0a43b6}
-      \strng{authorfullhash}{b51b9464b5589cf5380e3b897d0a43b6}
-      \strng{authorfullhashraw}{b51b9464b5589cf5380e3b897d0a43b6}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Ubuntu 24.04 Boosts Performance, Outperforming Windows 11}
-      \field{urlday}{14}
-      \field{urlmonth}{3}
-      \field{urlyear}{2026}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.phoronix.com
-      \endverb
-      \verb{url}
-      \verb https://www.phoronix.com
-      \endverb
-    \endentry
-    \entry{scribd2024ubuntu}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=860d569c28bad277b170f60b4c4ed966}{%
-           family={Scribd},
-           familyi={S\bibinitperiod}}}%
-      }
-      \strng{namehash}{860d569c28bad277b170f60b4c4ed966}
-      \strng{fullhash}{860d569c28bad277b170f60b4c4ed966}
-      \strng{fullhashraw}{860d569c28bad277b170f60b4c4ed966}
-      \strng{bibnamehash}{860d569c28bad277b170f60b4c4ed966}
-      \strng{authorbibnamehash}{860d569c28bad277b170f60b4c4ed966}
-      \strng{authornamehash}{860d569c28bad277b170f60b4c4ed966}
-      \strng{authorfullhash}{860d569c28bad277b170f60b4c4ed966}
-      \strng{authorfullhashraw}{860d569c28bad277b170f60b4c4ed966}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Ubuntu vs. Windows: Key OS Comparison}
-      \field{urlday}{14}
-      \field{urlmonth}{3}
-      \field{urlyear}{2026}
-      \field{year}{2024}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.scribd.com
-      \endverb
-      \verb{url}
-      \verb https://www.scribd.com
-      \endverb
-    \endentry
-    \entry{bitrot}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=8957b233b384b3b1b1e886e95bdde82d}{%
-           family={Kingsley-Hughes},
-           familyi={K\bibinithyphendelim H\bibinitperiod},
-           given={Adrian},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{8957b233b384b3b1b1e886e95bdde82d}
-      \strng{fullhash}{8957b233b384b3b1b1e886e95bdde82d}
-      \strng{fullhashraw}{8957b233b384b3b1b1e886e95bdde82d}
-      \strng{bibnamehash}{8957b233b384b3b1b1e886e95bdde82d}
-      \strng{authorbibnamehash}{8957b233b384b3b1b1e886e95bdde82d}
-      \strng{authornamehash}{8957b233b384b3b1b1e886e95bdde82d}
-      \strng{authorfullhash}{8957b233b384b3b1b1e886e95bdde82d}
-      \strng{authorfullhashraw}{8957b233b384b3b1b1e886e95bdde82d}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://www.zdnet.com/article/windows-bit-rot-fact-or-fiction/}}
-      \field{title}{Windows bit-rot - fact or fiction?}
-      \field{year}{2009}
-    \endentry
-    \entry{chromeos}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=70fdfa2e9e2e8c73553c486482803026}{%
-           family={Stokes},
-           familyi={S\bibinitperiod},
-           given={Jon},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{70fdfa2e9e2e8c73553c486482803026}
-      \strng{fullhash}{70fdfa2e9e2e8c73553c486482803026}
-      \strng{fullhashraw}{70fdfa2e9e2e8c73553c486482803026}
-      \strng{bibnamehash}{70fdfa2e9e2e8c73553c486482803026}
-      \strng{authorbibnamehash}{70fdfa2e9e2e8c73553c486482803026}
-      \strng{authornamehash}{70fdfa2e9e2e8c73553c486482803026}
-      \strng{authorfullhash}{70fdfa2e9e2e8c73553c486482803026}
-      \strng{authorfullhashraw}{70fdfa2e9e2e8c73553c486482803026}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://arstechnica.com/information-technology/2010/01/chrome-os-interview-1/}}
-      \field{title}{Google talks Chrome OS, HTML5, and the future of software}
-      \field{year}{2010}
-    \endentry
-    \entry{about}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=8b36e9207c24c76e6719268e49201d94}{%
-           family={Google},
-           familyi={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{fullhashraw}{8b36e9207c24c76e6719268e49201d94}
-      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
-      \strng{authorfullhashraw}{8b36e9207c24c76e6719268e49201d94}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://chromeos.google/}}
-      \field{title}{The Google-built, secure OS for your business}
-    \endentry
-    \entry{security}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=77de9f8e24718d24d04de4c07ff34a21}{%
-           family={Manson},
-           familyi={M\bibinitperiod},
-           given={Michelle},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{77de9f8e24718d24d04de4c07ff34a21}
-      \strng{fullhash}{77de9f8e24718d24d04de4c07ff34a21}
-      \strng{fullhashraw}{77de9f8e24718d24d04de4c07ff34a21}
-      \strng{bibnamehash}{77de9f8e24718d24d04de4c07ff34a21}
-      \strng{authorbibnamehash}{77de9f8e24718d24d04de4c07ff34a21}
-      \strng{authornamehash}{77de9f8e24718d24d04de4c07ff34a21}
-      \strng{authorfullhash}{77de9f8e24718d24d04de4c07ff34a21}
-      \strng{authorfullhashraw}{77de9f8e24718d24d04de4c07ff34a21}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://ctl.net/blogs/insights/chromeos-vs-windows-top-key-security-differences}}
-      \field{title}{ChromeOS vs Windows: Top Key Security Differences}
-      \field{year}{2024}
-    \endentry
-    \entry{persistence}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=a1a22e9547be9c33b27e8b8cb93089f2}{%
-           family={{Huntress}},
-           familyi={H\bibinitperiod}}}%
-      }
-      \strng{namehash}{a1a22e9547be9c33b27e8b8cb93089f2}
-      \strng{fullhash}{a1a22e9547be9c33b27e8b8cb93089f2}
-      \strng{fullhashraw}{a1a22e9547be9c33b27e8b8cb93089f2}
-      \strng{bibnamehash}{a1a22e9547be9c33b27e8b8cb93089f2}
-      \strng{authorbibnamehash}{a1a22e9547be9c33b27e8b8cb93089f2}
-      \strng{authornamehash}{a1a22e9547be9c33b27e8b8cb93089f2}
-      \strng{authorfullhash}{a1a22e9547be9c33b27e8b8cb93089f2}
-      \strng{authorfullhashraw}{a1a22e9547be9c33b27e8b8cb93089f2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://www.huntress.com/defenders-handbooks/persistence-in-cybersecurity}}
-      \field{title}{Persistance In Cybersecurity}
-    \endentry
-    \entry{chrome100}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=986c37480b1f1c2e443504b38b6361b4}{%
-           family={Chrome},
-           familyi={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{986c37480b1f1c2e443504b38b6361b4}
-      \strng{fullhash}{986c37480b1f1c2e443504b38b6361b4}
-      \strng{fullhashraw}{986c37480b1f1c2e443504b38b6361b4}
-      \strng{bibnamehash}{986c37480b1f1c2e443504b38b6361b4}
-      \strng{authorbibnamehash}{986c37480b1f1c2e443504b38b6361b4}
-      \strng{authornamehash}{986c37480b1f1c2e443504b38b6361b4}
-      \strng{authorfullhash}{986c37480b1f1c2e443504b38b6361b4}
-      \strng{authorfullhashraw}{986c37480b1f1c2e443504b38b6361b4}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://invgate.com/itdb/chromeos-100}}
-      \field{title}{ChromeOS 100}
-    \endentry
-    \entry{ram}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=550eadb88a230018bf043d1b6ad15863}{%
-           family={Leo},
-           familyi={L\bibinitperiod}}}%
-      }
-      \strng{namehash}{550eadb88a230018bf043d1b6ad15863}
-      \strng{fullhash}{550eadb88a230018bf043d1b6ad15863}
-      \strng{fullhashraw}{550eadb88a230018bf043d1b6ad15863}
-      \strng{bibnamehash}{550eadb88a230018bf043d1b6ad15863}
-      \strng{authorbibnamehash}{550eadb88a230018bf043d1b6ad15863}
-      \strng{authornamehash}{550eadb88a230018bf043d1b6ad15863}
-      \strng{authorfullhash}{550eadb88a230018bf043d1b6ad15863}
-      \strng{authorfullhashraw}{550eadb88a230018bf043d1b6ad15863}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://lifetips.alibaba.com/tech-efficiency/ram-compression-slows-multitasking-on-windows}}
-      \field{title}{RAM Compression Slows Multitasking on Windows 11}
-      \field{year}{2026}
-    \endentry
-    \entry{a/b}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=e84e30b9390cdb64db6db2c9ab87846d}{%
-           family={Android},
-           familyi={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{e84e30b9390cdb64db6db2c9ab87846d}
-      \strng{fullhash}{e84e30b9390cdb64db6db2c9ab87846d}
-      \strng{fullhashraw}{e84e30b9390cdb64db6db2c9ab87846d}
-      \strng{bibnamehash}{e84e30b9390cdb64db6db2c9ab87846d}
-      \strng{authorbibnamehash}{e84e30b9390cdb64db6db2c9ab87846d}
-      \strng{authornamehash}{e84e30b9390cdb64db6db2c9ab87846d}
-      \strng{authorfullhash}{e84e30b9390cdb64db6db2c9ab87846d}
-      \strng{authorfullhashraw}{e84e30b9390cdb64db6db2c9ab87846d}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://source.android.com/docs/core/ota/ab}}
-      \field{title}{A/B (seamless) system updates}
-    \endentry
-    \entry{efficiency-mode}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=ed7279d91bcfb722b92a71d7b69d0549}{%
-           family={Reed},
-           familyi={R\bibinitperiod},
-           given={Blake},
-           giveni={B\bibinitperiod}}}%
-      }
-      \strng{namehash}{ed7279d91bcfb722b92a71d7b69d0549}
-      \strng{fullhash}{ed7279d91bcfb722b92a71d7b69d0549}
-      \strng{fullhashraw}{ed7279d91bcfb722b92a71d7b69d0549}
-      \strng{bibnamehash}{ed7279d91bcfb722b92a71d7b69d0549}
-      \strng{authorbibnamehash}{ed7279d91bcfb722b92a71d7b69d0549}
-      \strng{authornamehash}{ed7279d91bcfb722b92a71d7b69d0549}
-      \strng{authorfullhash}{ed7279d91bcfb722b92a71d7b69d0549}
-      \strng{authorfullhashraw}{ed7279d91bcfb722b92a71d7b69d0549}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{\url{https://community.retool.com/t/psa-windows-11-efficiency-mode-can-throttle-retool-app-performance/57845/1}}
-      \field{title}{PSA: Windows 11 "Efficiency Mode" can Throttle Retool App Performance}
-      \field{year}{2025}
-    \endentry
-    \entry{source_win11_architecture}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=b9a8b868588ad4bc6b36c29936e26423}{%
-           family={{Microsoft Corporation}},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{b9a8b868588ad4bc6b36c29936e26423}
-      \strng{fullhash}{b9a8b868588ad4bc6b36c29936e26423}
-      \strng{fullhashraw}{b9a8b868588ad4bc6b36c29936e26423}
-      \strng{bibnamehash}{b9a8b868588ad4bc6b36c29936e26423}
-      \strng{authorbibnamehash}{b9a8b868588ad4bc6b36c29936e26423}
-      \strng{authornamehash}{b9a8b868588ad4bc6b36c29936e26423}
-      \strng{authorfullhash}{b9a8b868588ad4bc6b36c29936e26423}
-      \strng{authorfullhashraw}{b9a8b868588ad4bc6b36c29936e26423}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Windows 11 Architecture and Security Features}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://learn.microsoft.com/en-us/windows/security/
-      \endverb
-      \verb{url}
-      \verb https://learn.microsoft.com/en-us/windows/security/
-      \endverb
-    \endentry
-    \entry{source_freebsd_handbook}{manual}{}{}
-      \name{author}{1}{}{%
-        {{hash=00729cda81f26bb4231e445aa70f7ebb}{%
-           family={{The FreeBSD Documentation Project}},
-           familyi={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{00729cda81f26bb4231e445aa70f7ebb}
-      \strng{fullhash}{00729cda81f26bb4231e445aa70f7ebb}
-      \strng{fullhashraw}{00729cda81f26bb4231e445aa70f7ebb}
-      \strng{bibnamehash}{00729cda81f26bb4231e445aa70f7ebb}
-      \strng{authorbibnamehash}{00729cda81f26bb4231e445aa70f7ebb}
-      \strng{authornamehash}{00729cda81f26bb4231e445aa70f7ebb}
-      \strng{authorfullhash}{00729cda81f26bb4231e445aa70f7ebb}
-      \strng{authorfullhashraw}{00729cda81f26bb4231e445aa70f7ebb}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{FreeBSD Handbook}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://docs.freebsd.org/en/books/handbook/
-      \endverb
-      \verb{url}
-      \verb https://docs.freebsd.org/en/books/handbook/
-      \endverb
-    \endentry
-    \entry{source_zfs_manual}{manual}{}{}
-      \name{author}{1}{}{%
-        {{hash=02f9b3f0f66cd88b8ffea66161f060b4}{%
-           family={{OpenZFS Project}},
-           familyi={O\bibinitperiod}}}%
-      }
-      \strng{namehash}{02f9b3f0f66cd88b8ffea66161f060b4}
-      \strng{fullhash}{02f9b3f0f66cd88b8ffea66161f060b4}
-      \strng{fullhashraw}{02f9b3f0f66cd88b8ffea66161f060b4}
-      \strng{bibnamehash}{02f9b3f0f66cd88b8ffea66161f060b4}
-      \strng{authorbibnamehash}{02f9b3f0f66cd88b8ffea66161f060b4}
-      \strng{authornamehash}{02f9b3f0f66cd88b8ffea66161f060b4}
-      \strng{authorfullhash}{02f9b3f0f66cd88b8ffea66161f060b4}
-      \strng{authorfullhashraw}{02f9b3f0f66cd88b8ffea66161f060b4}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{OpenZFS Documentation}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://openzfs.github.io/openzfs-docs/
-      \endverb
-      \verb{url}
-      \verb https://openzfs.github.io/openzfs-docs/
-      \endverb
-    \endentry
-    \entry{source_bsd_hardware}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=4e06b2a227c8d32e59bca06c8d76c1fd}{%
-           family={{The FreeBSD Release Engineering Team}},
-           familyi={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{4e06b2a227c8d32e59bca06c8d76c1fd}
-      \strng{fullhash}{4e06b2a227c8d32e59bca06c8d76c1fd}
-      \strng{fullhashraw}{4e06b2a227c8d32e59bca06c8d76c1fd}
-      \strng{bibnamehash}{4e06b2a227c8d32e59bca06c8d76c1fd}
-      \strng{authorbibnamehash}{4e06b2a227c8d32e59bca06c8d76c1fd}
-      \strng{authornamehash}{4e06b2a227c8d32e59bca06c8d76c1fd}
-      \strng{authorfullhash}{4e06b2a227c8d32e59bca06c8d76c1fd}
-      \strng{authorfullhashraw}{4e06b2a227c8d32e59bca06c8d76c1fd}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{FreeBSD Hardware Notes}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://www.freebsd.org/releases/
-      \endverb
-      \verb{url}
-      \verb https://www.freebsd.org/releases/
-      \endverb
-    \endentry
-    \entry{Hamilton1968}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=2aa66fa7254e799e738bc832041d08e7}{%
-           family={Hamilton},
-           familyi={H\bibinitperiod},
-           given={Margaret},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{2aa66fa7254e799e738bc832041d08e7}
-      \strng{fullhash}{2aa66fa7254e799e738bc832041d08e7}
-      \strng{fullhashraw}{2aa66fa7254e799e738bc832041d08e7}
-      \strng{bibnamehash}{2aa66fa7254e799e738bc832041d08e7}
-      \strng{authorbibnamehash}{2aa66fa7254e799e738bc832041d08e7}
-      \strng{authornamehash}{2aa66fa7254e799e738bc832041d08e7}
-      \strng{authorfullhash}{2aa66fa7254e799e738bc832041d08e7}
-      \strng{authorfullhashraw}{2aa66fa7254e799e738bc832041d08e7}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{MIT Instrumentation Laboratory Report}
-      \field{title}{Apollo Guidance Computer Software Design}
-      \field{year}{1968}
-    \endentry
-    \entry{Wirth1995}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=adb5cb357bd35f89888522cf765e576c}{%
-           family={Wirth},
-           familyi={W\bibinitperiod},
-           given={Niklaus},
-           giveni={N\bibinitperiod}}}%
-      }
-      \strng{namehash}{adb5cb357bd35f89888522cf765e576c}
-      \strng{fullhash}{adb5cb357bd35f89888522cf765e576c}
-      \strng{fullhashraw}{adb5cb357bd35f89888522cf765e576c}
-      \strng{bibnamehash}{adb5cb357bd35f89888522cf765e576c}
-      \strng{authorbibnamehash}{adb5cb357bd35f89888522cf765e576c}
-      \strng{authornamehash}{adb5cb357bd35f89888522cf765e576c}
-      \strng{authorfullhash}{adb5cb357bd35f89888522cf765e576c}
-      \strng{authorfullhashraw}{adb5cb357bd35f89888522cf765e576c}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Computer}
-      \field{title}{A Plea for Lean Software}
-      \field{year}{1995}
-    \endentry
-    \entry{Kocher2019}{inproceedings}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{3}{}{%
-        {{hash=f0a163cdbf4dbde1c36f8457b3e2278e}{%
-           family={Kocher},
-           familyi={K\bibinitperiod},
-           given={Paul},
-           giveni={P\bibinitperiod}}}%
-        {{hash=eafaecc2266dc244316f657295446434}{%
-           family={Horn},
-           familyi={H\bibinitperiod},
-           given={Jann},
-           giveni={J\bibinitperiod}}}%
-        {{hash=2c3fca76329df4410f37919bcd49f3e5}{%
-           family={Fogh},
-           familyi={F\bibinitperiod},
-           given={Anders},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{3c1b558b10a44e8a4ecc1e0e195af826}
-      \strng{fullhash}{f9bfb14413b2e52a7f9fdbcb613fd6c0}
-      \strng{fullhashraw}{f9bfb14413b2e52a7f9fdbcb613fd6c0}
-      \strng{bibnamehash}{f9bfb14413b2e52a7f9fdbcb613fd6c0}
-      \strng{authorbibnamehash}{f9bfb14413b2e52a7f9fdbcb613fd6c0}
-      \strng{authornamehash}{3c1b558b10a44e8a4ecc1e0e195af826}
-      \strng{authorfullhash}{f9bfb14413b2e52a7f9fdbcb613fd6c0}
-      \strng{authorfullhashraw}{f9bfb14413b2e52a7f9fdbcb613fd6c0}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{IEEE Symposium on Security and Privacy}
-      \field{title}{Spectre Attacks: Exploiting Speculative Execution}
-      \field{year}{2019}
-    \endentry
-    \entry{Wulf1995}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=ec3532c97e0cf7bbdedb4a634272153f}{%
-           family={Wulf},
-           familyi={W\bibinitperiod},
-           given={W.\bibnamedelimi A.},
-           giveni={W\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=80e8fbf51e687f5c98ed5cf978b774f2}{%
-           family={McKee},
-           familyi={M\bibinitperiod},
-           given={Sally\bibnamedelima A.},
-           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \strng{namehash}{82ee6add8966ac30311b46102e2cba43}
-      \strng{fullhash}{82ee6add8966ac30311b46102e2cba43}
-      \strng{fullhashraw}{82ee6add8966ac30311b46102e2cba43}
-      \strng{bibnamehash}{82ee6add8966ac30311b46102e2cba43}
-      \strng{authorbibnamehash}{82ee6add8966ac30311b46102e2cba43}
-      \strng{authornamehash}{82ee6add8966ac30311b46102e2cba43}
-      \strng{authorfullhash}{82ee6add8966ac30311b46102e2cba43}
-      \strng{authorfullhashraw}{82ee6add8966ac30311b46102e2cba43}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{ACM SIGARCH Computer Architecture News}
-      \field{title}{Hitting the Memory Wall: Implications of the Obvious}
-      \field{year}{1995}
     \endentry
   \enddatalist
 \endrefsection
