@@ -1,8 +1,8 @@
-PWD c:/Users/User/Desktop/VM OPS/CPUT_Report_LaTeX_OPS_VM_Project/Report
+PWD d:/Documents/GitHub/CPUT_Report_LaTeX_OPS_VM_Project/Report
 INPUT c:/texlive/2025/texmf.cnf
 INPUT c:/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/User/Desktop/VM OPS/CPUT_Report_LaTeX_OPS_VM_Project/Report/Main.tex
+INPUT d:/Documents/GitHub/CPUT_Report_LaTeX_OPS_VM_Project/Report/Main.tex
 OUTPUT Main.log
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/report.cls
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/report.cls
@@ -11,6 +11,9 @@ INPUT c:/texlive/2025/texmf-dist/tex/latex/base/size12.clo
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/size12.clo
 INPUT c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT c:/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm
 INPUT ./Settings.tex
 INPUT ./Settings.tex
 INPUT ./Settings.tex
@@ -19,8 +22,6 @@ INPUT Settings.tex
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
-INPUT c:/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm
 INPUT c:/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
@@ -390,28 +391,8 @@ INPUT c:/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
 INPUT c:/texlive/2025/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
 INPUT c:/texlive/2025/texmf-dist/tex/latex/float/float.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/float/float.sty
-INPUT c:/texlive/2025/texmf-dist/tex/latex/minted/minted.sty
-INPUT c:/texlive/2025/texmf-dist/tex/latex/minted/minted.sty
-INPUT c:/texlive/2025/texmf-dist/tex/generic/catchfile/catchfile.sty
-INPUT c:/texlive/2025/texmf-dist/tex/generic/catchfile/catchfile.sty
-INPUT c:/texlive/2025/texmf-dist/tex/generic/etexcmds/etexcmds.sty
-INPUT c:/texlive/2025/texmf-dist/tex/generic/etexcmds/etexcmds.sty
-INPUT c:/texlive/2025/texmf-dist/tex/latex/fvextra/fvextra.sty
-INPUT c:/texlive/2025/texmf-dist/tex/latex/fvextra/fvextra.sty
-INPUT c:/texlive/2025/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
-INPUT c:/texlive/2025/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
-INPUT c:/texlive/2025/texmf-dist/tex/latex/upquote/upquote.sty
-INPUT c:/texlive/2025/texmf-dist/tex/latex/upquote/upquote.sty
-INPUT c:/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty
-INPUT c:/texlive/2025/texmf-dist/tex/latex/base/textcomp.sty
-INPUT c:/texlive/2025/texmf-dist/tex/latex/lineno/lineno.sty
-INPUT c:/texlive/2025/texmf-dist/tex/latex/lineno/lineno.sty
-INPUT c:/texlive/2025/texmf-dist/tex/latex/latex2pydata/latex2pydata.sty
-INPUT c:/texlive/2025/texmf-dist/tex/latex/latex2pydata/latex2pydata.sty
-INPUT c:/texlive/2025/texmf-dist/tex/latex/pgfopts/pgfopts.sty
-INPUT c:/texlive/2025/texmf-dist/tex/latex/pgfopts/pgfopts.sty
-INPUT c:/texlive/2025/texmf-dist/tex/latex/tools/shellesc.sty
-INPUT c:/texlive/2025/texmf-dist/tex/latex/tools/shellesc.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/placeins/placeins.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/placeins/placeins.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmr.fd
 INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmr.fd
@@ -432,12 +413,30 @@ INPUT Abstract.aux
 INPUT ./Chapters/Chapter1_Introduction.aux
 INPUT ./Chapters/Chapter1_Introduction.aux
 INPUT Chapters/Chapter1_Introduction.aux
+INPUT ./Chapters/Chapter2_Installation.aux
+INPUT ./Chapters/Chapter2_Installation.aux
+INPUT Chapters/Chapter2_Installation.aux
+INPUT ./Chapters/Chapter3_ADDS.aux
+INPUT ./Chapters/Chapter3_ADDS.aux
+INPUT Chapters/Chapter3_ADDS.aux
 INPUT ./Chapters/Chapter4_DHCP.aux
 INPUT ./Chapters/Chapter4_DHCP.aux
 INPUT Chapters/Chapter4_DHCP.aux
-INPUT ./Chapters/Chapter8_Conclusions.aux
-INPUT ./Chapters/Chapter8_Conclusions.aux
-INPUT Chapters/Chapter8_Conclusions.aux
+INPUT ./Chapters/Chapter5_DNS.aux
+INPUT ./Chapters/Chapter5_DNS.aux
+INPUT Chapters/Chapter5_DNS.aux
+INPUT ./Chapters/Chapter6_Group_Policy.aux
+INPUT ./Chapters/Chapter6_Group_Policy.aux
+INPUT Chapters/Chapter6_Group_Policy.aux
+INPUT ./Chapters/Chapter7_Remote_Access.aux
+INPUT ./Chapters/Chapter7_Remote_Access.aux
+INPUT Chapters/Chapter7_Remote_Access.aux
+INPUT ./Chapters/Chapter8_Windows_Certificate.aux
+INPUT ./Chapters/Chapter8_Windows_Certificate.aux
+INPUT Chapters/Chapter8_Windows_Certificate.aux
+INPUT ./Chapters/Chapter9_Conclusions.aux
+INPUT ./Chapters/Chapter9_Conclusions.aux
+INPUT Chapters/Chapter9_Conclusions.aux
 INPUT ./Appendix.aux
 INPUT ./Appendix.aux
 INPUT Appendix.aux
@@ -450,6 +449,8 @@ INPUT c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT c:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/grfext/grfext.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/grfext/grfext.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT c:/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT c:/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
@@ -618,147 +619,348 @@ OUTPUT Chapters/Chapter1_Introduction.aux
 INPUT ./Chapters/Chapter1_Introduction.tex
 INPUT ./Chapters/Chapter1_Introduction.tex
 INPUT Chapters/Chapter1_Introduction.tex
+INPUT ./Chapters/Chapter2_Installation.tex
+INPUT ./Chapters/Chapter2_Installation.tex
+OUTPUT Chapters/Chapter2_Installation.aux
+INPUT ./Chapters/Chapter2_Installation.tex
+INPUT ./Chapters/Chapter2_Installation.tex
+INPUT Chapters/Chapter2_Installation.tex
+INPUT ./Images/VM/VM_install_01.png
+INPUT ./Images/VM/VM_install_01.png
+INPUT ./Images/VM/VM_install_01.png
+INPUT ./Images/VM/VM_install_01.png
+INPUT ./Images/VM/VM_install_01.png
+INPUT ./Images/VM/VM_install_02.png
+INPUT ./Images/VM/VM_install_02.png
+INPUT ./Images/VM/VM_install_02.png
+INPUT ./Images/VM/VM_install_02.png
+INPUT ./Images/VM/VM_install_02.png
+INPUT ./Images/VM/VM_install_03.png
+INPUT ./Images/VM/VM_install_03.png
+INPUT ./Images/VM/VM_install_03.png
+INPUT ./Images/VM/VM_install_03.png
+INPUT ./Images/VM/VM_install_03.png
+INPUT ./Images/VM/VM_install_04.png
+INPUT ./Images/VM/VM_install_04.png
+INPUT ./Images/VM/VM_install_04.png
+INPUT ./Images/VM/VM_install_04.png
+INPUT ./Images/VM/VM_install_04.png
+INPUT ./Images/VM/VM_install_05.png
+INPUT ./Images/VM/VM_install_05.png
+INPUT ./Images/VM/VM_install_05.png
+INPUT ./Images/VM/VM_install_05.png
+INPUT ./Images/VM/VM_install_05.png
+INPUT ./Images/VM/VM_install_06.png
+INPUT ./Images/VM/VM_install_06.png
+INPUT ./Images/VM/VM_install_06.png
+INPUT ./Images/VM/VM_install_06.png
+INPUT ./Images/VM/VM_install_06.png
+INPUT ./Images/WinServ_install/WinServer_install_01.png
+INPUT ./Images/WinServ_install/WinServer_install_01.png
+INPUT ./Images/WinServ_install/WinServer_install_01.png
+INPUT ./Images/WinServ_install/WinServer_install_01.png
+INPUT ./Images/WinServ_install/WinServer_install_01.png
+INPUT ./Images/WinServ_install/WinServer_install_02.png
+INPUT ./Images/WinServ_install/WinServer_install_02.png
+INPUT ./Images/WinServ_install/WinServer_install_02.png
+INPUT ./Images/WinServ_install/WinServer_install_02.png
+INPUT ./Images/WinServ_install/WinServer_install_02.png
+INPUT ./Images/WinServ_install/WinServer_install_03.png
+INPUT ./Images/WinServ_install/WinServer_install_03.png
+INPUT ./Images/WinServ_install/WinServer_install_03.png
+INPUT ./Images/WinServ_install/WinServer_install_03.png
+INPUT ./Images/WinServ_install/WinServer_install_03.png
+INPUT ./Images/WinServ_install/WinServer_install_04.png
+INPUT ./Images/WinServ_install/WinServer_install_04.png
+INPUT ./Images/WinServ_install/WinServer_install_04.png
+INPUT ./Images/WinServ_install/WinServer_install_04.png
+INPUT ./Images/WinServ_install/WinServer_install_04.png
+INPUT ./Images/WinServ_install/WinServer_install_05.png
+INPUT ./Images/WinServ_install/WinServer_install_05.png
+INPUT ./Images/WinServ_install/WinServer_install_05.png
+INPUT ./Images/WinServ_install/WinServer_install_05.png
+INPUT ./Images/WinServ_install/WinServer_install_05.png
+INPUT ./Images/WinServ_install/WinServer_install_06.png
+INPUT ./Images/WinServ_install/WinServer_install_06.png
+INPUT ./Images/WinServ_install/WinServer_install_06.png
+INPUT ./Images/WinServ_install/WinServer_install_06.png
+INPUT ./Images/WinServ_install/WinServer_install_06.png
+INPUT ./Images/WinServ_install/WinServer_install_07.png
+INPUT ./Images/WinServ_install/WinServer_install_07.png
+INPUT ./Images/WinServ_install/WinServer_install_07.png
+INPUT ./Images/WinServ_install/WinServer_install_07.png
+INPUT ./Images/WinServ_install/WinServer_install_07.png
+INPUT ./Images/WinServ_install/WinServer_install_08.png
+INPUT ./Images/WinServ_install/WinServer_install_08.png
+INPUT ./Images/WinServ_install/WinServer_install_08.png
+INPUT ./Images/WinServ_install/WinServer_install_08.png
+INPUT ./Images/WinServ_install/WinServer_install_08.png
+INPUT ./Images/WinServ_install/WinServer_install_09.png
+INPUT ./Images/WinServ_install/WinServer_install_09.png
+INPUT ./Images/WinServ_install/WinServer_install_09.png
+INPUT ./Images/WinServ_install/WinServer_install_09.png
+INPUT ./Images/WinServ_install/WinServer_install_09.png
+INPUT ./Images/WinServ_install/WinServer_install_10.png
+INPUT ./Images/WinServ_install/WinServer_install_10.png
+INPUT ./Images/WinServ_install/WinServer_install_10.png
+INPUT ./Images/WinServ_install/WinServer_install_10.png
+INPUT ./Images/WinServ_install/WinServer_install_10.png
+INPUT ./Images/WinServ_install/WinServer_install_11.png
+INPUT ./Images/WinServ_install/WinServer_install_11.png
+INPUT ./Images/WinServ_install/WinServer_install_11.png
+INPUT ./Images/WinServ_install/WinServer_install_11.png
+INPUT ./Images/WinServ_install/WinServer_install_11.png
+INPUT ./Images/WinServ_install/WinServer_dash_01.png
+INPUT ./Images/WinServ_install/WinServer_dash_01.png
+INPUT ./Images/WinServ_install/WinServer_dash_01.png
+INPUT ./Images/WinServ_install/WinServer_dash_01.png
+INPUT ./Images/WinServ_install/WinServer_dash_01.png
+INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
+INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
+INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmtt12.tfm
+INPUT ./Chapters/Chapter3_ADDS.tex
+INPUT ./Chapters/Chapter3_ADDS.tex
+OUTPUT Chapters/Chapter3_ADDS.aux
+INPUT ./Chapters/Chapter3_ADDS.tex
+INPUT ./Chapters/Chapter3_ADDS.tex
+INPUT Chapters/Chapter3_ADDS.tex
 INPUT ./Chapters/Chapter4_DHCP.tex
 INPUT ./Chapters/Chapter4_DHCP.tex
 OUTPUT Chapters/Chapter4_DHCP.aux
 INPUT ./Chapters/Chapter4_DHCP.tex
 INPUT ./Chapters/Chapter4_DHCP.tex
 INPUT Chapters/Chapter4_DHCP.tex
-INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
-INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
-INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/t1lmtt.fd
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmtt12.tfm
-INPUT ./Images/DHCP/DHCP_01.png
-INPUT ./Images/DHCP/DHCP_01.png
-INPUT ./Images/DHCP/DHCP_01.png
-INPUT ./Images/DHCP/DHCP_01.png
-INPUT ./Images/DHCP/DHCP_01.png
-INPUT ./Images/DHCP/DHCP_02.png
-INPUT ./Images/DHCP/DHCP_02.png
-INPUT ./Images/DHCP/DHCP_02.png
-INPUT ./Images/DHCP/DHCP_02.png
-INPUT ./Images/DHCP/DHCP_02.png
-INPUT ./Images/DHCP/DHCP_03.png
-INPUT ./Images/DHCP/DHCP_03.png
-INPUT ./Images/DHCP/DHCP_03.png
-INPUT ./Images/DHCP/DHCP_03.png
-INPUT ./Images/DHCP/DHCP_03.png
-INPUT ./Images/DHCP/DHCP_04.png
-INPUT ./Images/DHCP/DHCP_04.png
-INPUT ./Images/DHCP/DHCP_04.png
-INPUT ./Images/DHCP/DHCP_04.png
-INPUT ./Images/DHCP/DHCP_04.png
-INPUT ./Images/DHCP/DHCP_05.png
-INPUT ./Images/DHCP/DHCP_05.png
-INPUT ./Images/DHCP/DHCP_05.png
-INPUT ./Images/DHCP/DHCP_05.png
-INPUT ./Images/DHCP/DHCP_05.png
-INPUT ./Images/DHCP/DHCP_06.png
-INPUT ./Images/DHCP/DHCP_06.png
-INPUT ./Images/DHCP/DHCP_06.png
-INPUT ./Images/DHCP/DHCP_06.png
-INPUT ./Images/DHCP/DHCP_06.png
-INPUT ./Images/DHCP/DHCP_07.png
-INPUT ./Images/DHCP/DHCP_07.png
-INPUT ./Images/DHCP/DHCP_07.png
-INPUT ./Images/DHCP/DHCP_07.png
-INPUT ./Images/DHCP/DHCP_07.png
-INPUT ./Images/DHCP/DHCP_08.png
-INPUT ./Images/DHCP/DHCP_08.png
-INPUT ./Images/DHCP/DHCP_08.png
-INPUT ./Images/DHCP/DHCP_08.png
-INPUT ./Images/DHCP/DHCP_08.png
-INPUT ./Images/DHCP/DHCP_10.png
-INPUT ./Images/DHCP/DHCP_10.png
-INPUT ./Images/DHCP/DHCP_10.png
-INPUT ./Images/DHCP/DHCP_10.png
-INPUT ./Images/DHCP/DHCP_10.png
-INPUT ./Images/DHCP/DHCP_09.png
-INPUT ./Images/DHCP/DHCP_09.png
-INPUT ./Images/DHCP/DHCP_09.png
-INPUT ./Images/DHCP/DHCP_09.png
-INPUT ./Images/DHCP/DHCP_09.png
-INPUT ./Images/DHCP/DHCP_11.png
-INPUT ./Images/DHCP/DHCP_11.png
-INPUT ./Images/DHCP/DHCP_11.png
-INPUT ./Images/DHCP/DHCP_11.png
-INPUT ./Images/DHCP/DHCP_11.png
-INPUT ./Images/DHCP/DHCP_12.png
-INPUT ./Images/DHCP/DHCP_12.png
-INPUT ./Images/DHCP/DHCP_12.png
-INPUT ./Images/DHCP/DHCP_12.png
-INPUT ./Images/DHCP/DHCP_12.png
-INPUT ./Images/DHCP/DHCP_13.png
-INPUT ./Images/DHCP/DHCP_13.png
-INPUT ./Images/DHCP/DHCP_13.png
-INPUT ./Images/DHCP/DHCP_13.png
-INPUT ./Images/DHCP/DHCP_13.png
-INPUT ./Images/DHCP/DHCP_14.png
-INPUT ./Images/DHCP/DHCP_14.png
-INPUT ./Images/DHCP/DHCP_14.png
-INPUT ./Images/DHCP/DHCP_14.png
-INPUT ./Images/DHCP/DHCP_14.png
-INPUT ./Images/DHCP/DHCP_15.png
-INPUT ./Images/DHCP/DHCP_15.png
-INPUT ./Images/DHCP/DHCP_15.png
-INPUT ./Images/DHCP/DHCP_15.png
-INPUT ./Images/DHCP/DHCP_15.png
-INPUT ./Images/DHCP/DHCP_16.png
-INPUT ./Images/DHCP/DHCP_16.png
-INPUT ./Images/DHCP/DHCP_16.png
-INPUT ./Images/DHCP/DHCP_16.png
-INPUT ./Images/DHCP/DHCP_16.png
-INPUT ./Images/DHCP/DHCP_17.png
-INPUT ./Images/DHCP/DHCP_17.png
-INPUT ./Images/DHCP/DHCP_17.png
-INPUT ./Images/DHCP/DHCP_17.png
-INPUT ./Images/DHCP/DHCP_17.png
-INPUT ./Images/DHCP/DHCP_18.png
-INPUT ./Images/DHCP/DHCP_18.png
-INPUT ./Images/DHCP/DHCP_18.png
-INPUT ./Images/DHCP/DHCP_18.png
-INPUT ./Images/DHCP/DHCP_18.png
-INPUT ./Images/DHCP/Accessing DHCP through Powershell.png
-INPUT ./Images/DHCP/Accessing DHCP through Powershell.png
-INPUT ./Images/DHCP/Accessing DHCP through Powershell.png
-INPUT ./Images/DHCP/Accessing DHCP through Powershell.png
-INPUT ./Images/DHCP/Accessing DHCP through Powershell.png
-INPUT ./Images/DHCP/Adding a DHCP reservation.png
-INPUT ./Images/DHCP/Adding a DHCP reservation.png
-INPUT ./Images/DHCP/Adding a DHCP reservation.png
-INPUT ./Images/DHCP/Adding a DHCP reservation.png
-INPUT ./Images/DHCP/Adding a DHCP reservation.png
-INPUT ./Images/DHCP/Verification of DHCP reservation.png
-INPUT ./Images/DHCP/Verification of DHCP reservation.png
-INPUT ./Images/DHCP/Verification of DHCP reservation.png
-INPUT ./Images/DHCP/Verification of DHCP reservation.png
-INPUT ./Images/DHCP/Verification of DHCP reservation.png
-INPUT ./Images/DHCP/IP address tracking.png
-INPUT ./Images/DHCP/IP address tracking.png
-INPUT ./Images/DHCP/IP address tracking.png
-INPUT ./Images/DHCP/IP address tracking.png
-INPUT ./Images/DHCP/IP address tracking.png
-INPUT ./Images/DHCP/PS_Get_DHCP_Scope_pt1.png
-INPUT ./Images/DHCP/PS_Get_DHCP_Scope_pt1.png
-INPUT ./Images/DHCP/PS_Get_DHCP_Scope_pt1.png
-INPUT ./Images/DHCP/PS_Get_DHCP_Scope_pt1.png
-INPUT ./Images/DHCP/PS_Get_DHCP_Scope_pt1.png
-INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/ts1lmtt.fd
-INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/ts1lmtt.fd
-INPUT c:/texlive/2025/texmf-dist/tex/latex/lm/ts1lmtt.fd
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/ts1-lmtt12.tfm
-INPUT ./Images/DHCP/command to check dhcp server .png
-INPUT ./Images/DHCP/command to check dhcp server .png
-INPUT ./Images/DHCP/command to check dhcp server .png
-INPUT ./Images/DHCP/command to check dhcp server .png
-INPUT ./Images/DHCP/command to check dhcp server .png
-INPUT ./Chapters/Chapter8_Conclusions.tex
-INPUT ./Chapters/Chapter8_Conclusions.tex
-OUTPUT Chapters/Chapter8_Conclusions.aux
-INPUT ./Chapters/Chapter8_Conclusions.tex
-INPUT ./Chapters/Chapter8_Conclusions.tex
-INPUT Chapters/Chapter8_Conclusions.tex
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/lm/ec-lmri12.tfm
+INPUT ./Chapters/Chapter5_DNS.tex
+INPUT ./Chapters/Chapter5_DNS.tex
+OUTPUT Chapters/Chapter5_DNS.aux
+INPUT ./Chapters/Chapter5_DNS.tex
+INPUT ./Chapters/Chapter5_DNS.tex
+INPUT Chapters/Chapter5_DNS.tex
+INPUT ./Chapters/Chapter6_Group_Policy.tex
+INPUT ./Chapters/Chapter6_Group_Policy.tex
+OUTPUT Chapters/Chapter6_Group_Policy.aux
+INPUT ./Chapters/Chapter6_Group_Policy.tex
+INPUT ./Chapters/Chapter6_Group_Policy.tex
+INPUT Chapters/Chapter6_Group_Policy.tex
+INPUT ./Images/OU_groups_users/OU_groups_users_01.png
+INPUT ./Images/OU_groups_users/OU_groups_users_01.png
+INPUT ./Images/OU_groups_users/OU_groups_users_01.png
+INPUT ./Images/OU_groups_users/OU_groups_users_01.png
+INPUT ./Images/OU_groups_users/OU_groups_users_01.png
+INPUT ./Images/OU_groups_users/OU_groups_users_02.png
+INPUT ./Images/OU_groups_users/OU_groups_users_02.png
+INPUT ./Images/OU_groups_users/OU_groups_users_02.png
+INPUT ./Images/OU_groups_users/OU_groups_users_02.png
+INPUT ./Images/OU_groups_users/OU_groups_users_02.png
+INPUT ./Images/OU_groups_users/OU_groups_users_03.png
+INPUT ./Images/OU_groups_users/OU_groups_users_03.png
+INPUT ./Images/OU_groups_users/OU_groups_users_03.png
+INPUT ./Images/OU_groups_users/OU_groups_users_03.png
+INPUT ./Images/OU_groups_users/OU_groups_users_03.png
+INPUT ./Images/OU_groups_users/OU_groups_users_04.png
+INPUT ./Images/OU_groups_users/OU_groups_users_04.png
+INPUT ./Images/OU_groups_users/OU_groups_users_04.png
+INPUT ./Images/OU_groups_users/OU_groups_users_04.png
+INPUT ./Images/OU_groups_users/OU_groups_users_04.png
+INPUT ./Images/OU_groups_users/OU_groups_users_05.png
+INPUT ./Images/OU_groups_users/OU_groups_users_05.png
+INPUT ./Images/OU_groups_users/OU_groups_users_05.png
+INPUT ./Images/OU_groups_users/OU_groups_users_05.png
+INPUT ./Images/OU_groups_users/OU_groups_users_05.png
+INPUT ./Images/OU_groups_users/OU_groups_users_06.png
+INPUT ./Images/OU_groups_users/OU_groups_users_06.png
+INPUT ./Images/OU_groups_users/OU_groups_users_06.png
+INPUT ./Images/OU_groups_users/OU_groups_users_06.png
+INPUT ./Images/OU_groups_users/OU_groups_users_06.png
+INPUT ./Images/OU_groups_users/OU_groups_users_07.png
+INPUT ./Images/OU_groups_users/OU_groups_users_07.png
+INPUT ./Images/OU_groups_users/OU_groups_users_07.png
+INPUT ./Images/OU_groups_users/OU_groups_users_07.png
+INPUT ./Images/OU_groups_users/OU_groups_users_07.png
+INPUT ./Images/OU_groups_users/OU_groups_users_08.png
+INPUT ./Images/OU_groups_users/OU_groups_users_08.png
+INPUT ./Images/OU_groups_users/OU_groups_users_08.png
+INPUT ./Images/OU_groups_users/OU_groups_users_08.png
+INPUT ./Images/OU_groups_users/OU_groups_users_08.png
+INPUT ./Images/OU_groups_users/OU_groups_users_09.png
+INPUT ./Images/OU_groups_users/OU_groups_users_09.png
+INPUT ./Images/OU_groups_users/OU_groups_users_09.png
+INPUT ./Images/OU_groups_users/OU_groups_users_09.png
+INPUT ./Images/OU_groups_users/OU_groups_users_09.png
+INPUT ./Images/OU_groups_users/OU_groups_users_10.png
+INPUT ./Images/OU_groups_users/OU_groups_users_10.png
+INPUT ./Images/OU_groups_users/OU_groups_users_10.png
+INPUT ./Images/OU_groups_users/OU_groups_users_10.png
+INPUT ./Images/OU_groups_users/OU_groups_users_10.png
+INPUT ./Images/OU_groups_users/OU_groups_users_11.png
+INPUT ./Images/OU_groups_users/OU_groups_users_11.png
+INPUT ./Images/OU_groups_users/OU_groups_users_11.png
+INPUT ./Images/OU_groups_users/OU_groups_users_11.png
+INPUT ./Images/OU_groups_users/OU_groups_users_11.png
+INPUT ./Images/OU_groups_users/OU_groups_users_12.png
+INPUT ./Images/OU_groups_users/OU_groups_users_12.png
+INPUT ./Images/OU_groups_users/OU_groups_users_12.png
+INPUT ./Images/OU_groups_users/OU_groups_users_12.png
+INPUT ./Images/OU_groups_users/OU_groups_users_12.png
+INPUT ./Images/OU_groups_users/OU_groups_users_13.png
+INPUT ./Images/OU_groups_users/OU_groups_users_13.png
+INPUT ./Images/OU_groups_users/OU_groups_users_13.png
+INPUT ./Images/OU_groups_users/OU_groups_users_13.png
+INPUT ./Images/OU_groups_users/OU_groups_users_13.png
+INPUT ./Images/OU_groups_users/OU_groups_users_14.png
+INPUT ./Images/OU_groups_users/OU_groups_users_14.png
+INPUT ./Images/OU_groups_users/OU_groups_users_14.png
+INPUT ./Images/OU_groups_users/OU_groups_users_14.png
+INPUT ./Images/OU_groups_users/OU_groups_users_14.png
+INPUT ./Images/OU_groups_users/OU_groups_users_15.png
+INPUT ./Images/OU_groups_users/OU_groups_users_15.png
+INPUT ./Images/OU_groups_users/OU_groups_users_15.png
+INPUT ./Images/OU_groups_users/OU_groups_users_15.png
+INPUT ./Images/OU_groups_users/OU_groups_users_15.png
+INPUT ./Images/OU_groups_users/OU_groups_users_16.png
+INPUT ./Images/OU_groups_users/OU_groups_users_16.png
+INPUT ./Images/OU_groups_users/OU_groups_users_16.png
+INPUT ./Images/OU_groups_users/OU_groups_users_16.png
+INPUT ./Images/OU_groups_users/OU_groups_users_16.png
+INPUT ./Images/OU_groups_users/OU_groups_users_17.png
+INPUT ./Images/OU_groups_users/OU_groups_users_17.png
+INPUT ./Images/OU_groups_users/OU_groups_users_17.png
+INPUT ./Images/OU_groups_users/OU_groups_users_17.png
+INPUT ./Images/OU_groups_users/OU_groups_users_17.png
+INPUT ./Images/OU_groups_users/OU_groups_users_18.png
+INPUT ./Images/OU_groups_users/OU_groups_users_18.png
+INPUT ./Images/OU_groups_users/OU_groups_users_18.png
+INPUT ./Images/OU_groups_users/OU_groups_users_18.png
+INPUT ./Images/OU_groups_users/OU_groups_users_18.png
+INPUT ./Images/OU_groups_users/OU_groups_users_19.png
+INPUT ./Images/OU_groups_users/OU_groups_users_19.png
+INPUT ./Images/OU_groups_users/OU_groups_users_19.png
+INPUT ./Images/OU_groups_users/OU_groups_users_19.png
+INPUT ./Images/OU_groups_users/OU_groups_users_19.png
+INPUT ./Images/OU_groups_users/OU_groups_users_20.png
+INPUT ./Images/OU_groups_users/OU_groups_users_20.png
+INPUT ./Images/OU_groups_users/OU_groups_users_20.png
+INPUT ./Images/OU_groups_users/OU_groups_users_20.png
+INPUT ./Images/OU_groups_users/OU_groups_users_20.png
+INPUT ./Images/OU_groups_users/OU_groups_users_21.png
+INPUT ./Images/OU_groups_users/OU_groups_users_21.png
+INPUT ./Images/OU_groups_users/OU_groups_users_21.png
+INPUT ./Images/OU_groups_users/OU_groups_users_21.png
+INPUT ./Images/OU_groups_users/OU_groups_users_21.png
+INPUT ./Images/OU_groups_users/OU_groups_users_22.png
+INPUT ./Images/OU_groups_users/OU_groups_users_22.png
+INPUT ./Images/OU_groups_users/OU_groups_users_22.png
+INPUT ./Images/OU_groups_users/OU_groups_users_22.png
+INPUT ./Images/OU_groups_users/OU_groups_users_22.png
+INPUT ./Images/OU_groups_users/OU_groups_users_23.png
+INPUT ./Images/OU_groups_users/OU_groups_users_23.png
+INPUT ./Images/OU_groups_users/OU_groups_users_23.png
+INPUT ./Images/OU_groups_users/OU_groups_users_23.png
+INPUT ./Images/OU_groups_users/OU_groups_users_23.png
+INPUT ./Images/OU_groups_users/OU_groups_users_24.png
+INPUT ./Images/OU_groups_users/OU_groups_users_24.png
+INPUT ./Images/OU_groups_users/OU_groups_users_24.png
+INPUT ./Images/OU_groups_users/OU_groups_users_24.png
+INPUT ./Images/OU_groups_users/OU_groups_users_24.png
+INPUT ./Images/OU_groups_users/OU_groups_users_25.png
+INPUT ./Images/OU_groups_users/OU_groups_users_25.png
+INPUT ./Images/OU_groups_users/OU_groups_users_25.png
+INPUT ./Images/OU_groups_users/OU_groups_users_25.png
+INPUT ./Images/OU_groups_users/OU_groups_users_25.png
+INPUT ./Images/OU_groups_users/OU_groups_users_26.png
+INPUT ./Images/OU_groups_users/OU_groups_users_26.png
+INPUT ./Images/OU_groups_users/OU_groups_users_26.png
+INPUT ./Images/OU_groups_users/OU_groups_users_26.png
+INPUT ./Images/OU_groups_users/OU_groups_users_26.png
+INPUT ./Images/GPO/GPO/GPO Cmd 01.png
+INPUT ./Images/GPO/GPO/GPO Cmd 01.png
+INPUT ./Images/GPO/GPO/GPO Cmd 01.png
+INPUT ./Images/GPO/GPO/GPO Cmd 01.png
+INPUT ./Images/GPO/GPO/GPO Cmd 01.png
+INPUT ./Images/GPO/GPO/GPO Cmd 02.png
+INPUT ./Images/GPO/GPO/GPO Cmd 02.png
+INPUT ./Images/GPO/GPO/GPO Cmd 02.png
+INPUT ./Images/GPO/GPO/GPO Cmd 02.png
+INPUT ./Images/GPO/GPO/GPO Cmd 02.png
+INPUT ./Images/GPO/GPO/GPO Cmd 03.png
+INPUT ./Images/GPO/GPO/GPO Cmd 03.png
+INPUT ./Images/GPO/GPO/GPO Cmd 03.png
+INPUT ./Images/GPO/GPO/GPO Cmd 03.png
+INPUT ./Images/GPO/GPO/GPO Cmd 03.png
+INPUT ./Images/GPO/GPO/GPO PWD 01.png
+INPUT ./Images/GPO/GPO/GPO PWD 01.png
+INPUT ./Images/GPO/GPO/GPO PWD 01.png
+INPUT ./Images/GPO/GPO/GPO PWD 01.png
+INPUT ./Images/GPO/GPO/GPO PWD 01.png
+INPUT ./Images/GPO/GPO/GPO PWD 02.png
+INPUT ./Images/GPO/GPO/GPO PWD 02.png
+INPUT ./Images/GPO/GPO/GPO PWD 02.png
+INPUT ./Images/GPO/GPO/GPO PWD 02.png
+INPUT ./Images/GPO/GPO/GPO PWD 02.png
+INPUT ./Images/GPO/GPO/GPO PWD 03.png
+INPUT ./Images/GPO/GPO/GPO PWD 03.png
+INPUT ./Images/GPO/GPO/GPO PWD 03.png
+INPUT ./Images/GPO/GPO/GPO PWD 03.png
+INPUT ./Images/GPO/GPO/GPO PWD 03.png
+INPUT ./Images/GPO/GPO/GPO PWD 04.png
+INPUT ./Images/GPO/GPO/GPO PWD 04.png
+INPUT ./Images/GPO/GPO/GPO PWD 04.png
+INPUT ./Images/GPO/GPO/GPO PWD 04.png
+INPUT ./Images/GPO/GPO/GPO PWD 04.png
+INPUT ./Images/GPO/GPO/GPO PWD 05.png
+INPUT ./Images/GPO/GPO/GPO PWD 05.png
+INPUT ./Images/GPO/GPO/GPO PWD 05.png
+INPUT ./Images/GPO/GPO/GPO PWD 05.png
+INPUT ./Images/GPO/GPO/GPO PWD 05.png
+INPUT ./Images/GPO/GPO/GPO Storage 01.png
+INPUT ./Images/GPO/GPO/GPO Storage 01.png
+INPUT ./Images/GPO/GPO/GPO Storage 01.png
+INPUT ./Images/GPO/GPO/GPO Storage 01.png
+INPUT ./Images/GPO/GPO/GPO Storage 01.png
+INPUT ./Images/GPO/GPO/GPO Storage 02.png
+INPUT ./Images/GPO/GPO/GPO Storage 02.png
+INPUT ./Images/GPO/GPO/GPO Storage 02.png
+INPUT ./Images/GPO/GPO/GPO Storage 02.png
+INPUT ./Images/GPO/GPO/GPO Storage 02.png
+INPUT ./Images/GPO/GPO/GPO Storage 03.png
+INPUT ./Images/GPO/GPO/GPO Storage 03.png
+INPUT ./Images/GPO/GPO/GPO Storage 03.png
+INPUT ./Images/GPO/GPO/GPO Storage 03.png
+INPUT ./Images/GPO/GPO/GPO Storage 03.png
+INPUT ./Images/GPO/GPO/GPO Win Installer 01.png
+INPUT ./Images/GPO/GPO/GPO Win Installer 01.png
+INPUT ./Images/GPO/GPO/GPO Win Installer 01.png
+INPUT ./Images/GPO/GPO/GPO Win Installer 01.png
+INPUT ./Images/GPO/GPO/GPO Win Installer 01.png
+INPUT ./Images/GPO/GPO/GPO Win Installer 02.png
+INPUT ./Images/GPO/GPO/GPO Win Installer 02.png
+INPUT ./Images/GPO/GPO/GPO Win Installer 02.png
+INPUT ./Images/GPO/GPO/GPO Win Installer 02.png
+INPUT ./Images/GPO/GPO/GPO Win Installer 02.png
+INPUT ./Images/GPO/GPO/GPO Win Installer 03.png
+INPUT ./Images/GPO/GPO/GPO Win Installer 03.png
+INPUT ./Images/GPO/GPO/GPO Win Installer 03.png
+INPUT ./Images/GPO/GPO/GPO Win Installer 03.png
+INPUT ./Images/GPO/GPO/GPO Win Installer 03.png
+INPUT ./Chapters/Chapter7_Remote_Access.tex
+INPUT ./Chapters/Chapter7_Remote_Access.tex
+OUTPUT Chapters/Chapter7_Remote_Access.aux
+INPUT ./Chapters/Chapter7_Remote_Access.tex
+INPUT ./Chapters/Chapter7_Remote_Access.tex
+INPUT Chapters/Chapter7_Remote_Access.tex
+INPUT ./Chapters/Chapter8_Windows_Certificate.tex
+INPUT ./Chapters/Chapter8_Windows_Certificate.tex
+OUTPUT Chapters/Chapter8_Windows_Certificate.aux
+INPUT ./Chapters/Chapter8_Windows_Certificate.tex
+INPUT ./Chapters/Chapter8_Windows_Certificate.tex
+INPUT Chapters/Chapter8_Windows_Certificate.tex
+INPUT ./Chapters/Chapter9_Conclusions.tex
+INPUT ./Chapters/Chapter9_Conclusions.tex
+OUTPUT Chapters/Chapter9_Conclusions.aux
+INPUT ./Chapters/Chapter9_Conclusions.tex
+INPUT ./Chapters/Chapter9_Conclusions.tex
+INPUT Chapters/Chapter9_Conclusions.tex
 INPUT ./Appendix.tex
 INPUT ./Appendix.tex
 OUTPUT Appendix.aux
@@ -778,12 +980,30 @@ INPUT Abstract.aux
 INPUT ./Chapters/Chapter1_Introduction.aux
 INPUT ./Chapters/Chapter1_Introduction.aux
 INPUT Chapters/Chapter1_Introduction.aux
+INPUT ./Chapters/Chapter2_Installation.aux
+INPUT ./Chapters/Chapter2_Installation.aux
+INPUT Chapters/Chapter2_Installation.aux
+INPUT ./Chapters/Chapter3_ADDS.aux
+INPUT ./Chapters/Chapter3_ADDS.aux
+INPUT Chapters/Chapter3_ADDS.aux
 INPUT ./Chapters/Chapter4_DHCP.aux
 INPUT ./Chapters/Chapter4_DHCP.aux
 INPUT Chapters/Chapter4_DHCP.aux
-INPUT ./Chapters/Chapter8_Conclusions.aux
-INPUT ./Chapters/Chapter8_Conclusions.aux
-INPUT Chapters/Chapter8_Conclusions.aux
+INPUT ./Chapters/Chapter5_DNS.aux
+INPUT ./Chapters/Chapter5_DNS.aux
+INPUT Chapters/Chapter5_DNS.aux
+INPUT ./Chapters/Chapter6_Group_Policy.aux
+INPUT ./Chapters/Chapter6_Group_Policy.aux
+INPUT Chapters/Chapter6_Group_Policy.aux
+INPUT ./Chapters/Chapter7_Remote_Access.aux
+INPUT ./Chapters/Chapter7_Remote_Access.aux
+INPUT Chapters/Chapter7_Remote_Access.aux
+INPUT ./Chapters/Chapter8_Windows_Certificate.aux
+INPUT ./Chapters/Chapter8_Windows_Certificate.aux
+INPUT Chapters/Chapter8_Windows_Certificate.aux
+INPUT ./Chapters/Chapter9_Conclusions.aux
+INPUT ./Chapters/Chapter9_Conclusions.aux
+INPUT Chapters/Chapter9_Conclusions.aux
 INPUT ./Appendix.aux
 INPUT ./Appendix.aux
 INPUT Appendix.aux
@@ -796,5 +1016,4 @@ INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr10.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr12.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmr17.pfb
-INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmri12.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/lm/lmtt12.pfb
