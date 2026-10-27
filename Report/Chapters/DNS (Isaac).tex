@@ -1,0 +1,148 @@
+\section{Step One: Verification of DNS Role
+Installation}\label{step-one-verification-of-dns-role-installation}
+
+1.1: On your server, open Server Manager.
+
+1.2: Click on Tools in the top-right corner and select DNS to open the
+DNS Manager.
+
+S1.3: Verify that your server (GROUP1-SVR) appears in the console tree.
+
+\includegraphics[width=6.01088in,height=4.12432in]{media/image1.png}\textbf{\hfill\break
+\hfill\break
+}
+
+\section{Step 2: Configuring the Forward Lookup
+Zone}\label{step-2-configuring-the-forward-lookup-zone}
+
+The Forward Lookup Zone is responsible for resolving hostnames (like
+your server name) into IP addresses.
+
+2.1. In the DNS Manager, expand the node for GROUP1-SVR.
+
+2.2. Expand Forward Lookup Zones.
+
+2.3. Verify that the primary zone for your domain i.e. Group1.local was
+created during the AD DS setup.
+
+2.4: Click on the zone to view the automatically generated records (SOA,
+NS, and A records).
+
+\includegraphics[width=6in,height=4.82292in]{media/image2.png}
+
+\textbf{\hfill\break
+}
+
+\textbf{\hfill\break
+}
+
+\textbf{Step 3: Configuring the Reverse Lookup Zone}
+
+The Reverse Lookup Zone resolves IP addresses back into hostnames, which
+plays a pivotal role in network troubleshooting and certain app
+authentications.
+
+3.1. Right-click on Reverse Lookup Zones in the DNS Manager and select
+New Zone.
+
+3.2. Click Next on the Welcome screen.
+
+3.3. Select Primary zone and ensure "Store the zone in Active Directory"
+is checked. Click Next.
+
+3.4. Choose to replicate data to all DNS servers running on domain
+controllers in this domain.
+
+3.5. Select IPv4 Reverse Lookup Zone and click Next.
+
+3.6. Enter your Network ID (i.e. 192.168.64.2) that corresponds to your
+Windows Server\textquotesingle s static IP. Click Next.
+
+3.7. Allow only secure dynamic updates (recommended for Active
+Directory) and click Finish.
+
+\includegraphics[width=6in,height=4.20833in]{media/image3.png}
+
+\section{Step 4: Adding and Verifying DNS
+Records}\label{step-4-adding-and-verifying-dns-records}
+
+4.1. Navigate back to your Forward Lookup Zone (Group1cput.local).
+
+4.2. Locate the Host (A) record for Group {[}X{]} Windows Server 2019.
+Double-click it to open its properties.
+
+4.3. Click the box that says, "Update associated pointer (PTR) record"
+and click Apply and OK.
+
+4.4. Navigate to your newly created Reverse Lookup Zone and refresh.
+Verify that a PTR record pointing to your server now exists.
+
+\textbf{\hfill\break
+}\includegraphics[width=6in,height=4.72292in]{media/image4.png}
+
+\section{5. Testing DNS Resolution (Server and
+Client)}\label{testing-dns-resolution-server-and-client}
+
+Testing confirms that the DNS server can successfully resolve names and
+IP addresses, which is necessary to achieve full marks for the testing
+requirement.
+
+5.1 (Server-side test): Open PowerShell (or Command Prompt if
+restrictions aren\textquotesingle t applied to admins).
+
+Step 5.2: Type nslookup and press Enter. The default server should
+reflect your server\textquotesingle s name and IP address.
+
+Step 5.3: Perform a forward lookup by typing your
+server\textquotesingle s fully qualified domain name (FQDN) (e.g.
+Group1WindowsServer2019.Group1cput.local) and pressing Enter. It should
+return your server\textquotesingle s IP address.
+
+Step 5.4: Perform a reverse lookup by typing your
+server\textquotesingle s IP address (e.g., 192.168.64.2) and press
+Enter. It should return the FQDN.
+
+\includegraphics[width=6in,height=4.68194in]{media/image5.png}
+
+Step 5.5 (Client-side test): Switch to a client virtual machine running
+on your Semester 1 hypervisor that is connected to the same virtual
+network.
+
+Step 5.6: Open Command Prompt/PowerShell on the client and type ping
+Group1cput.local or ping the server by name (ping
+Group1WindowsServer2019).
+
+Step 5.7: Verify that the client successfully resolves the name to the
+server\textquotesingle s IP address and receives replies.
+
+\textbf{\hfill\break
+\hfill\break
+}\includegraphics[width=6in,height=4.76944in]{media/image6.png}
+
+\textbf{\hfill\break
+}
+
+\subsection{References}\label{references}
+
+McDonald,~G.,~Papadopoulos,~P.,~Pitropakis,~N.,~Ahmad,~J.,~\&
+Buchanan,~W.~J.~(2022).~Ransomware:~Analysing the impact on Windows
+Active Directory Domain
+Services.~\emph{Sensors},~\emph{22},~953.~\url{https://doi.org/10.3390/s22030953}~Cited
+by:~69
+
+Mokhtar,~B.,~Jurcut,~A.,~ElSayed,~M.,~\& Azer,~M.~(2022).~Active
+Directory attacks---Steps,~types,~and
+signatures.\emph{Electronics},~\emph{11},~2629.~\url{https://doi.org/10.3390/electronics11162629}~Cited
+by:~41
+
+Moric,~Z.,~Dakic,~V.,~Redzepagic,~J.,~\& Otocan,~F.~(2024).~Penetration
+testing and exploitation of Active Directory configuration
+vulnerabilities.~\emph{2024 4th Intelligent Cybersecurity Conference
+(ICSC)},~118--126.\url{https://doi.org/10.1109/icsc63108.2024.10895772}~Cited
+by:~4
+
+Pongsrisomchai,~S.,~\& Ngamsuriyaroj,~S.~(2019).~Automated IT audit of
+Windows Server access control.~\emph{2019 21st International Conference
+on Advanced Communication Technology
+(ICACT)},~539--544.\url{https://doi.org/10.23919/icact.2019.8701931}~Cited
+by:~1
