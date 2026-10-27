@@ -1,0 +1,117 @@
+DNS Configuration and Testing (20 Marks)
+
+Step One: Verification of DNS Role Installation:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Open Server Manager on the server.
+\item
+  Click the tools icon at the top right hand corner and select DNS.
+\item
+  Verify that your server appears in the console tree (GROUP1-SVR).
+\end{enumerate}
+
+\includegraphics[width=6.01088in,height=3.79942in]{media/image1.png}
+
+Step Two: Configuring the Forward Lookup Zone
+
+2.1. In the DNS Manager expand the GROUP1-SVR node.
+
+2.2. Expand the Forward Lookup Zones.
+
+2.3. Verify that the primary zone has been created for your domain i.e.
+Group1.local this will have occurred during the AD DS configuration.
+
+2.4.Click the zone to view the automatically created records (SOA, NS \&
+A records).
+
+\includegraphics[width=6in,height=4.13889in]{media/image2.png}
+
+Step Three: Reverse Lookup Zone.
+
+3.1. Right click on the Reverse Lookup Zones and select New Zone.
+
+3.2. Click Next.
+
+3.3. Select Primary zone and make sure Store the zone in Active
+Directory is ticked. Hit next.
+
+3.4. Select All DNS servers running on domain controllers in this
+domain.
+
+3.5. Select IPv4 Reverse Lookup Zone and hit next.
+
+3.6. Enter your Network ID (i.e. 192.168.64.2) which will be the static
+ip address on your Windows Server. Hit next.
+
+3.7. Make sure Only Secure Dynamic Updates are allowed (Recommended for
+Active Directory. Hit Finish.
+
+\includegraphics[width=6in,height=3.63889in]{media/image3.png}
+
+Step Four: Adding and Verifying DNS Records.
+
+4.1. Navigate back to your Forward Lookup Zone (Group1cput.local).
+
+4.2. Find your Host (A) record for Group {[}X{]} Windows Server 2019.
+Double click to open properties.
+
+4.3. Tick the box stating `Update associated pointer (PTR) record'. Hit
+Apply and OK.
+
+4.4. Go to your new Reverse Lookup Zone and refresh. Verify that there
+is now a PTR record pointing to your server.
+
+\includegraphics[width=6in,height=3.94444in]{media/image4.png}
+
+Step Five: Testing DNS Resolution (Server \& Client)
+
+Server Side-Test
+
+5.1. Open PowerShell (Or Command Prompt if there are no restrictions on
+admins).
+
+5.2. Type `nslookup' and press enter. The Default Server should display
+your server name and IP address.
+
+5.3. Perform a forward lookup by entering your servers Fully Qualified
+Domain Name (FQDN) (E.g. Group1WindowsServer2019.Group1cput.local) and
+pressing enter. You should receive your server IP address.
+
+5.4. Perform a reverse lookup by entering your server IP address (E.g.
+192.168.64.2) and pressing enter. You should receive the FQDN.
+
+\includegraphics[width=6in,height=4.68194in]{media/image5.png}
+
+Client Side-Test
+
+5.5. Switch to your client virtual machine running on your Semester 1
+Hypervisor. Make sure it is on the same virtual network.
+
+5.6. Open up command prompt/powerShell. Type ping Group1cput.local or
+ping your server by name (ping Group1WindowsServer2019).
+
+5.7. Verify that your client can resolve the name to the server IP
+address and receive replies.
+
+\includegraphics[width=6in,height=4.76944in]{media/image6.png}
+
+References
+
+McDonald, G., Papadopoulos, P., Pitropakis, N., Ahmad, J., \& Buchanan,
+W. J. (2022). Ransomware: Analysing the impact on Windows Active
+Directory Domain Services. Sensors, 22, 953. 69
+
+Mokhtar, B., Jurcut, A., ElSayed, M., \& Azer, M. (2022). Active
+Directory attacks---Steps, types, and signatures.Electronics , 11, 2629.
+41
+
+Moric, Z., Dakic, V., Redzepagic, J., \& Otocan, F. (2024). Penetration
+testing and exploitation of Active Directory configuration
+vulnerabilities. 2024 4th Intelligent Cybersecurity Conference (ICSC) ,
+118-126. 4
+
+Pongsrisomchai, S., \& Ngamsuriyaroj, S. (2019). Automated IT audit of
+Windows Server access control. 2019 21st International Conference on
+Advanced Communication Technology (ICACT) , 539-544. 1
