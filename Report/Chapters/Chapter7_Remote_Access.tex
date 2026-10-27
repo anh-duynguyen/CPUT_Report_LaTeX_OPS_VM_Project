@@ -1,0 +1,68 @@
+\ul{Remote Access Setup}
+
+Step One: Adding the role
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Open up the Server Manager on the main server.
+\item
+  Click Add Roles and Features. Go through the wizard until you reach
+  the Server Roles Tab.
+\item
+  Click the checkbox next to Remote Access. Press Next until you reach
+  the Role Services page.
+\item
+  Select DirectAccess and VPN (RAS) and Routing. Accept any necessary
+  features and press install.
+\end{enumerate}
+
+\includegraphics[width=6in,height=4.78681in]{media/image1.png}
+
+Step Two: Configuring RRAS
+
+2.1. Click the Tools section on the Server Manager dashboard and select
+Routing and Remote Access.
+
+2.2. Right click on the group server option and select Configure and
+Enable Routing and Remote Access.
+
+2.3. Choose Custom configuration or Virtual Private Network (VPN) access
+and NAT. Press next.
+
+2.4. Tick the box next to VPN access and press next then Finish. Then
+click Start service.
+
+\includegraphics[width=6in,height=4.75in]{media/image2.PNG}
+
+Step 3: User dial-in settings (Active Directory)
+
+3.1. Open the Server Manager. Click on tools and select Active Directory
+Users and Computers.
+
+3.2. Create or search for a test user account ie. Group1-SVR.
+
+3.3. Right click on the user account and select Properties. Go to the
+Dial-in tab.
+
+3.4. Under Network Access Permission select Allow access. This will
+allow the user access to Remote Access permissions.
+
+\includegraphics[width=6in,height=4.76806in]{media/image3.png}
+
+Step 4: Client Testing (Hypervisor)
+
+4.1. On your client virtual machine (semester 1 hypervisor). Navigate to
+Network \& Internet Settings. Then click on VPN.
+
+4.2. Click Add a VPN Connection. Select the Windows Built-in VPN
+provider. Name it Group 1 VPN. Enter the windows server 2019 machine IP
+address.
+
+4.3. Connect to the VPN using the credentials of the user you set up in
+step 3.
+
+4.4. Check that the connection has been made. You can do a ping test to
+a local resource if needed.
+
+\includegraphics[width=6in,height=4.72917in]{media/image4.PNG}
